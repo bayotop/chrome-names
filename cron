@@ -1,37 +1,49 @@
 #!/bin/bash
 
-if [[ $1 == "" || ! -d $1 ]]; then
+if [[ ! -d $1 ]]; then
     echo "error: path to existing blink source folder is required"
     exit 1
 fi
 
 type git >/dev/null 2>&1 || { echo >&2 "error: git is required"; exit 1; }
-type python >/dev/null 2>&1 || { echo >&2 "error: python is required"; exit 1; }
+type jq >/dev/null 2>&1 || { echo >&2 "error: jq is required"; exit 1; }
+type json5 >/dev/null 2>&1 || { echo >&2 "error: json5 is required (npm install --global json5)"; exit 1; }
 
-DIR="`dirname "$0"`"
-BLINK="$1"
-SOURCE=$DIR/data/source
-CLEAN=$DIR/data/clean
+DIR="$(dirname "$0")"
+BLINK=$1
+DATA=$DIR/data
+SOURCE=$DATA/json
+CLEAN=$DATA/plain
+SUM=$DATA/in.txt
 
-mkdir -p $SOURCE 
-mkdir -p $CLEAN
+mkdir -p "$SOURCE" 
+mkdir -p "$CLEAN"
+true > "$SUM"
 
-# Process files
-git -C $BLINK pull
-find $1 -type f -name "*.in" -exec cp {} $SOURCE \;
+git -C "$BLINK" pull
+find "$1" -type f -name "*.json5" -not -path "*/tests/*" -exec cp {} "$SOURCE" \;
 
-for file in `ls $SOURCE`; do
-    content=`grep -v "^\(#\|//\)" $SOURCE/$file`
-    if [[ `echo "$content" | head -1` == namespace* ]]; then
-        content=`echo "$content" | awk '{if(body)print;if($0=="")body=1}'`
+for file in "$SOURCE"/*.json5; do
+    output=$CLEAN/$(basename "$file" | rev | sed "1 s/5nosj\./tsl\./" | rev) 
+    json=$(sed "s$ # $ // $" < "$file" | json5)
+    echo "$(basename "$file")": "$(echo "$json" | jq keys)" >> "$SUM"
+
+    if [[ $(echo "$json" | jq .data) != "null" ]]; then
+        jq -r '.data[] | if type=="string" then . else .name end' <<< "$json" > "$output"
+        continue
+    fi
+    if [[ $(echo "$json" | jq .observers) != "null" ]]; then
+        jq -r ".observers | keys[]" <<< "$json" > "$output"
+        continue
+    fi
+    if [[ $(echo "$json" | jq .attributes) != "null" ]]; then
+        jq -r ".attributes[] | .name" <<< "$json" > "$output"
+        jq -r ".roles[] | .name" <<< "$json" >> "$output"
+        continue
     fi
 
-    output=$CLEAN/`echo "$file" | rev | sed '1 s/ni\./tsl\./' | rev`
-    echo "$content" | grep . | cut -d" " -f1 > $output
+    echo "error: $file has unexpected format"
 done
 
-# Push updates
-cd "$(dirname "$0")"
 git -C $DIR add *
-git -C $DIR commit -m "Updated files"
-git -C $DIR push
+git -C $DIR commit -m "Updated files" && git -C $DIR push
