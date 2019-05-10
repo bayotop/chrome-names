@@ -11,11 +11,11 @@ type python >/dev/null 2>&1 || { echo >&2 "error: python is required"; exit 1; }
 # Process files
 cd $1
 git pull
-cd - 2 >/dev/null 2>&1 
+cd - > /dev/null 2>&1 
 python "$(dirname "$0")"/process.py $1
 
 # Push updates
 cd "$(dirname "$0")"
 git add *
-git commit -m "Updated files"
-git push
+#git commit -m "Updated files"
+#git push
