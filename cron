@@ -8,14 +8,30 @@ fi
 type git >/dev/null 2>&1 || { echo >&2 "error: git is required"; exit 1; }
 type python >/dev/null 2>&1 || { echo >&2 "error: python is required"; exit 1; }
 
+DIR="`dirname "$0"`"
+BLINK="$1"
+SOURCE=$DIR/data/source
+CLEAN=$DIR/data/clean
+
+mkdir -p $SOURCE 
+mkdir -p $CLEAN
+
 # Process files
-cd $1
-git pull
-cd - > /dev/null 2>&1 
-python "$(dirname "$0")"/process.py $1
+git -C $BLINK pull
+find $1 -type f -name "*.in" -exec cp {} $SOURCE \;
+
+for file in `ls $SOURCE`; do
+    content=`grep -v "^\(#\|//\)" $SOURCE/$file`
+    if [[ `echo "$content" | head -1` == namespace* ]]; then
+        content=`echo "$content" | awk '{if(body)print;if($0=="")body=1}'`
+    fi
+
+    output=$CLEAN/`echo "$file" | rev | sed '1 s/ni\./tsl\./' | rev`
+    echo "$content" | grep . | cut -d" " -f1 > $output
+done
 
 # Push updates
 cd "$(dirname "$0")"
-git add *
-git commit -m "Updated files"
-git push
+git -C $DIR add *
+git -C $DIR commit -m "Updated files"
+git -C $DIR push
