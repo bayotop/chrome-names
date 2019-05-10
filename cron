@@ -46,4 +46,4 @@ for file in "$SOURCE"/*.json5; do
 done
 
 git -C $DIR add *
-git -C $DIR commit -m "Updated files" && git -C $DIR push
+git -C $DIR commit -m "Update data" && git -C $DIR push
