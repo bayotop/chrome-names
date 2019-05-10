@@ -17,5 +17,5 @@ python "$(dirname "$0")"/process.py $1
 # Push updates
 cd "$(dirname "$0")"
 git add *
-#git commit -m "Updated files"
-#git push
+git commit -m "Updated files"
+git push
