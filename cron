@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ ! -d $1 ]]; then
+if [ ! -d "$1" ]; then
     echo "error: path to existing blink source folder is required"
     exit 1
 fi
@@ -24,26 +24,26 @@ git -C "$BLINK" pull
 find "$1" -type f -name "*.json5" -not -path "*/tests/*" -exec cp {} "$SOURCE" \;
 
 for file in "$SOURCE"/*.json5; do
-    output=$CLEAN/$(basename "$file" | rev | sed "1 s/5nosj\./tsl\./" | rev) 
-    json=$(sed "s$ # $ // $" < "$file" | json5)
-    echo "$(basename "$file")": "$(echo "$json" | jq keys)" >> "$SUM"
+    OUTPUT=$CLEAN/$(basename "$file" .json5).lst 
+    JSON=$(sed "s$ # $ // $" "$file" | json5)
+    echo "$(basename "$file")": "$(echo "$JSON" | jq -c "keys")" >> "$SUM"
 
-    if [[ $(echo "$json" | jq .data) != "null" ]]; then
-        jq -r '.data[] | if type=="string" then . else .name end' <<< "$json" > "$output"
+    if jq -e .data <<< "$JSON" >/dev/null; then
+        jq -r '.data[] | if type=="string" then . else .name end' <<< "$JSON" > "$OUTPUT"
         continue
     fi
-    if [[ $(echo "$json" | jq .observers) != "null" ]]; then
-        jq -r ".observers | keys[]" <<< "$json" > "$output"
+    if jq -e .observers <<< "$JSON" >/dev/null; then
+        jq -r ".observers | keys[]" <<< "$JSON" > "$OUTPUT"
         continue
     fi
-    if [[ $(echo "$json" | jq .attributes) != "null" ]]; then
-        jq -r ".attributes[] | .name" <<< "$json" > "$output"
-        jq -r ".roles[] | .name" <<< "$json" >> "$output"
+    if jq -e .roles <<< "$JSON" >/dev/null; then
+        jq -r ".attributes[] | .name" <<< "$JSON" > "$OUTPUT"
+        jq -r ".roles[] | .name" <<< "$JSON" >> "$OUTPUT"
         continue
     fi
 
     echo "error: $file has unexpected format"
 done
 
-git -C $DIR add *
-git -C $DIR commit -m "Update data" && git -C $DIR push
+git -C "$DIR" add ./*
+git -C "$DIR" commit -m "Update data" && git -C "$DIR" push

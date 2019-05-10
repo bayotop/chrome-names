@@ -1,159 +1,40 @@
-aria_properties.json5: [
-  "attributes",
-  "metadata",
-  "roles"
-]
-at_rule_names.json5: [
-  "data",
-  "parameters"
-]
-computed_style_diff_functions.json5: [
-  "data",
-  "parameters"
-]
-computed_style_extra_fields.json5: [
-  "data",
-  "parameters"
-]
-computed_style_field_aliases.json5: [
-  "data",
-  "parameters"
-]
-core_probes.json5: [
-  "observers",
-  "settings"
-]
-css_group_config.json5: [
-  "data",
-  "parameters"
-]
-css_primitive_value_units.json5: [
-  "data",
-  "parameters"
-]
-css_properties.json5: [
-  "data",
-  "parameters"
-]
-css_properties_ranking.json5: [
-  "data",
-  "properties"
-]
-css_property_methods.json5: [
-  "data",
-  "parameters"
-]
-css_value_keywords.json5: [
-  "data",
-  "parameters"
-]
-event_interface_aliases.json5: [
-  "data"
-]
-event_target_modules_names.json5: [
-  "data",
-  "metadata"
-]
-event_target_names.json5: [
-  "data",
-  "metadata"
-]
-event_type_names.json5: [
-  "data",
-  "metadata"
-]
-feature_policy_features.json5: [
-  "data",
-  "parameters"
-]
-fetch_initiator_type_names.json5: [
-  "data",
-  "metadata"
-]
-font_family_names.json5: [
-  "data",
-  "metadata"
-]
-html_attribute_names.json5: [
-  "data",
-  "metadata"
-]
-html_tag_names.json5: [
-  "data",
-  "metadata"
-]
-html_tokenizer_names.json5: [
-  "data",
-  "metadata"
-]
-http_names.json5: [
-  "data",
-  "metadata"
-]
-indexed_db_names.json5: [
-  "data",
-  "metadata"
-]
-input_mode_names.json5: [
-  "data",
-  "metadata"
-]
-input_type_names.json5: [
-  "data",
-  "metadata"
-]
-mathml_attribute_names.json5: [
-  "data",
-  "metadata"
-]
-mathml_tag_names.json5: [
-  "data",
-  "metadata"
-]
-media_feature_names.json5: [
-  "data",
-  "metadata"
-]
-media_type_names.json5: [
-  "data",
-  "metadata"
-]
-performance_entry_names.json5: [
-  "data",
-  "metadata"
-]
-platform_probes.json5: [
-  "observers",
-  "settings"
-]
-runtime_enabled_features.json5: [
-  "data",
-  "parameters"
-]
-settings.json5: [
-  "data",
-  "parameters"
-]
-svg_attribute_names.json5: [
-  "data",
-  "metadata"
-]
-svg_css_value_keywords.json5: [
-  "data"
-]
-svg_tag_names.json5: [
-  "data",
-  "metadata"
-]
-xlink_attribute_names.json5: [
-  "data",
-  "metadata"
-]
-xml_attribute_names.json5: [
-  "data",
-  "metadata"
-]
-xmlns_attribute_names.json5: [
-  "data",
-  "metadata"
-]
+aria_properties.json5: ["attributes","metadata","roles"]
+at_rule_names.json5: ["data","parameters"]
+computed_style_diff_functions.json5: ["data","parameters"]
+computed_style_extra_fields.json5: ["data","parameters"]
+computed_style_field_aliases.json5: ["data","parameters"]
+core_probes.json5: ["observers","settings"]
+css_group_config.json5: ["data","parameters"]
+css_primitive_value_units.json5: ["data","parameters"]
+css_properties.json5: ["data","parameters"]
+css_properties_ranking.json5: ["data","properties"]
+css_property_methods.json5: ["data","parameters"]
+css_value_keywords.json5: ["data","parameters"]
+event_interface_aliases.json5: ["data"]
+event_target_modules_names.json5: ["data","metadata"]
+event_target_names.json5: ["data","metadata"]
+event_type_names.json5: ["data","metadata"]
+feature_policy_features.json5: ["data","parameters"]
+fetch_initiator_type_names.json5: ["data","metadata"]
+font_family_names.json5: ["data","metadata"]
+html_attribute_names.json5: ["data","metadata"]
+html_tag_names.json5: ["data","metadata"]
+html_tokenizer_names.json5: ["data","metadata"]
+http_names.json5: ["data","metadata"]
+indexed_db_names.json5: ["data","metadata"]
+input_mode_names.json5: ["data","metadata"]
+input_type_names.json5: ["data","metadata"]
+mathml_attribute_names.json5: ["data","metadata"]
+mathml_tag_names.json5: ["data","metadata"]
+media_feature_names.json5: ["data","metadata"]
+media_type_names.json5: ["data","metadata"]
+performance_entry_names.json5: ["data","metadata"]
+platform_probes.json5: ["observers","settings"]
+runtime_enabled_features.json5: ["data","parameters"]
+settings.json5: ["data","parameters"]
+svg_attribute_names.json5: ["data","metadata"]
+svg_css_value_keywords.json5: ["data"]
+svg_tag_names.json5: ["data","metadata"]
+xlink_attribute_names.json5: ["data","metadata"]
+xml_attribute_names.json5: ["data","metadata"]
+xmlns_attribute_names.json5: ["data","metadata"]
