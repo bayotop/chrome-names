@@ -213,6 +213,7 @@ OriginTrialsSampleAPI
 OriginTrialsSampleAPIDependent
 OriginTrialsSampleAPIImplied
 OriginTrialsSampleAPIInvalidOS
+OriginTrialsSampleAPINavigation
 OutOfBlinkCors
 OverflowIconsForMediaControls
 OverlayScrollbars
