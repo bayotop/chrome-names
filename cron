@@ -45,5 +45,5 @@ for file in "$SOURCE"/*.json5; do
     echo "error: $file has unexpected format"
 done
 
-git -C "$DIR" add ./*
+git -C "$DIR" add "$DIR"/*
 git -C "$DIR" commit -m "Update data" && git -C "$DIR" push
