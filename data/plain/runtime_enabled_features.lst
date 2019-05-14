@@ -21,6 +21,7 @@ BloatedRendererDetectionSkipUptimeCheck
 BlobReadMethods
 BlockCredentialedSubresources
 BlockingDownloadsInSandboxWithoutUserActivation
+BlockingFocusWithoutUserActivation
 BlockMetaSetCookie
 BuiltInModuleAll
 BuiltInModuleInfra
@@ -351,7 +352,5 @@ WebVTTRegions
 WebXR
 WebXRHitTest
 WebXRPlaneDetection
-WorkerNosniffBlock
-WorkerNosniffWarn
 WorkerTaskQueue
 XSLT

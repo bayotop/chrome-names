@@ -191,6 +191,10 @@
       status: "test",
     },
     {
+      name: "BlockingFocusWithoutUserActivation",
+      status: "experimental",
+    },
+    {
       name: "BlockMetaSetCookie",
       status: "stable"
     },
@@ -1619,15 +1623,6 @@
     {
       name: "WebXRPlaneDetection",
       // depends_on: ["WebXR"],  // TODO(https://crbug.com/954679): uncomment once bug is fixed
-    },
-    {
-      name: "WorkerNosniffBlock",
-      status: "stable",
-    },
-    {
-      name: "WorkerNosniffWarn",
-      status: "stable",
-      implied_by: ["WorkerNosniffBlock"],
     },
     {
       name: "WorkerTaskQueue",

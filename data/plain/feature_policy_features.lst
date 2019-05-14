@@ -8,6 +8,7 @@ DownloadsWithoutUserActivation
 EncryptedMedia
 ExecutionWhileOutOfViewport
 ExecutionWhileNotRendered
+FocusWithoutUserActivation
 FontDisplay
 FormSubmission
 Fullscreen
