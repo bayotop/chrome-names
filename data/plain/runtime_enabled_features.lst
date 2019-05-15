@@ -47,6 +47,7 @@ ContextMenu
 CookieStore
 CorsRFC1918
 CSS3Text
+CSS3TextBreakAnywhere
 CSSAdditiveAnimations
 CSSAltText
 CSSBackdropFilter
@@ -155,6 +156,7 @@ LayoutNGBlockFragmentation
 LayoutNGFieldset
 LayoutNGFlexBox
 LayoutNGFragmentCaching
+LayoutNGLineCache
 LazyFrameLoading
 LazyFrameVisibleLoadTimeMetrics
 LazyImageLoading

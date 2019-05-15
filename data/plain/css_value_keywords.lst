@@ -405,6 +405,7 @@ space
 loose
 strict
 after-white-space
+anywhere
 manual
 checkbox
 radio
