@@ -601,6 +601,11 @@
       name: "FormAssociatedCustomElements",
       status: "experimental",
     },
+    // This is to communicate features::FormControlsRefresh from ui (and can be
+    // removed when the feature launches).
+    {
+      name: "FormControlsRefresh",
+    },
     {
       name: "FormDataEvent",
       status: "experimental",
@@ -715,15 +720,7 @@
       name: "IsolatedWorldCSP"
     },
     {
-      // Tracks "jank" from layout objects changing their visual location
-      // between animation frames (see crbug.com/581518).
-      name: "JankTracking",
-      implied_by: ["LayoutJankAPI", "JankTrackingSweepLine"],
-      origin_trial_feature_name: "LayoutJankAPI",
-      status: "stable",
-    },
-    {
-      // Modifies JankTracking to use O(n log n) sweep line algorithm for
+      // Modifies JankTracker to use O(n log n) sweep line algorithm for
       // computing the area of the jank region.
       name: "JankTrackingSweepLine",
       status: "experimental",
@@ -740,9 +737,9 @@
       status: "experimental",
     },
     {
-      // Exposes layout jank fractions to Javascript. See explainer:
+      // Exposes layout shift scores to Javascript. See explainer:
       // http://bit.ly/lsm-explainer.
-      name: "LayoutJankAPI",
+      name: "LayoutInstabilityAPI",
       origin_trial_feature_name: "LayoutJankAPI",
       status: "experimental",
     },

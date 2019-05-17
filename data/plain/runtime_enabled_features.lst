@@ -118,6 +118,7 @@ ForceOverlayFullscreenVideo
 ForceSynchronousHTMLParsing
 ForceTallerSelectPopup
 FormAssociatedCustomElements
+FormControlsRefresh
 FormDataEvent
 FractionalMouseEvent
 FractionalScrollOffsets
@@ -145,12 +146,11 @@ IntersectionObserverV2
 InvisibleDOM
 IsolatedCodeCache
 IsolatedWorldCSP
-JankTracking
 JankTrackingSweepLine
 KeyboardFocusableScrollers
 LangAttributeAwareFormControlUI
 LangClientHintHeader
-LayoutJankAPI
+LayoutInstabilityAPI
 LayoutNG
 LayoutNGBlockFragmentation
 LayoutNGFieldset
