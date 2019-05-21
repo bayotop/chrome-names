@@ -7,6 +7,7 @@ AnimationWorklet
 AsyncClipboard
 AudioOutputDevices
 AudioVideoTracks
+AudioWorkletRealtimeThread
 AutomationControlled
 AutoPictureInPicture
 AutoplayIgnoresWebAudio
@@ -306,7 +307,6 @@ StaleWhileRevalidate
 StorageQuotaDetails
 StreamsNative
 TextFragmentIdentifiers
-TextUnderlinePositionLeftRight
 TimerThrottlingForBackgroundTabs
 TimerThrottlingForHiddenFrames
 TouchEventFeatureDetection

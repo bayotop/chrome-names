@@ -129,6 +129,10 @@
       status: "experimental",
     },
     {
+      name: "AudioWorkletRealtimeThread",
+      status: "experimental",
+    },
+    {
       name: "AutomationControlled",
       settable_from_internals: true,
     },
@@ -1413,10 +1417,6 @@
     {
       name: "TextFragmentIdentifiers",
       status: "experimental",
-    },
-    {
-      name: "TextUnderlinePositionLeftRight",
-      status: "stable",
     },
     {
       name: "TimerThrottlingForBackgroundTabs",
