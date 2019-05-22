@@ -199,10 +199,6 @@
       status: "experimental",
     },
     {
-      name: "BlockMetaSetCookie",
-      status: "stable"
-    },
-    {
       name: "BuiltInModuleAll",
       implied_by: ["ExperimentalProductivityFeatures"],
     },
@@ -223,10 +219,6 @@
     },
     {
       name: "CacheStorageAddAllRejectsDuplicates",
-      status: "stable",
-    },
-    {
-      name: "CallCaptureListenersAtCapturePhaseAtShadowHosts",
       status: "stable",
     },
     {
@@ -490,6 +482,10 @@
       status: "test",
     },
     {
+      name: "EnterKeyHintAttribute",
+      status: "experimental",
+    },
+    {
       name: "EventTiming",
       origin_trial_feature_name: "EventTiming",
       status: "experimental",
@@ -645,6 +641,9 @@
     },
     {
       name: "HeapIncrementalMarkingStress"
+    },
+    {
+      name: "HeapUnifiedGCScheduling"
     },
     {
       name: "HrefTranslate",
@@ -971,16 +970,8 @@
       name: "OffMainThreadCSSPaint",
     },
     {
-      name: "OffscreenCanvas",
-      status: "stable",
-    },
-    {
       name: "OffscreenCanvasCommit",
       status: "experimental",
-    },
-    {
-      name: "OffscreenCanvasText",
-      status: "stable",
     },
     {
       name: "OnDeviceChange",
@@ -1080,11 +1071,11 @@
     },
     {
       name: "PaymentHandlerChangePaymentMethod",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "PaymentMethodChangeEvent",
-      status: "experimental",
+      status: "stable",
     },
     // PaymentRequest is enabled by default on Android
     {
@@ -1267,7 +1258,7 @@
     // Enables the use of the RTCSctpTransport object.
     {
       name: "RTCSctpTransport",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "RTCStatsRelativePacketArrivalDelay",
@@ -1569,6 +1560,9 @@
     },
     {
       name: "WebGLImageChromium",
+    },
+    {
+      name: "WebGLSwapChain",
     },
     // WebGPU adds a large attack surface area to the GPU process and allows
     // running arbitrary programs on the GPU (compute shaders), which may

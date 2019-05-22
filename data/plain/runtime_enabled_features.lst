@@ -23,13 +23,11 @@ BlobReadMethods
 BlockCredentialedSubresources
 BlockingDownloadsInSandboxWithoutUserActivation
 BlockingFocusWithoutUserActivation
-BlockMetaSetCookie
 BuiltInModuleAll
 BuiltInModuleInfra
 BuiltInModuleKvStorage
 CacheInlineScriptCode
 CacheStorageAddAllRejectsDuplicates
-CallCaptureListenersAtCapturePhaseAtShadowHosts
 Canvas2dContextLostRestored
 Canvas2dFixedRenderingMode
 Canvas2dImageChromium
@@ -92,6 +90,7 @@ ElementTiming
 EncryptedMediaEncryptionSchemeQuery
 EncryptedMediaHdcpPolicyCheck
 EncryptedMediaPersistentUsageRecordSession
+EnterKeyHintAttribute
 EventTiming
 ExecCommandInJavaScript
 ExpensiveBackgroundTimerThrottling
@@ -130,6 +129,7 @@ HeapCompaction
 HeapConcurrentMarking
 HeapIncrementalMarking
 HeapIncrementalMarkingStress
+HeapUnifiedGCScheduling
 HrefTranslate
 HTMLImports
 HTMLImportsOnlyChrome
@@ -207,9 +207,7 @@ NotificationContentImage
 Notifications
 NotificationTriggers
 OffMainThreadCSSPaint
-OffscreenCanvas
 OffscreenCanvasCommit
-OffscreenCanvasText
 OnDeviceChange
 OrientationEvent
 OriginTrials
@@ -342,6 +340,7 @@ WebBluetoothScanning
 WebGL2ComputeContext
 WebGLDraftExtensions
 WebGLImageChromium
+WebGLSwapChain
 WebGPU
 WebHID
 WebNFC
