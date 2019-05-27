@@ -154,6 +154,7 @@ KeyboardFocusableScrollers
 LangAttributeAwareFormControlUI
 LangClientHintHeader
 LayoutInstabilityAPI
+LayoutInstabilityMoveDistance
 LayoutNG
 LayoutNGBlockFragmentation
 LayoutNGFieldset
