@@ -133,6 +133,14 @@
       status: "experimental",
     },
     {
+      name: "AutomaticLazyFrameLoading",
+      depends_on: ["LazyFrameLoading"],
+    },
+    {
+      name: "AutomaticLazyImageLoading",
+      depends_on: ["LazyImageLoading"],
+    },
+    {
       name: "AutomationControlled",
       settable_from_internals: true,
     },
@@ -250,6 +258,10 @@
     },
     {
       name: "ClickRetargetting",
+      status: "experimental",
+    },
+    {
+      name: "ClientHintsFeaturePolicy",
       status: "experimental",
     },
     {
@@ -549,6 +561,10 @@
     {
       name: "FastMobileScrolling",
       status: {"Android": "stable"},
+    },
+    {
+      name: "FeaturePolicyForClientHints",
+      status: "experimental",
     },
     {
       name: "FeaturePolicyForSandbox",
@@ -896,9 +912,6 @@
       name: "MobileLayoutTheme",
     },
     {
-      name: "ModernMediaControls",
-    },
-    {
       name: "ModuleDedicatedWorker",
       status: "experimental",
     },
@@ -1086,7 +1099,6 @@
     },
     {
       name: "PauseExecutionContextOnBackgroundFreeze",
-      status: "experimental",
     },
     {
       name: "PaymentApp",
@@ -1233,14 +1245,12 @@
       status: "stable",
     },
     {
-      // Controlled through the base::Feature with the same name.
-      name: "RestrictDeviceSensorEventsToSecureContexts",
+      name: "RestrictAutomaticLazyFrameLoadingToDataSaver",
+      depends_on: ["AutomaticLazyFrameLoading"],
     },
     {
-      name: "RestrictLazyFrameLoadingToDataSaver",
-    },
-    {
-      name: "RestrictLazyImageLoadingToDataSaver",
+      name: "RestrictAutomaticLazyImageLoadingToDataSaver",
+      depends_on: ["AutomaticLazyImageLoading"],
     },
     {
       name: "RtcAudioJitterBufferMaxPackets",
@@ -1633,7 +1643,7 @@
     },
     {
       name: "WebXR",
-      origin_trial_feature_name: "WebXRDeviceM73",
+      origin_trial_feature_name: "WebXRDeviceM76",
       status: "experimental",
     },
     {

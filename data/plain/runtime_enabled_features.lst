@@ -8,6 +8,8 @@ AsyncClipboard
 AudioOutputDevices
 AudioVideoTracks
 AudioWorkletRealtimeThread
+AutomaticLazyFrameLoading
+AutomaticLazyImageLoading
 AutomationControlled
 AutoPictureInPicture
 AutoplayIgnoresWebAudio
@@ -36,6 +38,7 @@ CanvasColorManagement
 CanvasHitRegion
 CanvasImageSmoothing
 ClickRetargetting
+ClientHintsFeaturePolicy
 ClientPlaceholdersForServerLoFi
 CompositeAfterPaint
 CompositedSelectionUpdate
@@ -105,6 +108,7 @@ FallbackCursorMode
 FastBorderRadius
 FastFlatTreeTraversal
 FastMobileScrolling
+FeaturePolicyForClientHints
 FeaturePolicyForSandbox
 FeaturePolicyJavaScriptInterface
 FeaturePolicyReporting
@@ -189,7 +193,6 @@ MetaColorScheme
 MiddleClickAutoscroll
 MimeHandlerViewInCrossProcessFrame
 MobileLayoutTheme
-ModernMediaControls
 ModuleDedicatedWorker
 ModuleServiceWorker
 MojoJS
@@ -265,9 +268,8 @@ RemotePlaybackBackend
 RenderingPipelineThrottling
 ResourceLoadScheduler
 RestrictAppCacheToSecureContexts
-RestrictDeviceSensorEventsToSecureContexts
-RestrictLazyFrameLoadingToDataSaver
-RestrictLazyImageLoadingToDataSaver
+RestrictAutomaticLazyFrameLoadingToDataSaver
+RestrictAutomaticLazyImageLoadingToDataSaver
 RtcAudioJitterBufferMaxPackets
 RtcAudioJitterBufferRtxHandling
 RTCDtlsTransport
