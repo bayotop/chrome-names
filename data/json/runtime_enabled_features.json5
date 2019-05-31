@@ -478,6 +478,7 @@
     {
       // http://crbug.com/905922
       name: "ElementInternals",
+      status: "stable",
       implied_by: ["FormAssociatedCustomElements"],
     },
     {
@@ -628,7 +629,7 @@
     },
     {
       name: "FormAssociatedCustomElements",
-      status: "experimental",
+      status: "stable",
     },
     // This is to communicate features::FormControlsRefresh from ui (and can be
     // removed when the feature launches).
@@ -637,7 +638,7 @@
     },
     {
       name: "FormDataEvent",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "FractionalMouseEvent",
@@ -1173,6 +1174,12 @@
       name: "PictureInPictureV2",
       depends_on: ["PictureInPictureAPI"],
       settable_from_internals: true,
+    },
+    // This is a reverse OT used for a phased deprecation.
+    // https://crbug.com/918374
+    {
+      name: "PNaCl",
+      origin_trial_feature_name: "PNaCl",
     },
     {
       name: "PointerRawUpdate",
