@@ -171,6 +171,8 @@ outline-style
 outline-width
 overflow-anchor
 overflow-wrap
+overflow-inline
+overflow-block
 overflow-x
 overflow-y
 overscroll-behavior-x

@@ -23,6 +23,7 @@ BloatedRendererDetection
 BloatedRendererDetectionSkipUptimeCheck
 BlobReadMethods
 BlockCredentialedSubresources
+BlockHTMLParserOnStyleSheets
 BlockingDownloadsInSandboxWithoutUserActivation
 BlockingFocusWithoutUserActivation
 BuiltInModuleAll
@@ -62,6 +63,7 @@ CSSHexAlphaColor
 CSSIndependentTransformProperties
 CSSLayoutAPI
 CSSLogical
+CSSLogicalOverflow
 CSSMaskSourceType
 CSSOffsetPathRay
 CSSOffsetPathRayContain
@@ -115,6 +117,7 @@ FeaturePolicyReporting
 FeaturePolicyVibrateFeature
 FetchMetadata
 FetchMetadataDestination
+FileHandling
 FileSystem
 FirstContentfulPaintPlusPlus
 FocuslessSpatialNavigation
@@ -187,7 +190,6 @@ MediaQueryShape
 MediaSession
 MediaSourceExperimental
 MediaSourceNewAbortAndDuration
-MediaStreamTrackContentHint
 MergeBlockingNonBlockingPools
 MetaColorScheme
 MiddleClickAutoscroll
@@ -262,6 +264,7 @@ Presentation
 PrintBrowser
 PriorityHints
 PushMessaging
+PushMessagingSubscriptionChange
 RasterInducingScroll
 ReducedReferrerGranularity
 RemotePlayback
@@ -284,6 +287,7 @@ RTCUnifiedPlan
 RTCUnifiedPlanByDefault
 ScriptedSpeechRecognition
 ScriptedSpeechSynthesis
+ScriptedTaskQueue
 ScriptStreamingOnPreload
 ScrollAnchorSerialization
 ScrollCustomization
@@ -305,7 +309,6 @@ SkipAd
 SkipTouchEventFilter
 SmoothScrollJSIntervention
 SmsReceiver
-SpeechSynthesisEventCharLength
 StableBlinkFeatures
 StackedCSSPropertyAnimations
 StaleWhileRevalidate
@@ -360,5 +363,4 @@ WebVTTRegions
 WebXR
 WebXRHitTest
 WebXRPlaneDetection
-WorkerTaskQueue
 XSLT

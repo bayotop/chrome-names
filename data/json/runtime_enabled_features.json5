@@ -117,7 +117,7 @@
     },
     {
       name: "AsyncClipboard",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "AudioOutputDevices",
@@ -197,6 +197,9 @@
     {
       name: "BlockCredentialedSubresources",
       status: "stable",
+    },
+    {
+      name: "BlockHTMLParserOnStyleSheets",
     },
     {
       name: "BlockingDownloadsInSandboxWithoutUserActivation",
@@ -359,6 +362,10 @@
       name: "CSSLogical",
       status: "experimental",
       settable_from_internals: true,
+    },
+    {
+      name: "CSSLogicalOverflow",
+      status: "test",
     },
     {
       name: "CSSMaskSourceType",
@@ -591,6 +598,10 @@
     {
       name: "FetchMetadataDestination",
       status: "experimental"
+    },
+    {
+      name: "FileHandling",
+      depends_on: ["NativeFileSystem"]
     },
     {
       name: "FileSystem",
@@ -884,10 +895,6 @@
     {
       name: "MediaSourceNewAbortAndDuration",
       status: "experimental",
-    },
-    {
-      name: "MediaStreamTrackContentHint",
-      status: "stable",
     },
     {
       name: "MergeBlockingNonBlockingPools",
@@ -1223,6 +1230,10 @@
       status: "stable",
     },
     {
+      name: "PushMessagingSubscriptionChange",
+      status: "experimental",
+    },
+    {
       name: "RasterInducingScroll",
       status: "experimental",
     },
@@ -1327,6 +1338,10 @@
       status: "stable",
     },
     {
+      name: "ScriptedTaskQueue",
+      status: "experimental"
+    },
+    {
       name: "ScriptStreamingOnPreload",
     },
     // Serialize and restore scroll anchors.
@@ -1416,10 +1431,6 @@
     },
     {
       name: "SmsReceiver",
-      status: "experimental",
-    },
-    {
-      name: "SpeechSynthesisEventCharLength",
       status: "experimental",
     },
     // Used as argument in attribute of stable-release functions/interfaces
@@ -1661,10 +1672,6 @@
     {
       name: "WebXRPlaneDetection",
       // depends_on: ["WebXR"],  // TODO(https://crbug.com/954679): uncomment once bug is fixed
-    },
-    {
-      name: "WorkerTaskQueue",
-      status: "experimental"
     },
     {
       name: "XSLT",
