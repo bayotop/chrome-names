@@ -629,6 +629,9 @@
       status: "test",
     },
     {
+      name: "ForcedColors",
+    },
+    {
       name: "ForceOverlayFullscreenVideo",
     },
     {
@@ -1135,7 +1138,7 @@
     },
     {
       name: "PaymentRetry",
-      status: "stable",
+      status: "experimental",
     },
     {
       name: "PerformanceManagerInstrumentation",
@@ -1512,6 +1515,12 @@
       name: "UnoptimizedImagePolicies",
       status: "experimental",
       origin_trial_feature_name: "UnoptimizedImagePolicies",
+      implied_by: ["ExperimentalProductivityFeatures"]
+    },
+    {
+      name: "UnsizedMediaPolicy",
+      status: "experimental",
+      origin_trial_feature_name: "UnsizedMediaPolicy",
       implied_by: ["ExperimentalProductivityFeatures"]
     },
     {

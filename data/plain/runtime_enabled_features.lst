@@ -123,6 +123,7 @@ FirstContentfulPaintPlusPlus
 FocuslessSpatialNavigation
 FontSrcLocalMatching
 ForbidSyncXHRInPageDismissal
+ForcedColors
 ForceOverlayFullscreenVideo
 ForceSynchronousHTMLParsing
 ForceTallerSelectPopup
@@ -326,6 +327,7 @@ UnclosedFormControlIsInvalid
 UnifiedPointerCaptureInBlink
 UnifiedTouchAdjustment
 UnoptimizedImagePolicies
+UnsizedMediaPolicy
 UpdateHoverFromLayoutChangeAtBeginFrame
 UpdateHoverFromScrollAtBeginFrame
 UserActivationAPI

@@ -459,6 +459,10 @@ linear
 ease-in
 ease-out
 ease-in-out
+jump-both
+jump-end
+jump-none
+jump-start
 step-start
 step-end
 steps
@@ -667,3 +671,4 @@ dark
 light
 only
 reduce
+active

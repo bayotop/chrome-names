@@ -755,6 +755,10 @@
     "ease-in",
     "ease-out",
     "ease-in-out",
+    "jump-both",
+    "jump-end",
+    "jump-none",
+    "jump-start",
     "step-start",
     "step-end",
     "steps",
@@ -1184,5 +1188,9 @@
 
     // (prefers-reduced-motion:) media feature
     "reduce",
+
+    // (forced-colors:) media feature
+    // none
+    "active",
   ],
 }

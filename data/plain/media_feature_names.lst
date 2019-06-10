@@ -3,6 +3,7 @@ any-pointer
 color
 color-index
 color-gamut
+forced-colors
 grid
 monochrome
 height

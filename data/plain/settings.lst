@@ -158,3 +158,4 @@ lazyImageLoadingDistanceThresholdPx4G
 preferredColorScheme
 prefersReducedMotion
 DontSendKeyEventsToJavascript
+forcedColors
