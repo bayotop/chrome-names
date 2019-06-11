@@ -205,7 +205,6 @@ MuteButton
 NativeFileSystem
 NativeStreams
 NavigatorContentUtils
-NavigatorDeviceMemory
 NavigatorLanguageInInsecureContext
 NetInfoDownlinkMax
 NetworkService

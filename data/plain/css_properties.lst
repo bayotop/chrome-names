@@ -26,6 +26,7 @@ font-weight
 font-feature-settings
 font-variation-settings
 -webkit-font-smoothing
+forced-color-adjust
 -webkit-locale
 text-orientation
 -webkit-text-orientation
