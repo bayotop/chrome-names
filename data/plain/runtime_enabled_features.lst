@@ -29,6 +29,7 @@ BlockingFocusWithoutUserActivation
 BuiltInModuleAll
 BuiltInModuleInfra
 BuiltInModuleKvStorage
+BuiltInModuleSwitchElement
 CacheInlineScriptCode
 CacheStorageAddAllRejectsDuplicates
 Canvas2dContextLostRestored
