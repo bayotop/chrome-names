@@ -109,7 +109,6 @@ ExtendedTextMetrics
 ExtraWebGLVideoTextureMetadata
 FallbackCursorMode
 FastBorderRadius
-FastFlatTreeTraversal
 FastMobileScrolling
 FeaturePolicyForClientHints
 FeaturePolicyForSandbox
