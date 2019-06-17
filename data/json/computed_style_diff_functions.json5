@@ -110,7 +110,7 @@
                 "-webkit-box-pack", "-webkit-box-orient",
                 "grid-row-start", "grid-row-end", "grid-column-start", "grid-column-end",
                 "column-gap", "column-width", "column-rule-style",
-                "column-rule-width", "column-rule-color", "ColumnRuleColorIsCurrentColor", "VisitedLinkColumnRuleColor",
+                "column-rule-width", "column-rule-color", "ColumnRuleColorIsCurrentColor", "-internal-visited-column-rule-color",
                 "column-count", "HasAutoColumnCount", "HasAutoColumnWidth", "column-fill", "column-span",],
         methods_to_diff: [
           {
@@ -304,8 +304,8 @@
             field_dependencies: ["-internal-visited-border-top-color"]
           },
           {
-            predicate: "a.VisitedLinkOutlineColorHasNotChanged(b)",
-            field_dependencies: ["VisitedLinkOutlineColor"]
+            predicate: "a.InternalVisitedOutlineColorHasNotChanged(b)",
+            field_dependencies: ["-internal-visited-outline-color"]
           },
         ]
     },

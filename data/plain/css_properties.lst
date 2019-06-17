@@ -488,6 +488,7 @@ columns
 -webkit-text-stroke
 -internal-visited-color
 -internal-visited-caret-color
+-internal-visited-column-rule-color
 -internal-visited-background-color
 -internal-visited-border-left-color
 -internal-visited-border-right-color
@@ -497,6 +498,9 @@ columns
 -internal-visited-border-inline-end-color
 -internal-visited-border-block-start-color
 -internal-visited-border-block-end-color
+-internal-visited-fill
+-internal-visited-outline-color
+-internal-visited-stroke
 -internal-visited-text-decoration-color
 -internal-visited-text-emphasis-color
 -internal-visited-text-fill-color

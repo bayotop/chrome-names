@@ -46,6 +46,7 @@ CompositeAfterPaint
 CompositedSelectionUpdate
 CompositorTouchAction
 ComputedAccessibilityInfo
+ConsolidatedMovementXY
 ContactsManager
 ContextMenu
 CookieStore
@@ -200,7 +201,6 @@ ModuleDedicatedWorker
 ModuleServiceWorker
 MojoJS
 MojoJSTest
-MovementXYInBlink
 MuteButton
 NativeFileSystem
 NativeStreams

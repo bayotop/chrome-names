@@ -291,6 +291,9 @@
       status: "experimental",
     },
     {
+      name: "ConsolidatedMovementXY",
+    },
+    {
       name: "ContactsManager",
       origin_trial_feature_name: "ContactsManager",
       status: "experimental",
@@ -513,7 +516,7 @@
     },
     {
       name: "EnterKeyHintAttribute",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "EventTiming",
@@ -942,9 +945,6 @@
     {
       name: "MojoJSTest",
       status: "test",
-    },
-    {
-      name: "MovementXYInBlink",
     },
     {
       name: "MuteButton",
