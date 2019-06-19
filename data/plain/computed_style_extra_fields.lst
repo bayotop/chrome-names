@@ -29,7 +29,6 @@ HasAutoZIndex
 font
 TextAutosizingMultiplier
 CursorData
-EffectiveZoom
 TextStrokeColorIsCurrentColor
 TextFillColorIsCurrentColor
 TextEmphasisColorIsCurrentColor

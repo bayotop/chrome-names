@@ -291,6 +291,7 @@ ScriptedTaskQueue
 ScriptStreamingOnPreload
 ScrollAnchorSerialization
 ScrollCustomization
+ScrollTimeline
 ScrollTopLeftInterop
 SendBeaconThrowForBlobWithNonSimpleType
 SendMouseEventsDisabledFormControls

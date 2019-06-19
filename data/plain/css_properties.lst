@@ -505,6 +505,7 @@ columns
 -internal-visited-text-emphasis-color
 -internal-visited-text-fill-color
 -internal-visited-text-stroke-color
+-internal-effective-zoom
 -epub-caption-side
 -epub-text-combine
 -epub-text-emphasis
