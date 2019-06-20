@@ -48,6 +48,7 @@ CompositorTouchAction
 ComputedAccessibilityInfo
 ConsolidatedMovementXY
 ContactsManager
+ContentIndex
 ContextMenu
 CookieStore
 CorsRFC1918
