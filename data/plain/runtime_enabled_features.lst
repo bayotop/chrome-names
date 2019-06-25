@@ -126,6 +126,7 @@ FocuslessSpatialNavigation
 FontSrcLocalMatching
 ForbidSyncXHRInPageDismissal
 ForcedColors
+ForceDeferScriptIntervention
 ForceOverlayFullscreenVideo
 ForceSynchronousHTMLParsing
 ForceTallerSelectPopup
@@ -163,6 +164,7 @@ JankTrackingSweepLine
 KeyboardFocusableScrollers
 LangAttributeAwareFormControlUI
 LangClientHintHeader
+LargestContentfulPaint
 LayoutInstabilityAPI
 LayoutInstabilityMoveDistance
 LayoutNG
@@ -202,6 +204,7 @@ ModuleDedicatedWorker
 ModuleServiceWorker
 MojoJS
 MojoJSTest
+MouseSubframeNoImplicitCapture
 MuteButton
 NativeFileSystem
 NativeStreams
@@ -281,7 +284,6 @@ RTCDtlsTransport
 RTCIceTransportExtension
 RtcJitterBufferDelayHint
 RTCQuicTransport
-RTCRtpSenderParameters
 RTCSctpTransport
 RTCStatsRelativePacketArrivalDelay
 RTCUnifiedPlan

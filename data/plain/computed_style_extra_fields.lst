@@ -8,6 +8,7 @@ DisplayLayoutCustomName
 DisplayLayoutCustomParentName
 OriginalDisplay
 InsideLink
+InsideNGFragmentationContext
 HasAttrContent
 AffectedByFocusWithin
 AffectedByHover

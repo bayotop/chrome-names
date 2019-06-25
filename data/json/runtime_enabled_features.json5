@@ -423,7 +423,7 @@
     },
     {
       name: "CSSVariables2",
-      status: "stable",
+      status: "experimental",
     },
     // Support for registered custom properties with <image> syntax.
     {
@@ -640,6 +640,9 @@
       name: "ForcedColors",
     },
     {
+      name: "ForceDeferScriptIntervention",
+    },
+    {
       name: "ForceOverlayFullscreenVideo",
     },
     {
@@ -695,7 +698,7 @@
       name: "HeapIncrementalMarkingStress"
     },
     {
-      name: "HeapUnifiedGCScheduling"
+      name: "HeapUnifiedGCScheduling",
     },
     {
       name: "HrefTranslate",
@@ -794,6 +797,10 @@
       status: "experimental",
     },
     {
+      name: "LargestContentfulPaint",
+      status: "experimental",
+    },
+    {
       // Exposes layout shift scores to Javascript. See explainer:
       // http://bit.ly/lsm-explainer.
       name: "LayoutInstabilityAPI",
@@ -828,12 +835,14 @@
     },
     {
       name: "LazyFrameLoading",
+      status: "experimental",
     },
     {
       name: "LazyFrameVisibleLoadTimeMetrics",
     },
     {
       name: "LazyImageLoading",
+      status: "experimental",
     },
     {
       name: "LazyImageVisibleLoadTimeMetrics",
@@ -949,6 +958,10 @@
     {
       name: "MojoJSTest",
       status: "test",
+    },
+    {
+      // When enabled, iframes are not capturing mouse events by default.
+      name: "MouseSubframeNoImplicitCapture",
     },
     {
       name: "MuteButton",
@@ -1113,6 +1126,7 @@
     },
     {
       name: "PauseExecutionContextOnBackgroundFreeze",
+      status: "experimental",
     },
     {
       name: "PaymentApp",
@@ -1156,6 +1170,7 @@
     {
       name: "PeriodicBackgroundSync",
       settable_from_internals: true,
+      status: "test",
     },
     {
       name: "PerMethodCanMakePaymentQuota",
@@ -1307,10 +1322,6 @@
       name: "RTCQuicTransport",
       origin_trial_feature_name: "RTCQuicTransport",
       status: "experimental",
-    },
-    {
-      name: "RTCRtpSenderParameters",
-      status: "stable",
     },
     // Enables the use of the RTCSctpTransport object.
     {
@@ -1467,9 +1478,11 @@
     },
     {
       name: "StreamsNative",
+      status: "test",
     },
     {
       name: "TextFragmentIdentifiers",
+      origin_trial_feature_name: "TextFragmentIdentifiers",
       status: "experimental",
     },
     {
