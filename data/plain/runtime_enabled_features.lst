@@ -59,6 +59,7 @@ CSSAltText
 CSSBackdropFilter
 CSSCalcAsInt
 CSSColorScheme
+CSSComparisonFunctions
 CSSFocusVisible
 CSSFontFeatureValues
 CSSFontSizeAdjust
@@ -194,7 +195,9 @@ MediaQueryPrefersColorScheme
 MediaQueryShape
 MediaSession
 MediaSourceExperimental
+MediaSourceInWorkers
 MediaSourceNewAbortAndDuration
+MediaSourceStable
 MergeBlockingNonBlockingPools
 MetaColorScheme
 MiddleClickAutoscroll
@@ -207,7 +210,6 @@ MojoJSTest
 MouseSubframeNoImplicitCapture
 MuteButton
 NativeFileSystem
-NativeStreams
 NavigatorContentUtils
 NavigatorLanguageInInsecureContext
 NetInfoDownlinkMax

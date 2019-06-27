@@ -650,6 +650,9 @@ ray
 sides
 calc
 -webkit-calc
+min
+max
+clamp
 mandatory
 proximity
 style
