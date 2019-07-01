@@ -79,6 +79,7 @@ CSSPseudoIs
 CSSPseudoWhere
 CSSSnapSize
 CSSVariables2
+CSSVariables2AtProperty
 CSSVariables2ImageValues
 CSSVariables2TransformValues
 CSSViewport
@@ -139,6 +140,7 @@ FractionalScrollOffsets
 FreezeFramesOnVisibility
 GamepadButtonAxisEvents
 GetDisplayMedia
+GroupEffect
 HeapCompaction
 HeapConcurrentMarking
 HeapIncrementalMarking
@@ -272,6 +274,7 @@ PriorityHints
 PushMessaging
 PushMessagingSubscriptionChange
 RasterInducingScroll
+RedirectBlankNavigationToTop
 ReducedReferrerGranularity
 RemotePlayback
 RemotePlaybackBackend

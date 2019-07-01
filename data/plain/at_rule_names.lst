@@ -6,6 +6,8 @@ font-style
 font-variant
 font-weight
 height
+inherits
+initial-value
 max-height
 max-width
 max-zoom
@@ -14,6 +16,7 @@ min-width
 min-zoom
 orientation
 src
+syntax
 unicode-range
 user-zoom
 width

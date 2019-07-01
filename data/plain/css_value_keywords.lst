@@ -669,6 +669,8 @@ verso
 avoid-column
 p3
 rec2020
+true
+false
 no-preference
 dark
 light

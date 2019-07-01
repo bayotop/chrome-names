@@ -401,6 +401,9 @@ src
 unicode-range
 user-zoom
 viewport-fit
+syntax
+initial-value
+inherits
 animation
 background
 background-position
