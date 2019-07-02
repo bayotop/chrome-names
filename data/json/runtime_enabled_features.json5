@@ -712,6 +712,7 @@
     },
     {
       name: "HeapUnifiedGCScheduling",
+      status: "stable",
     },
     {
       name: "HrefTranslate",
@@ -906,6 +907,9 @@
     },
     {
       name: "MediaDocumentDownloadButton",
+    },
+    {
+      name: "MediaElementVolumeGreaterThanOne",
     },
     // Set to reflect the kMediaEngagementBypassAutoplayPolicies feature.
     {

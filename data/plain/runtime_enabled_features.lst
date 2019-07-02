@@ -192,6 +192,7 @@ MediaCastOverlayButton
 MediaControlsExpandGesture
 MediaControlsOverlayPlayButton
 MediaDocumentDownloadButton
+MediaElementVolumeGreaterThanOne
 MediaEngagementBypassAutoplayPolicies
 MediaQueryPrefersColorScheme
 MediaQueryShape
