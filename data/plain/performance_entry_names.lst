@@ -1,8 +1,8 @@
 element
 event
-firstInput
-largestContentfulPaint
-layoutShift
+first-input
+largest-contentful-paint
+layout-shift
 longtask
 mark
 measure

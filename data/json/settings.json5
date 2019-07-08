@@ -902,7 +902,7 @@
     },
     {
       name: "darkModeImagePolicy",
-      initial: "DarkModeImagePolicy::kFilterAll",
+      initial: "DarkModeImagePolicy::kFilterNone",
       type: "DarkModeImagePolicy",
       invalidate: "Paint",
     },
@@ -915,6 +915,12 @@
     {
       name: "darkModeTextBrightnessThreshold",
       initial: "256",
+      type: "int",
+      invalidate: "Paint",
+    },
+    {
+      name: "darkModeBackgroundBrightnessThreshold",
+      initial: "0",
       type: "int",
       invalidate: "Paint",
     },

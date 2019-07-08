@@ -138,6 +138,7 @@ darkModeContrast
 darkModeImagePolicy
 darkModePagePolicy
 darkModeTextBrightnessThreshold
+darkModeBackgroundBrightnessThreshold
 darkModeImageGrayscale
 navigatorPlatformOverride
 lowPriorityIframesThreshold

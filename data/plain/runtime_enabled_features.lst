@@ -19,8 +19,6 @@ Badging
 BidiCaretAffinity
 BlinkGenPropertyTrees
 BlinkRuntimeCallStats
-BloatedRendererDetection
-BloatedRendererDetectionSkipUptimeCheck
 BlobReadMethods
 BlockCredentialedSubresources
 BlockHTMLParserOnStyleSheets
@@ -90,6 +88,7 @@ Database
 DecodeLossyWebPImagesToYUV
 DesktopCaptureDisableLocalEchoControl
 DisableHardwareNoiseSuppression
+DiscardInputToMovingIframes
 DisplayCutoutAPI
 DisplayLocking
 DocumentCookie
@@ -179,6 +178,7 @@ LayoutNGLineCache
 LazyFrameLoading
 LazyFrameVisibleLoadTimeMetrics
 LazyImageLoading
+LazyImageLoadingMetadataFetch
 LazyImageVisibleLoadTimeMetrics
 LazyInitializeMediaControls
 LegacyPerformanceMemoryCounters
@@ -296,7 +296,6 @@ RTCUnifiedPlan
 RTCUnifiedPlanByDefault
 ScriptedSpeechRecognition
 ScriptedSpeechSynthesis
-ScriptedTaskQueue
 ScriptStreamingOnPreload
 ScrollAnchorSerialization
 ScrollCustomization
