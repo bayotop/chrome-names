@@ -181,7 +181,6 @@ LazyImageLoading
 LazyImageLoadingMetadataFetch
 LazyImageVisibleLoadTimeMetrics
 LazyInitializeMediaControls
-LegacyPerformanceMemoryCounters
 LongTaskV2
 ManualSlotting
 MediaCapabilitiesEncodingInfo
