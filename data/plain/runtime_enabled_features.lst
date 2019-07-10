@@ -140,11 +140,6 @@ FreezeFramesOnVisibility
 GamepadButtonAxisEvents
 GetDisplayMedia
 GroupEffect
-HeapCompaction
-HeapConcurrentMarking
-HeapIncrementalMarking
-HeapIncrementalMarkingStress
-HeapUnifiedGCScheduling
 HrefTranslate
 HTMLImports
 HTMLImportsOnlyChrome
@@ -174,6 +169,7 @@ LayoutNGBlockFragmentation
 LayoutNGFieldset
 LayoutNGFlexBox
 LayoutNGFragmentCaching
+LayoutNGFragmentItem
 LayoutNGLineCache
 LazyFrameLoading
 LazyFrameVisibleLoadTimeMetrics
