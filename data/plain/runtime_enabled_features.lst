@@ -270,7 +270,6 @@ PriorityHints
 PushMessaging
 PushMessagingSubscriptionChange
 RasterInducingScroll
-RedirectBlankNavigationToTop
 ReducedReferrerGranularity
 RemotePlayback
 RemotePlaybackBackend

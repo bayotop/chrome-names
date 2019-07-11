@@ -176,6 +176,8 @@ overflow-inline
 overflow-block
 overflow-x
 overflow-y
+overscroll-behavior-inline
+overscroll-behavior-block
 overscroll-behavior-x
 overscroll-behavior-y
 padding-bottom
