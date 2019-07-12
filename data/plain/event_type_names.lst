@@ -138,6 +138,7 @@ gestureflingstart
 gotpointercapture
 hashchange
 icecandidate
+icecandidateerror
 iceconnectionstatechange
 icegatheringstatechange
 inactive

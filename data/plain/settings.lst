@@ -117,6 +117,9 @@ textTrackFontVariant
 textTrackTextColor
 textTrackTextShadow
 textTrackTextSize
+textTrackWindowColor
+textTrackWindowPadding
+textTrackWindowRadius
 textTrackMarginPercentage
 preferHiddenVolumeControls
 disallowFetchForDocWrittenScriptsInMainFrameIfEffectively2G
