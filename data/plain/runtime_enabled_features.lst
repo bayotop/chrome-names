@@ -163,7 +163,6 @@ LangAttributeAwareFormControlUI
 LangClientHintHeader
 LargestContentfulPaint
 LayoutInstabilityAPI
-LayoutInstabilityMoveDistance
 LayoutNG
 LayoutNGBlockFragmentation
 LayoutNGFieldset

@@ -71,6 +71,7 @@ shouldReuseGlobalForUnownedMainFrame
 touchEditingEnabled
 useSolidColorScrollbars
 rubberBandingOnCompositorThread
+caretBrowsingEnabled
 accessibilityFontScaleFactor
 mediaTypeOverride
 displayModeOverride
