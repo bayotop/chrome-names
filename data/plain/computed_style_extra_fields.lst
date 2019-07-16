@@ -107,3 +107,4 @@ MayHaveMargin
 MayHavePadding
 DarkColorScheme
 IsColorInternalText
+IsInBlockifyingDisplay
