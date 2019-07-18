@@ -139,6 +139,7 @@ autoplayPolicy
 darkMode
 darkModeGrayscale
 darkModeContrast
+darkModeClassifierType
 darkModeImagePolicy
 darkModePagePolicy
 darkModeTextBrightnessThreshold

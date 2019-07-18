@@ -306,6 +306,7 @@ ShapeDetection
 SharedArrayBuffer
 SharedWorker
 SignatureBasedIntegrity
+SignedExchangePrefetchCacheForNavigations
 SignedExchangeSubresourcePrefetch
 SkipAd
 SkipTouchEventFilter

@@ -215,6 +215,7 @@ portalactivate
 progress
 processorerror
 push
+pushsubscriptionchange
 quicstream
 ratechange
 reading
