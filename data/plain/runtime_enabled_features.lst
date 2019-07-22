@@ -170,12 +170,14 @@ LayoutNGFlexBox
 LayoutNGFragmentCaching
 LayoutNGFragmentItem
 LayoutNGLineCache
+LayoutNGTable
 LazyFrameLoading
 LazyFrameVisibleLoadTimeMetrics
 LazyImageLoading
 LazyImageLoadingMetadataFetch
 LazyImageVisibleLoadTimeMetrics
 LazyInitializeMediaControls
+LegacyWindowsDWriteFontFallback
 LongTaskV2
 ManualSlotting
 MediaCapabilitiesEncodingInfo
@@ -191,6 +193,7 @@ MediaEngagementBypassAutoplayPolicies
 MediaQueryPrefersColorScheme
 MediaQueryShape
 MediaSession
+MediaSessionSeeking
 MediaSourceExperimental
 MediaSourceInWorkers
 MediaSourceNewAbortAndDuration
