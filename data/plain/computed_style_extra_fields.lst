@@ -51,6 +51,7 @@ HyphenationLimitBefore
 HyphenationLimitAfter
 HyphenationLimitLines
 EffectiveTouchAction
+EffectiveAppearance
 TextEmphasisCustomMark
 AppliedTextDecorations
 InheritedVariables

@@ -424,7 +424,7 @@
     },
     {
       name: "CSSVariables2",
-      status: "experimental",
+      status: "stable",
     },
     // Support for @property rules.
     {
@@ -545,6 +545,12 @@
     {
       name: "ExpensiveBackgroundTimerThrottling",
       status: "stable",
+    },
+    // Experimental feature to try dynamic delegation of autoplay capability
+    // through postMessages.
+    {
+      name: "ExperimentalAutoplayDynamicDelegation",
+      origin_trial_feature_name: "ExperimentalAutoplayDynamicDelegation",
     },
     {
       name: "ExperimentalContentSecurityPolicyFeatures",
@@ -797,14 +803,14 @@
     },
     {
       name: "LargestContentfulPaint",
-      status: "experimental",
+      status: "stable",
     },
     {
       // Exposes layout shift scores to Javascript. See explainer:
       // http://bit.ly/lsm-explainer.
       name: "LayoutInstabilityAPI",
       origin_trial_feature_name: "LayoutJankAPI",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "LayoutNG",
@@ -881,6 +887,10 @@
     },
     {
       name: "MediaCaptureDepthVideoKind",
+      status: "experimental",
+    },
+    {
+      name: "MediaCapturePanTilt",
       status: "experimental",
     },
     // Set to reflect the MediaCastOverlayButton feature.
@@ -1307,10 +1317,12 @@
     {
       name: "RestrictAutomaticLazyFrameLoadingToDataSaver",
       depends_on: ["AutomaticLazyFrameLoading"],
+      status: "experimental",
     },
     {
       name: "RestrictAutomaticLazyImageLoadingToDataSaver",
       depends_on: ["AutomaticLazyImageLoading"],
+      status: "experimental",
     },
     {
       name: "RtcAudioJitterBufferMaxPackets",

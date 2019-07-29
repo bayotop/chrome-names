@@ -919,6 +919,12 @@
       invalidate: "Paint",
     },
     {
+      name: "darkModeClassifierType",
+      initial: "DarkModeClassifierType::kGeneric",
+      type: "DarkModeClassifierType",
+      invalidate: "Paint",
+    },
+    {
       name: "darkModeImagePolicy",
       initial: "DarkModeImagePolicy::kFilterNone",
       type: "DarkModeImagePolicy",
@@ -964,7 +970,7 @@
 
     {
       name: "lazyLoadEnabled",
-      initial: false,
+      initial: true,
     },
     //
     // Lazy frame loading distance-from-viewport thresholds for different effective connection types.

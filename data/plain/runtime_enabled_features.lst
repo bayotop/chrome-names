@@ -105,6 +105,7 @@ EnterKeyHintAttribute
 EventTiming
 ExecCommandInJavaScript
 ExpensiveBackgroundTimerThrottling
+ExperimentalAutoplayDynamicDelegation
 ExperimentalContentSecurityPolicyFeatures
 ExperimentalIsInputPending
 ExperimentalJSProfiler
@@ -185,6 +186,7 @@ MediaCapabilitiesEncodingInfo
 MediaCapabilitiesEncryptedMedia
 MediaCapture
 MediaCaptureDepthVideoKind
+MediaCapturePanTilt
 MediaCastOverlayButton
 MediaControlsExpandGesture
 MediaControlsOverlayPlayButton
