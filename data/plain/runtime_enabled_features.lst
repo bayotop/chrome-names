@@ -125,6 +125,7 @@ FetchMetadataDestination
 FileHandling
 FileSystem
 FirstContentfulPaintPlusPlus
+FlatTreeStyleRecalc
 FocuslessSpatialNavigation
 FontSrcLocalMatching
 ForbidSyncXHRInPageDismissal
@@ -291,6 +292,7 @@ RtcJitterBufferDelayHint
 RTCQuicTransport
 RTCSctpTransport
 RTCStatsRelativePacketArrivalDelay
+RTCSvcScalabilityMode
 RTCUnifiedPlan
 RTCUnifiedPlanByDefault
 ScriptedSpeechRecognition
