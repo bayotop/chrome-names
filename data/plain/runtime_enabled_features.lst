@@ -241,6 +241,7 @@ OverscrollCustomization
 PageLifecycleTransitionsOptIn
 PageLifecycleTransitionsOptOut
 PagePopup
+PaintNonFastScrollableRegions
 PaintUnderInvalidationChecking
 PassiveDocumentEventListeners
 PassiveDocumentWheelEventListeners
@@ -344,6 +345,7 @@ UserActivationPostMessageTransfer
 UserActivationSameOriginVisibility
 UserActivationV2
 UserAgentClientHint
+UseWindowsSystemColors
 V8IdleTasks
 VideoAutoFullscreen
 VideoFullscreenDetection

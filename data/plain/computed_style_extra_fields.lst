@@ -109,3 +109,4 @@ MayHavePadding
 DarkColorScheme
 IsColorInternalText
 IsInBlockifyingDisplay
+IsFlexOrGridOrCustomItem
