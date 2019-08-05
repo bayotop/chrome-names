@@ -123,6 +123,7 @@ inactivecaption
 inactivecaptiontext
 infobackground
 infotext
+linktext
 menutext
 scrollbar
 threeddarkshadow
@@ -130,6 +131,7 @@ threedface
 threedhighlight
 threedlightshadow
 threedshadow
+visitedtext
 window
 windowframe
 windowtext

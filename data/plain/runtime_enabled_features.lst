@@ -181,6 +181,7 @@ LazyImageLoadingMetadataFetch
 LazyImageVisibleLoadTimeMetrics
 LazyInitializeMediaControls
 LegacyWindowsDWriteFontFallback
+LinkSystemColors
 LongTaskV2
 ManualSlotting
 MediaCapabilitiesEncodingInfo
@@ -285,6 +286,7 @@ ResourceLoadScheduler
 RestrictAppCacheToSecureContexts
 RestrictAutomaticLazyFrameLoadingToDataSaver
 RestrictAutomaticLazyImageLoadingToDataSaver
+RestrictedWebkitAppearance
 RtcAudioJitterBufferMaxPackets
 RtcAudioJitterBufferRtxHandling
 RTCDtlsTransport
