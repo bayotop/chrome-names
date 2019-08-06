@@ -13,6 +13,7 @@ AutomaticLazyImageLoading
 AutomationControlled
 AutoPictureInPicture
 AutoplayIgnoresWebAudio
+BackForwardCache
 BackgroundFetch
 BackgroundVideoTrackOptimization
 Badging
