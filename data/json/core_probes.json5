@@ -13,6 +13,7 @@
       "third_party/blink/renderer/core/loader/frame_loader_types.h",
       "third_party/blink/renderer/core/page/chrome_client.h",
       "third_party/blink/renderer/core/probe/core_probes.h",
+      "third_party/blink/public/web/web_media_inspector.h",
     ],
   },
   observers: {
@@ -106,7 +107,6 @@
     },
     InspectorLayerTreeAgent: {
       probes: [
-        "DidPaint",
         "LayerTreeDidChange",
         "LayerTreePainted",
       ]
@@ -114,6 +114,13 @@
     InspectorLogAgent: {
       probes: [
         "ConsoleMessageAdded",
+      ]
+    },
+    InspectorMediaAgent: {
+      probes: [
+        "PlayerEventsAdded",
+        "PlayerPropertiesChanged",
+        "PlayersCreated"
       ]
     },
     InspectorNetworkAgent: {

@@ -177,11 +177,6 @@
       name: "BidiCaretAffinity",
     },
     {
-      name: "BlinkGenPropertyTrees",
-      status: "stable",
-      implied_by: ["CompositeAfterPaint"],
-    },
-    {
       name: "BlinkRuntimeCallStats",
     },
     {
@@ -236,10 +231,6 @@
     {
       name: "Canvas2dContextLostRestored",
       status: "experimental",
-    },
-    {
-      name: "Canvas2dFixedRenderingMode",
-      status: "test",
     },
     {
       name: "Canvas2dImageChromium",
@@ -304,8 +295,16 @@
       status: "experimental",
     },
     {
+      name: "CookieDeprecationMessages",
+      status: "experimental",
+    },
+    {
       name: "CookieStore",
       origin_trial_feature_name: "CookieStore",
+      status: "experimental",
+    },
+    {
+      name: "CookiesWithoutSameSiteMustBeSecure",
       status: "experimental",
     },
     {
@@ -348,6 +347,7 @@
       // CSS min(), max() and clamp()
       // https://drafts.csswg.org/css-values-4/#comp-func
       name: "CSSComparisonFunctions",
+      status: "test",
     },
     {
       name: "CSSFocusVisible",
@@ -850,14 +850,14 @@
     },
     {
       name: "LazyFrameLoading",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "LazyFrameVisibleLoadTimeMetrics",
     },
     {
       name: "LazyImageLoading",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "LazyImageLoadingMetadataFetch",
@@ -938,6 +938,10 @@
     {
       name: "MediaSession",
       status: "stable",
+    },
+    {
+      name: "MediaSessionPosition",
+      status: "experimental",
     },
     {
       name: "MediaSessionSeeking",
@@ -1035,9 +1039,6 @@
       name: "NetInfoDownlinkMax",
       // Only Android, ChromeOS support NetInfo downlinkMax, type and ontypechange now
       status: {"Android": "stable", "ChromeOS": "stable"},
-    },
-    {
-      name: "NetworkService",
     },
     // Not a web exposed feature, enabled from the command line.
     {
@@ -1191,10 +1192,6 @@
     {
       name: "PaymentRequest",
       status: "experimental",
-    },
-    {
-      name: "PaymentRequestHasEnrolledInstrument",
-      status: "stable",
     },
     {
       name: "PaymentRequestMerchantValidationEvent",
@@ -1403,6 +1400,10 @@
     {
       name: "RTCUnifiedPlanByDefault",
     },
+    {
+      name: "SameSiteByDefaultCookies",
+      status: "experimental",
+    },
     // WebSpeech API with both speech recognition and synthesis functionality
     // is not fully enabled on all platforms.
     {
@@ -1539,7 +1540,11 @@
     },
     {
       name: "StreamsNative",
-      status: "test",
+      status: "stable",
+    },
+    {
+      name: "SurfaceEmbeddingFeatures",
+      status: "stable",
     },
     {
       name: "TextFragmentIdentifiers",
@@ -1720,7 +1725,14 @@
       status: "experimental",
     },
     {
+      name: "WebkitBoxLayoutUsesFlexLayout",
+    },
+    {
       name: "WebNFC",
+      status: "experimental",
+    },
+    {
+      name: "WebScheduler",
       status: "experimental",
     },
     // WebShare is enabled by default on Android.
@@ -1755,6 +1767,10 @@
       name: "WebXR",
       origin_trial_feature_name: "WebXRDeviceM76",
       status: "experimental",
+    },
+    {
+      name: "WebXRAnchors",
+      // depends_on: ["WebXR"],  // TODO(https://crbug.com/954679): uncomment once bug is fixed
     },
     {
       name: "WebXRHitTest",

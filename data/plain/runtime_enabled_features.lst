@@ -18,7 +18,6 @@ BackgroundFetch
 BackgroundVideoTrackOptimization
 Badging
 BidiCaretAffinity
-BlinkGenPropertyTrees
 BlinkRuntimeCallStats
 BlobReadMethods
 BlockCredentialedSubresources
@@ -32,7 +31,6 @@ BuiltInModuleSwitchElement
 CacheInlineScriptCode
 CacheStorageAddAllRejectsDuplicates
 Canvas2dContextLostRestored
-Canvas2dFixedRenderingMode
 Canvas2dImageChromium
 Canvas2dScrollPathIntoView
 CanvasColorManagement
@@ -49,7 +47,9 @@ ConsolidatedMovementXY
 ContactsManager
 ContentIndex
 ContextMenu
+CookieDeprecationMessages
 CookieStore
+CookiesWithoutSameSiteMustBeSecure
 CorsRFC1918
 CSS3Text
 CSS3TextBreakAnywhere
@@ -199,6 +199,7 @@ MediaEngagementBypassAutoplayPolicies
 MediaQueryPrefersColorScheme
 MediaQueryShape
 MediaSession
+MediaSessionPosition
 MediaSessionSeeking
 MediaSourceExperimental
 MediaSourceInWorkers
@@ -219,7 +220,6 @@ NativeFileSystem
 NavigatorContentUtils
 NavigatorLanguageInInsecureContext
 NetInfoDownlinkMax
-NetworkService
 NewRemotePlaybackPipeline
 NoIdleEncodingForWebTests
 NotificationConstructor
@@ -253,7 +253,6 @@ PaymentApp
 PaymentHandlerChangePaymentMethod
 PaymentMethodChangeEvent
 PaymentRequest
-PaymentRequestHasEnrolledInstrument
 PaymentRequestMerchantValidationEvent
 PaymentRetry
 PerformanceManagerInstrumentation
@@ -299,6 +298,7 @@ RTCStatsRelativePacketArrivalDelay
 RTCSvcScalabilityMode
 RTCUnifiedPlan
 RTCUnifiedPlanByDefault
+SameSiteByDefaultCookies
 ScriptedSpeechRecognition
 ScriptedSpeechSynthesis
 ScriptStreamingOnPreload
@@ -329,6 +329,7 @@ StackedCSSPropertyAnimations
 StaleWhileRevalidate
 StorageQuotaDetails
 StreamsNative
+SurfaceEmbeddingFeatures
 TextFragmentIdentifiers
 TimerThrottlingForBackgroundTabs
 TimerThrottlingForHiddenFrames
@@ -369,7 +370,9 @@ WebGLImageChromium
 WebGLSwapChain
 WebGPU
 WebHID
+WebkitBoxLayoutUsesFlexLayout
 WebNFC
+WebScheduler
 WebShare
 WebShareV2
 WebUSB
@@ -377,6 +380,7 @@ WebUSBOnDedicatedWorkers
 WebVR
 WebVTTRegions
 WebXR
+WebXRAnchors
 WebXRHitTest
 WebXRPlaneDetection
 XSLT

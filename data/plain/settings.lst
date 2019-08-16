@@ -2,7 +2,6 @@ defaultTextEncodingName
 passwordEchoEnabled
 passwordEchoDurationInSeconds
 validationMessageTimerMagnification
-minimumAccelerated2dCanvasSize
 minimumFontSize
 minimumLogicalFontSize
 defaultFontSize
@@ -21,7 +20,6 @@ acceleratedCompositingEnabled
 offlineWebApplicationCacheEnabled
 allowScriptsToCloseWindows
 downloadableBinaryFontsEnabled
-xssAuditorEnabled
 preferCompositingToLCDTextEnabled
 webGL1Enabled
 webGL2Enabled

@@ -9,6 +9,7 @@ InspectorDOMSnapshotAgent
 InspectorEmulationAgent
 InspectorLayerTreeAgent
 InspectorLogAgent
+InspectorMediaAgent
 InspectorNetworkAgent
 InspectorPageAgent
 InspectorPerformanceAgent
