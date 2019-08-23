@@ -14,6 +14,7 @@ ClientHintUAPlatform
 ClientHintUAModel
 ClientHintViewportWidth
 ClientHintWidth
+DocumentAccess
 DocumentDomain
 DocumentWrite
 DownloadsWithoutUserActivation

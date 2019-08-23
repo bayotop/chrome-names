@@ -138,6 +138,10 @@
       status: "experimental",
     },
     {
+      name: "AutoLazyLoadOnReloads",
+      depends_on: ["LazyFrameLoading"],
+    },
+    {
       name: "AutomaticLazyFrameLoading",
       depends_on: ["LazyFrameLoading"],
       status: "experimental",
@@ -243,6 +247,9 @@
     {
       name: "Canvas2dScrollPathIntoView",
       status: "experimental",
+    },
+    {
+      name: "Canvas2dSwapChain",
     },
     {
       name: "CanvasColorManagement",
@@ -806,6 +813,9 @@
       status: "experimental",
     },
     {
+      name: "JSONModules",
+    },
+    {
       name: "KeyboardFocusableScrollers",
       status: "experimental",
     },
@@ -1161,7 +1171,7 @@
     // See: https://docs.google.com/document/d/1IyYJ6bVF7KZq96b_s5NrAzGtVoBXn_LQnya9y4yT3iw/view
     {
       name: "PaintNonFastScrollableRegions",
-      implied_by: ["CompositeAfterPaint"],
+      status: "stable",
     },
     {
       name: "PaintUnderInvalidationChecking",
@@ -1463,6 +1473,10 @@
     {
       name: "Serial",
       status: {"Android": "", "default": "experimental"},
+    },
+    {
+      name: "ServiceWorkerFilterFrozen",
+      status: "experimental",
     },
     {
       name: "SetRootScroller",
@@ -1776,16 +1790,21 @@
     },
     {
       name: "WebXRAnchors",
+      // depends_on: ["WebXRARModule"],  // TODO(https://crbug.com/954679): uncomment once bug is fixed
+    },
+    {
+      name: "WebXRARModule",
       // depends_on: ["WebXR"],  // TODO(https://crbug.com/954679): uncomment once bug is fixed
+      status: "experimental",
     },
     {
       name: "WebXRHitTest",
-      // depends_on: ["WebXR"],  // TODO(https://crbug.com/954679): uncomment once bug is fixed
+      // depends_on: ["WebXRARModule"],  // TODO(https://crbug.com/954679): uncomment once bug is fixed
       status: "experimental"
     },
     {
       name: "WebXRPlaneDetection",
-      // depends_on: ["WebXR"],  // TODO(https://crbug.com/954679): uncomment once bug is fixed
+      // depends_on: ["WebXRARModule"],  // TODO(https://crbug.com/954679): uncomment once bug is fixed
     },
     {
       name: "XSLT",

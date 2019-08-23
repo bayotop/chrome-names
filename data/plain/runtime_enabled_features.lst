@@ -9,6 +9,7 @@ AsyncClipboard
 AudioOutputDevices
 AudioVideoTracks
 AudioWorkletRealtimeThread
+AutoLazyLoadOnReloads
 AutomaticLazyFrameLoading
 AutomaticLazyImageLoading
 AutomationControlled
@@ -34,6 +35,7 @@ CacheStorageAddAllRejectsDuplicates
 Canvas2dContextLostRestored
 Canvas2dImageChromium
 Canvas2dScrollPathIntoView
+Canvas2dSwapChain
 CanvasColorManagement
 CanvasHitRegion
 CanvasImageSmoothing
@@ -163,6 +165,7 @@ InvisibleDOM
 IsolatedCodeCache
 IsolatedWorldCSP
 JankTrackingSweepLine
+JSONModules
 KeyboardFocusableScrollers
 LangAttributeAwareFormControlUI
 LangClientHintHeader
@@ -312,6 +315,7 @@ SendMouseEventsDisabledFormControls
 Sensor
 SensorExtraClasses
 Serial
+ServiceWorkerFilterFrozen
 SetRootScroller
 ShadowDOMV0
 ShadowPiercingDescendantCombinator
@@ -382,6 +386,7 @@ WebVR
 WebVTTRegions
 WebXR
 WebXRAnchors
+WebXRARModule
 WebXRHitTest
 WebXRPlaneDetection
 XSLT
