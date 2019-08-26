@@ -76,7 +76,6 @@ CSSOffsetPathRay
 CSSOffsetPathRayContain
 CSSOffsetPositionAnchor
 CSSPaintAPIArguments
-CSSPartPseudoElement
 CSSPictureInPicture
 CSSPseudoIs
 CSSPseudoWhere
@@ -234,7 +233,6 @@ OffMainThreadCSSPaint
 OffscreenCanvasCommit
 OnDeviceChange
 OrientationEvent
-OriginTrials
 OriginTrialsSampleAPI
 OriginTrialsSampleAPIDependent
 OriginTrialsSampleAPIImplied
@@ -332,6 +330,7 @@ SmsReceiver
 StableBlinkFeatures
 StackedCSSPropertyAnimations
 StaleWhileRevalidate
+StorageAccessAPI
 StorageQuotaDetails
 StreamsNative
 SurfaceEmbeddingFeatures
@@ -380,6 +379,7 @@ WebNFC
 WebScheduler
 WebShare
 WebShareV2
+WebSocketStream
 WebUSB
 WebUSBOnDedicatedWorkers
 WebVR
