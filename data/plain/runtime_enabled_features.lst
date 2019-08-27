@@ -283,7 +283,6 @@ RasterInducingScroll
 ReducedReferrerGranularity
 RemotePlayback
 RemotePlaybackBackend
-RenderingPipelineThrottling
 ResourceLoadScheduler
 RestrictAppCacheToSecureContexts
 RestrictAutomaticLazyFrameLoadingToDataSaver
@@ -325,7 +324,6 @@ SignedExchangePrefetchCacheForNavigations
 SignedExchangeSubresourcePrefetch
 SkipAd
 SkipTouchEventFilter
-SmoothScrollJSIntervention
 SmsReceiver
 StableBlinkFeatures
 StackedCSSPropertyAnimations
