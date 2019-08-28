@@ -121,6 +121,10 @@
       status: "experimental",
     },
     {
+      name: "AOMPhase1",
+      status: "experimental",
+    },
+    {
       name: "AsyncClipboard",
       status: "stable",
     },
@@ -318,6 +322,9 @@
     {
       name: "CookiesWithoutSameSiteMustBeSecure",
       status: "experimental",
+    },
+    {
+      name: "CooperativeScheduling"
     },
     {
       name: "CorsRFC1918",
@@ -705,7 +712,7 @@
     },
     {
       name: "FractionalScrollOffsets",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "FreezeFramesOnVisibility",
@@ -1023,12 +1030,6 @@
     {
       // When enabled, iframes are not capturing mouse events by default.
       name: "MouseSubframeNoImplicitCapture",
-    },
-    {
-      name: "MuteButton",
-      depends_on: ["PictureInPictureAPI"],
-      origin_trial_feature_name: "MuteButton",
-      status: "experimental",
     },
     {
       // Enabled when blink::features::kNativeFileSystemAPI is enabled.

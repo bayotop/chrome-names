@@ -5,6 +5,7 @@ AdTagging
 AllowActivationDelegationAttr
 AllowContentInitiatedDataUrlNavigations
 AnimationWorklet
+AOMPhase1
 AsyncClipboard
 AudioOutputDevices
 AudioVideoTracks
@@ -53,6 +54,7 @@ ContextMenu
 CookieDeprecationMessages
 CookieStore
 CookiesWithoutSameSiteMustBeSecure
+CooperativeScheduling
 CorsRFC1918
 CSS3Text
 CSS3TextBreakAnywhere
@@ -218,7 +220,6 @@ ModuleServiceWorker
 MojoJS
 MojoJSTest
 MouseSubframeNoImplicitCapture
-MuteButton
 NativeFileSystem
 NavigatorContentUtils
 NavigatorLanguageInInsecureContext
