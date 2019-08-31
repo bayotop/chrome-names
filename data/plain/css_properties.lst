@@ -433,6 +433,7 @@ border-spacing
 border-style
 border-top
 border-width
+content-size
 flex
 flex-flow
 font

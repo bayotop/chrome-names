@@ -370,6 +370,12 @@
       status: "test",
     },
     {
+      // Support for CSS content-size property.
+      // http://tabatkins.github.io/specs/css-content-size/
+      name: "CSSContentSize",
+      status: "experimental",
+    },
+    {
       name: "CSSFocusVisible",
       status: "experimental",
     },
@@ -481,7 +487,7 @@
     },
     {
       name: "CustomUserTiming",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "Database",
@@ -587,6 +593,7 @@
     // https://github.com/WICG/js-self-profiling
     {
       name: "ExperimentalJSProfiler",
+      origin_trial_feature_name: "ExperimentalJSProfiler",
       status: "experimental"
     },
     // Enables a set of features intended to help improve web developer
@@ -1265,6 +1272,9 @@
       origin_trial_feature_name: "PNaCl",
     },
     {
+      name: "PointerLockOptions",
+    },
+    {
       name: "PointerRawUpdate",
       status: "stable",
     },
@@ -1452,12 +1462,7 @@
       status: "experimental",
     },
     {
-      name: "Sensor",
-      status: "stable",
-    },
-    {
       name: "SensorExtraClasses",
-      depends_on: ["Sensor"],
       status: "experimental",
     },
     {
@@ -1522,6 +1527,7 @@
     },
     {
       name: "SmsReceiver",
+      origin_trial_feature_name: "SmsReceiver",
       status: {"Android": "experimental", "default": "test"},
     },
     // Used as argument in attribute of stable-release functions/interfaces

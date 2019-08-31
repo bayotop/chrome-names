@@ -65,6 +65,7 @@ CSSCalcAsInt
 CSSCascade
 CSSColorScheme
 CSSComparisonFunctions
+CSSContentSize
 CSSFocusVisible
 CSSFontFeatureValues
 CSSFontSizeAdjust
@@ -269,6 +270,7 @@ PictureInPicture
 PictureInPictureAPI
 PictureInPictureV2
 PNaCl
+PointerLockOptions
 PointerRawUpdate
 Portals
 PostAnimationFrame
@@ -310,7 +312,6 @@ ScrollTimeline
 ScrollTopLeftInterop
 SendBeaconThrowForBlobWithNonSimpleType
 SendMouseEventsDisabledFormControls
-Sensor
 SensorExtraClasses
 Serial
 ServiceWorkerFilterFrozen
