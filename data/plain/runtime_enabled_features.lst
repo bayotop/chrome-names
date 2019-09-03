@@ -303,6 +303,7 @@ RTCSvcScalabilityMode
 RTCUnifiedPlan
 RTCUnifiedPlanByDefault
 SameSiteByDefaultCookies
+ScreenEnumeration
 ScriptedSpeechRecognition
 ScriptedSpeechSynthesis
 ScriptStreamingOnPreload
