@@ -92,6 +92,7 @@ CustomElementDefaultStyle
 CustomElementsV0
 CustomUserTiming
 Database
+DecodeJpeg420ImagesToYUV
 DecodeLossyWebPImagesToYUV
 DesktopCaptureDisableLocalEchoControl
 DisableHardwareNoiseSuppression
@@ -100,6 +101,7 @@ DisplayCutoutAPI
 DisplayLocking
 DocumentCookie
 DocumentDomain
+DocumentPolicy
 DocumentWrite
 EditingNG
 ElementInternals
@@ -154,6 +156,7 @@ HTMLImports
 HTMLImportsOnlyChrome
 HTMLImportsStyleApplication
 IDBObserver
+IDBRelaxedDurability
 IDBTransactionCommit
 IdleDetection
 IgnoreCrossOriginWindowWhenNamedAccessOnWindow
