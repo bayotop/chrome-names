@@ -6,6 +6,7 @@ BluetoothRemoteGATTCharacteristic
 CookieStore
 MediaKeySession
 FileWriter
+GPUDevice
 HID
 HIDDevice
 IdleDetector

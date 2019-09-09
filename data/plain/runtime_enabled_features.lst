@@ -40,6 +40,7 @@ Canvas2dSwapChain
 CanvasColorManagement
 CanvasHitRegion
 CanvasImageSmoothing
+ClickPointerEvent
 ClickRetargetting
 ClientHintsFeaturePolicy
 ClientPlaceholdersForServerLoFi
@@ -247,8 +248,8 @@ OutOfBlinkCors
 OverflowIconsForMediaControls
 OverlayScrollbars
 OverscrollCustomization
-PageLifecycleTransitionsOptIn
-PageLifecycleTransitionsOptOut
+PageFreezeOptIn
+PageFreezeOptOut
 PagePopup
 PaintNonFastScrollableRegions
 PaintUnderInvalidationChecking
