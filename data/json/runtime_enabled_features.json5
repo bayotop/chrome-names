@@ -834,12 +834,6 @@
       name: "IsolatedWorldCSP"
     },
     {
-      // Modifies LayoutShiftTracker to use O(n log n) sweep line algorithm for
-      // computing the area of the layout shift region.
-      name: "JankTrackingSweepLine",
-      status: "stable",
-    },
-    {
       name: "JSONModules",
     },
     {
@@ -1378,7 +1372,7 @@
     },
     {
       name: "RestrictedWebkitAppearance",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "RtcAudioJitterBufferMaxPackets",
@@ -1540,7 +1534,7 @@
     },
     {
       name: "SignedExchangeSubresourcePrefetch",
-      origin_trial_feature_name: "SignedExchangeSubresourcePrefetchM78",
+      origin_trial_feature_name: "SignedExchangeSubresourcePrefetch",
       status: "experimental",
     },
     {
