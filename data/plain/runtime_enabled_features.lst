@@ -258,6 +258,7 @@ PassPaintVisualRectToCompositor
 PauseExecutionContextOnBackgroundFreeze
 PaymentApp
 PaymentHandlerChangePaymentMethod
+PaymentHandlerHandlesShippingAndContact
 PaymentMethodChangeEvent
 PaymentRequest
 PaymentRequestMerchantValidationEvent
