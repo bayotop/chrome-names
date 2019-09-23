@@ -1,9 +1,11 @@
 Accelerated2dCanvas
+AcceleratedSmallCanvases
 AccessibilityObjectModel
 AddressSpace
 AdTagging
 AllowActivationDelegationAttr
 AllowContentInitiatedDataUrlNavigations
+AllowSyncXHRInPageDismissal
 AnimationWorklet
 AOMPhase1
 AsyncClipboard
@@ -36,7 +38,6 @@ CacheStorageAddAllRejectsDuplicates
 Canvas2dContextLostRestored
 Canvas2dImageChromium
 Canvas2dScrollPathIntoView
-Canvas2dSwapChain
 CanvasColorManagement
 CanvasHitRegion
 CanvasImageSmoothing
@@ -137,7 +138,6 @@ FirstContentfulPaintPlusPlus
 FlatTreeStyleRecalc
 FocuslessSpatialNavigation
 FontSrcLocalMatching
-ForbidSyncXHRInPageDismissal
 ForcedColors
 ForceDeferScriptIntervention
 ForceOverlayFullscreenVideo
@@ -158,7 +158,6 @@ HTMLImportsOnlyChrome
 HTMLImportsStyleApplication
 IDBObserver
 IDBRelaxedDurability
-IDBTransactionCommit
 IdleDetection
 IgnoreCrossOriginWindowWhenNamedAccessOnWindow
 ImageOrientation
@@ -376,7 +375,6 @@ WebBluetoothScanning
 WebGL2ComputeContext
 WebGLDraftExtensions
 WebGLImageChromium
-WebGLSwapChain
 WebGPU
 WebHID
 WebkitBoxLayoutUsesFlexLayout

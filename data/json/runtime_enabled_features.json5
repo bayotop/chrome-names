@@ -95,6 +95,10 @@
       status: "stable",
     },
     {
+      name: "AcceleratedSmallCanvases",
+      status: "stable",
+    },
+    {
       name: "AccessibilityObjectModel",
       status: "experimental",
     },
@@ -114,6 +118,11 @@
     {
       name: "AllowContentInitiatedDataUrlNavigations",
       status: "stable",
+    },
+    {
+      name: "AllowSyncXHRInPageDismissal",
+      origin_trial_feature_name: "AllowSyncXHRInPageDismissal",
+      status: "experimental",
     },
     {
       name: "AnimationWorklet",
@@ -251,9 +260,6 @@
     {
       name: "Canvas2dScrollPathIntoView",
       status: "experimental",
-    },
-    {
-      name: "Canvas2dSwapChain",
     },
     {
       name: "CanvasColorManagement",
@@ -695,10 +701,6 @@
     },
     // For simulating Android's overlay fullscreen video in web tests on Linux.
     {
-      name: "ForbidSyncXHRInPageDismissal",
-      status: "test",
-    },
-    {
       name: "ForcedColors",
     },
     {
@@ -778,10 +780,6 @@
     {
       name: "IDBRelaxedDurability",
       status: "experimental",
-    },
-    {
-      name: "IDBTransactionCommit",
-      status: "stable",
     },
     {
       name: "IdleDetection",
@@ -1740,7 +1738,7 @@
     },
     {
       name: "WebBluetoothScanning",
-      status: "test",
+      status: "experimental",
     },
     {
       name: "WebGL2ComputeContext",
@@ -1752,9 +1750,6 @@
     },
     {
       name: "WebGLImageChromium",
-    },
-    {
-      name: "WebGLSwapChain",
     },
     // WebGPU adds a large attack surface area to the GPU process and allows
     // running arbitrary programs on the GPU (compute shaders), which may
