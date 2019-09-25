@@ -137,6 +137,13 @@
       status: "experimental",
     },
     {
+      // Use an aspect ratio from the HTML attributes even when we use sizing
+      // from CSS.
+      // https://github.com/WICG/intrinsicsize-attribute/issues/16
+      name: "AspectRatioFromWidthAndHeight",
+      status: "test",
+    },
+    {
       name: "AsyncClipboard",
       status: "stable",
     },
@@ -283,13 +290,6 @@
     {
       name: "ClickRetargetting",
       status: "experimental",
-    },
-    {
-      name: "ClientHintsFeaturePolicy",
-      status: "experimental",
-    },
-    {
-      name: "ClientPlaceholdersForServerLoFi",
     },
     {
       name: "CompositeAfterPaint",
@@ -966,6 +966,9 @@
       name: "MediaEngagementBypassAutoplayPolicies",
     },
     {
+      name: "MediaQueryNavigationControls",
+    },
+    {
       name: "MediaQueryPrefersColorScheme",
       status: "stable",
     },
@@ -1185,11 +1188,6 @@
       name: "PagePopup",
       // Android does not have support for PagePopup
       status: {"Android": "", "default": "stable"},
-    },
-    // See: https://docs.google.com/document/d/1IyYJ6bVF7KZq96b_s5NrAzGtVoBXn_LQnya9y4yT3iw/view
-    {
-      name: "PaintNonFastScrollableRegions",
-      status: "stable",
     },
     {
       name: "PaintUnderInvalidationChecking",
@@ -1567,11 +1565,6 @@
     {
       name: "StackedCSSPropertyAnimations",
       status: "experimental",
-    },
-    {
-      name: "StaleWhileRevalidate",
-      origin_trial_feature_name: "StaleWhileRevalidate",
-      status: "stable",
     },
     {
       // Enabled when blink::features::kStorageAccessAPI is enabled.

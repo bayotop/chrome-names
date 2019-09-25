@@ -9,6 +9,7 @@ AllowContentInitiatedDataUrlNavigations
 AllowSyncXHRInPageDismissal
 AnimationWorklet
 AOMPhase1
+AspectRatioFromWidthAndHeight
 AsyncClipboard
 AudioOutputDevices
 AudioVideoTracks
@@ -44,8 +45,6 @@ CanvasHitRegion
 CanvasImageSmoothing
 ClickPointerEvent
 ClickRetargetting
-ClientHintsFeaturePolicy
-ClientPlaceholdersForServerLoFi
 CompositeAfterPaint
 CompositedSelectionUpdate
 CompositorTouchAction
@@ -205,6 +204,7 @@ MediaControlsOverlayPlayButton
 MediaDocumentDownloadButton
 MediaElementVolumeGreaterThanOne
 MediaEngagementBypassAutoplayPolicies
+MediaQueryNavigationControls
 MediaQueryPrefersColorScheme
 MediaQueryShape
 MediaSession
@@ -250,7 +250,6 @@ OverscrollCustomization
 PageFreezeOptIn
 PageFreezeOptOut
 PagePopup
-PaintNonFastScrollableRegions
 PaintUnderInvalidationChecking
 PassiveDocumentEventListeners
 PassiveDocumentWheelEventListeners
@@ -334,7 +333,6 @@ SkipTouchEventFilter
 SmsReceiver
 StableBlinkFeatures
 StackedCSSPropertyAnimations
-StaleWhileRevalidate
 StorageAccessAPI
 StorageQuotaDetails
 StreamsNative
