@@ -14,3 +14,6 @@ add
 put
 delete
 clear
+default
+relaxed
+strict
