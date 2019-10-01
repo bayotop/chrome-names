@@ -48,6 +48,7 @@ ClickRetargetting
 CompositeAfterPaint
 CompositedSelectionUpdate
 CompositorTouchAction
+CompressionStreams
 ComputedAccessibilityInfo
 ConsolidatedMovementXY
 ContactsManager
@@ -69,7 +70,6 @@ CSSColorScheme
 CSSComparisonFunctions
 CSSContentSize
 CSSFocusVisible
-CSSFontFeatureValues
 CSSFontSizeAdjust
 CSSHexAlphaColor
 CSSIndependentTransformProperties
