@@ -168,12 +168,12 @@
     {
       name: "AutomaticLazyFrameLoading",
       depends_on: ["LazyFrameLoading"],
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "AutomaticLazyImageLoading",
       depends_on: ["LazyImageLoading"],
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "AutomationControlled",
@@ -318,6 +318,10 @@
       name: "ContactsManager",
       origin_trial_feature_name: "ContactsManager",
       origin_trial_os: ["android"],
+      status: {"Android": "experimental", "default": "test"},
+    },
+    {
+      name: "ContactsManagerAddresses",
       status: {"Android": "experimental", "default": "test"},
     },
     {
@@ -560,12 +564,6 @@
       implied_by: ["FormAssociatedCustomElements"],
     },
     {
-      // https://crbug.com/879270
-      name: "ElementTiming",
-      origin_trial_feature_name: "ElementTimingImages",
-      status: "stable",
-    },
-    {
       name: "EncryptedMediaEncryptionSchemeQuery",
       status: "test",
     },
@@ -685,13 +683,6 @@
       name: "FileSystem",
       status: "stable",
     },
-    // FirstContentfulPaintPlusPlus enables the Largest Text Paint metric, Last
-    // Text Paint metric, Largest Image Paint metric and Last Image Paint
-    // metric. See also: http://bit.ly/fcp_plus_plus
-    {
-      name: "FirstContentfulPaintPlusPlus",
-      status: "stable",
-    },
     // Perform style recalc traversal in the flat tree order, including marking
     // flat-tree instead of shadow-including ancestors for child dirtiness.
     {
@@ -806,6 +797,10 @@
       settable_from_internals: true,
     },
     {
+      name: "ImportMaps",
+      implied_by: ["ExperimentalProductivityFeatures", "BuiltInModuleInfra"],
+    },
+    {
       name: "InertAttribute",
       status: "experimental",
     },
@@ -851,10 +846,6 @@
     {
       name: "LangClientHintHeader",
       status: "experimental",
-    },
-    {
-      name: "LargestContentfulPaint",
-      status: "stable",
     },
     {
       name: "LayoutNG",
@@ -910,7 +901,8 @@
       // Enabled by features::kLegacyWindowsDWriteFontFallback;
     },
     {
-      name: "LinkSystemColors"
+      name: "LinkSystemColors",
+      status: "stable",
     },
     {
       name: "LongTaskV2",
@@ -1202,10 +1194,6 @@
       name: "PassPaintVisualRectToCompositor",
     },
     {
-      name: "PauseExecutionContextOnBackgroundFreeze",
-      status: "stable",
-    },
-    {
       name: "PaymentApp",
       status: "experimental",
     },
@@ -1289,6 +1277,7 @@
     },
     {
       name: "PointerLockOptions",
+      origin_trial_feature_name: "PointerLockOptions",
     },
     {
       name: "PointerRawUpdate",
@@ -1363,12 +1352,12 @@
     {
       name: "RestrictAutomaticLazyFrameLoadingToDataSaver",
       depends_on: ["AutomaticLazyFrameLoading"],
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "RestrictAutomaticLazyImageLoadingToDataSaver",
       depends_on: ["AutomaticLazyImageLoading"],
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "RestrictedWebkitAppearance",
@@ -1492,7 +1481,7 @@
       status: {"Android": "", "default": "experimental"},
     },
     {
-      name: "ServiceWorkerFilterFrozen",
+      name: "ServiceWorkerClientLifecycleState",
       status: "experimental",
     },
     {
@@ -1665,6 +1654,7 @@
     },
     {
       name: "UseWindowsSystemColors",
+      status: "stable",
     },
     {
       name: "V8IdleTasks",
@@ -1805,6 +1795,11 @@
     {
       name: "WebXRAnchors",
       // depends_on: ["WebXRARModule"],  // TODO(https://crbug.com/954679): uncomment once bug is fixed
+    },
+    {
+      name: "WebXRARDOMOverlay",
+      // depends_on: ["WebXRARModule"],  // TODO(https://crbug.com/954679): uncomment once bug is fixed
+      status: "experimental",
     },
     {
       name: "WebXRARModule",
