@@ -99,6 +99,10 @@
       status: "stable",
     },
     {
+      name: "AccessibilityExposeARIAAnnotations",
+      status: "experimental",
+    },
+    {
       name: "AccessibilityExposeDisplayNone",
       status: "test",
     },
@@ -446,6 +450,10 @@
       status: "experimental",
     },
     {
+      name: "CSSOMViewScrollCoordinates",
+      status: "experimental",
+    },
+    {
       name: "CSSPaintAPIArguments",
       status: "experimental",
       depends_on: ["CSSVariables2"],
@@ -505,8 +513,8 @@
       status: "stable",
     },
     {
-      name: "CustomUserTiming",
-      status: "stable",
+      name: "CustomStatePseudoClass",
+      status: "test",
     },
     {
       name: "Database",
@@ -700,6 +708,7 @@
     // For simulating Android's overlay fullscreen video in web tests on Linux.
     {
       name: "ForcedColors",
+      status: "experimental",
     },
     {
       name: "ForceDeferScriptIntervention",
@@ -909,6 +918,10 @@
     },
     {
       name:"ManualSlotting",
+      status:"experimental",
+    },
+    {
+      name:"MeasureMemory",
       status:"experimental",
     },
     {
@@ -1322,10 +1335,6 @@
     },
     {
       name: "PushMessagingSubscriptionChange",
-      status: "experimental",
-    },
-    {
-      name: "RasterInducingScroll",
       status: "experimental",
     },
     {

@@ -1,5 +1,6 @@
 Accelerated2dCanvas
 AcceleratedSmallCanvases
+AccessibilityExposeARIAAnnotations
 AccessibilityExposeDisplayNone
 AccessibilityObjectModel
 AddressSpace
@@ -81,6 +82,7 @@ CSSMaskSourceType
 CSSOffsetPathRay
 CSSOffsetPathRayContain
 CSSOffsetPositionAnchor
+CSSOMViewScrollCoordinates
 CSSPaintAPIArguments
 CSSPictureInPicture
 CSSPseudoIs
@@ -93,7 +95,7 @@ CSSVariables2TransformValues
 CSSViewport
 CustomElementDefaultStyle
 CustomElementsV0
-CustomUserTiming
+CustomStatePseudoClass
 Database
 DecodeJpeg420ImagesToYUV
 DecodeLossyWebPImagesToYUV
@@ -191,6 +193,7 @@ LegacyWindowsDWriteFontFallback
 LinkSystemColors
 LongTaskV2
 ManualSlotting
+MeasureMemory
 MediaCapabilitiesEncodingInfo
 MediaCapabilitiesEncryptedMedia
 MediaCapture
@@ -282,7 +285,6 @@ PrintBrowser
 PriorityHints
 PushMessaging
 PushMessagingSubscriptionChange
-RasterInducingScroll
 ReducedReferrerGranularity
 RemotePlayback
 RemotePlaybackBackend
