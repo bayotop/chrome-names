@@ -64,7 +64,6 @@ CorsRFC1918
 CSS3Text
 CSS3TextBreakAnywhere
 CSSAdditiveAnimations
-CSSAltText
 CSSBackdropFilter
 CSSCalcAsInt
 CSSCascade
@@ -388,6 +387,7 @@ WebXR
 WebXRAnchors
 WebXRARDOMOverlay
 WebXRARModule
+WebXrGamepadModule
 WebXRHitTest
 WebXRPlaneDetection
 XSLT

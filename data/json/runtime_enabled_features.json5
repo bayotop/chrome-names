@@ -207,7 +207,7 @@
     },
     {
       name: "Badging",
-      origin_trial_feature_name: "Badging",
+      origin_trial_feature_name: "BadgingV2",
       status: "experimental",
     },
     {
@@ -370,10 +370,6 @@
       status: "experimental",
     },
     {
-      name: "CSSAltText",
-      status: "stable",
-    },
-    {
       name: "CSSBackdropFilter",
       status: "stable",
     },
@@ -514,7 +510,7 @@
     },
     {
       name: "CustomStatePseudoClass",
-      status: "test",
+      status: "experimental",
     },
     {
       name: "Database",
@@ -547,6 +543,8 @@
     },
     {
       name: "DisplayLocking",
+      origin_trial_feature_name: "DisplayLocking",
+      depends_on: ["CSSContentSize"],
       status: "experimental",
     },
     {
@@ -1612,7 +1610,6 @@
     },
     {
       name: "TrustedDOMTypes",
-      origin_trial_feature_name: "TrustedDOMTypes",
       status: "experimental",
     },
     {
@@ -1798,8 +1795,7 @@
     },
     {
       name: "WebXR",
-      origin_trial_feature_name: "WebXRDeviceM76",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "WebXRAnchors",
@@ -1812,6 +1808,11 @@
     },
     {
       name: "WebXRARModule",
+      depends_on: ["WebXR"],
+      status: "experimental",
+    },
+    {
+      name: "WebXrGamepadModule",
       // depends_on: ["WebXR"],  // TODO(https://crbug.com/954679): uncomment once bug is fixed
       status: "experimental",
     },

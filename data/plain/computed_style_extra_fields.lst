@@ -110,3 +110,5 @@ DarkColorScheme
 IsColorInternalText
 IsInBlockifyingDisplay
 IsFlexOrGridOrCustomItem
+ListStyleType
+ListStyleStringValue

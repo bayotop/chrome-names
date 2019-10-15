@@ -222,6 +222,7 @@ ratechange
 reading
 readystatechange
 rejectionhandled
+release
 removesourcebuffer
 removestream
 removetrack

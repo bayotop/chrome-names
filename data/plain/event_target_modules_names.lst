@@ -64,3 +64,4 @@ XRSession
 XRSpace
 WebSocket
 USB
+WakeLockSentinel
