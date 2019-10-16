@@ -287,7 +287,6 @@ PushMessagingSubscriptionChange
 ReducedReferrerGranularity
 RemotePlayback
 RemotePlaybackBackend
-ResourceLoadScheduler
 RestrictAppCacheToSecureContexts
 RestrictAutomaticLazyFrameLoadingToDataSaver
 RestrictAutomaticLazyImageLoadingToDataSaver
