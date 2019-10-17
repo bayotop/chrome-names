@@ -109,6 +109,7 @@ DocumentPolicy
 DocumentWrite
 EditingNG
 ElementInternals
+EmbeddedVTTStylesheets
 EncryptedMediaEncryptionSchemeQuery
 EncryptedMediaHdcpPolicyCheck
 EncryptedMediaPersistentUsageRecordSession
@@ -166,6 +167,7 @@ ImportMaps
 InertAttribute
 InputMultipleFieldsUI
 InstalledApp
+IntersectionObserverDocumentScrollingElementRoot
 IntersectionObserverV2
 InvisibleDOM
 IsolatedCodeCache
@@ -180,6 +182,7 @@ LayoutNGFieldset
 LayoutNGFlexBox
 LayoutNGFragmentCaching
 LayoutNGFragmentItem
+LayoutNGFragmentPaint
 LayoutNGLineCache
 LayoutNGTable
 LazyFrameLoading
@@ -190,7 +193,6 @@ LazyImageVisibleLoadTimeMetrics
 LazyInitializeMediaControls
 LegacyWindowsDWriteFontFallback
 LinkSystemColors
-LongTaskV2
 ManualSlotting
 MeasureMemory
 MediaCapabilitiesEncodingInfo
@@ -307,7 +309,6 @@ ScreenEnumeration
 ScriptedSpeechRecognition
 ScriptedSpeechSynthesis
 ScriptStreamingOnPreload
-ScrollAnchorSerialization
 ScrollCustomization
 ScrollTimeline
 ScrollTopLeftInterop
