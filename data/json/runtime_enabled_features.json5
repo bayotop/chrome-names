@@ -651,10 +651,6 @@
       status: "experimental",
     },
     {
-      name: "FastMobileScrolling",
-      status: {"Android": "stable"},
-    },
-    {
       name: "FeaturePolicyForClientHints",
       status: "experimental",
     },
@@ -1087,6 +1083,9 @@
       // Only Android, ChromeOS support NetInfo downlinkMax, type and ontypechange now
       status: {"Android": "stable", "ChromeOS": "stable"},
     },
+    {
+      name: "NeverSlowMode",
+    },
     // Not a web exposed feature, enabled from the command line.
     {
       name: "NewRemotePlaybackPipeline",
@@ -1344,6 +1343,10 @@
       status: "experimental",
     },
     {
+      name: "QuicTransport",
+      status: "experimental",
+    },
+    {
       name: "ReducedReferrerGranularity",
     },
     {
@@ -1484,6 +1487,7 @@
     },
     {
       name: "Serial",
+      origin_trial_feature_name: "Serial",
       status: {"Android": "", "default": "experimental"},
     },
     {

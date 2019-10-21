@@ -126,7 +126,6 @@ ExtendedTextMetrics
 ExtraWebGLVideoTextureMetadata
 FallbackCursorMode
 FastBorderRadius
-FastMobileScrolling
 FeaturePolicyForClientHints
 FeaturePolicyForSandbox
 FeaturePolicyJavaScriptInterface
@@ -230,6 +229,7 @@ NativeFileSystem
 NavigatorContentUtils
 NavigatorLanguageInInsecureContext
 NetInfoDownlinkMax
+NeverSlowMode
 NewRemotePlaybackPipeline
 NoIdleEncodingForWebTests
 NotificationConstructor
@@ -286,6 +286,7 @@ PrintBrowser
 PriorityHints
 PushMessaging
 PushMessagingSubscriptionChange
+QuicTransport
 ReducedReferrerGranularity
 RemotePlayback
 RemotePlaybackBackend
