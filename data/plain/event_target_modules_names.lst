@@ -27,7 +27,7 @@ RTCDataChannel
 RTCDtlsTransport
 RTCPeerConnection
 RTCSctpTransport
-NFCReader
+NDEFReader
 NetworkInformation
 Notification
 PaymentRequest
