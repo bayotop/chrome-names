@@ -100,6 +100,7 @@
     },
     {
       name: "AccessibilityExposeARIAAnnotations",
+      origin_trial_feature_name: "AccessibilityExposeARIAAnnotations",
       status: "experimental",
     },
     {
@@ -564,12 +565,6 @@
       name: "EditingNG",
     },
     {
-      // http://crbug.com/905922
-      name: "ElementInternals",
-      status: "stable",
-      implied_by: ["FormAssociatedCustomElements"],
-    },
-    {
       name: "EmbeddedVTTStylesheets",
       status: "experimental",
     },
@@ -721,18 +716,10 @@
       name: "ForceTallerSelectPopup",
       status: {"ChromeOS": "stable"},
     },
-    {
-      name: "FormAssociatedCustomElements",
-      status: "stable",
-    },
     // This is to communicate features::FormControlsRefresh from ui (and can be
     // removed when the feature launches).
     {
       name: "FormControlsRefresh",
-    },
-    {
-      name: "FormDataEvent",
-      status: "stable",
     },
     {
       name: "FractionalMouseEvent",
@@ -773,12 +760,6 @@
     // Allow import only chrome internal resources.
     {
       name: "HTMLImportsOnlyChrome",
-    },
-    // TODO(937746): Web Components v0 is disabled by default, and will be
-    // removed after M87.
-    {
-      name: "HTMLImportsStyleApplication",
-      status: "test",
     },
     {
       name: "IDBObserver",
@@ -1345,10 +1326,6 @@
       status: "experimental",
     },
     {
-      name: "QuicTransport",
-      status: "experimental",
-    },
-    {
       name: "ReducedReferrerGranularity",
     },
     {
@@ -1398,11 +1375,6 @@
     {
       name: "RTCIceTransportExtension",
       origin_trial_feature_name: "RTCQuicTransport",
-      status: "experimental",
-    },
-    {
-      name: "RtcJitterBufferDelayHint",
-      origin_trial_feature_name: "RtcJitterBufferDelayHint",
       status: "experimental",
     },
     // Enables the use of the RTCQuicTransport object.
@@ -1789,10 +1761,6 @@
       name: "WebUSBOnDedicatedWorkers",
       status: "stable",
       depends_on: ["WebUSB"],
-    },
-    {
-      name: "WebVR",
-      status: "test",
     },
     {
       name: "WebVTTRegions",
