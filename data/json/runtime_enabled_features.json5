@@ -139,7 +139,11 @@
       status: "experimental",
     },
     {
-      name: "AOMPhase1",
+      name: "AOMAriaProperties",
+      status: "experimental",
+    },
+    {
+      name: "AOMAriaRelationshipProperties",
       status: "experimental",
     },
     {
@@ -432,6 +436,10 @@
       status: "test",
     },
     {
+      name: "CSSMarkerPseudoElement",
+      status: "experimental",
+    },
+    {
       name: "CSSMaskSourceType",
       status: "experimental",
     },
@@ -559,6 +567,11 @@
     },
     {
       name: "DocumentWrite",
+    },
+    {
+      name: "EditContext",
+      settable_from_internals: true,
+      status: "test",
     },
     {
       // http://crbug.com/707656 content editable in LayoutNG.
@@ -756,10 +769,6 @@
       name: "HTMLImports",
       origin_trial_feature_name: "WebComponentsV0",
       status: "stable",
-    },
-    // Allow import only chrome internal resources.
-    {
-      name: "HTMLImportsOnlyChrome",
     },
     {
       name: "IDBObserver",
@@ -1100,6 +1109,7 @@
     },
     {
       name: "OffMainThreadCSSPaint",
+      status: "stable",
     },
     {
       name: "OffscreenCanvasCommit",

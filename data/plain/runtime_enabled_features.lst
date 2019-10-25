@@ -9,7 +9,8 @@ AllowActivationDelegationAttr
 AllowContentInitiatedDataUrlNavigations
 AllowSyncXHRInPageDismissal
 AnimationWorklet
-AOMPhase1
+AOMAriaProperties
+AOMAriaRelationshipProperties
 AspectRatioFromWidthAndHeight
 AsyncClipboard
 AudioOutputDevices
@@ -77,6 +78,7 @@ CSSIndependentTransformProperties
 CSSLayoutAPI
 CSSLogical
 CSSLogicalOverflow
+CSSMarkerPseudoElement
 CSSMaskSourceType
 CSSOffsetPathRay
 CSSOffsetPathRayContain
@@ -107,6 +109,7 @@ DocumentCookie
 DocumentDomain
 DocumentPolicy
 DocumentWrite
+EditContext
 EditingNG
 EmbeddedVTTStylesheets
 EncryptedMediaEncryptionSchemeQuery
@@ -151,7 +154,6 @@ GetDisplayMedia
 GroupEffect
 HrefTranslate
 HTMLImports
-HTMLImportsOnlyChrome
 IDBObserver
 IDBRelaxedDurability
 IdleDetection
