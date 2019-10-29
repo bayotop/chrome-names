@@ -108,6 +108,7 @@ transparent
 -webkit-activelink
 activeborder
 activecaption
+activetext
 appworkspace
 background
 buttonface
@@ -115,6 +116,8 @@ buttonhighlight
 buttonshadow
 buttontext
 captiontext
+field
+fieldtext
 graytext
 highlight
 highlighttext

@@ -302,6 +302,13 @@
       status: "experimental",
     },
     {
+      name: "CloneableNativeFileSystemHandles",
+      status: "experimental",
+      // NativeFileSystem is in Origin Trial, which doesn't support having
+      // non-origin-trial-enabled features depend on it. https://crbug.com/1000486
+      // depends_on: ["NativeFileSystem"]
+    },
+    {
       name: "CompositeAfterPaint",
     },
     {
@@ -1083,6 +1090,9 @@
       name: "NewRemotePlaybackPipeline",
     },
     {
+      name: "NewSystemColors",
+    },
+    {
       name: "NoIdleEncodingForWebTests",
       status: "test",
     },
@@ -1164,7 +1174,6 @@
     },
     {
       name: "OverlayScrollbars",
-      settable_from_internals: true,
     },
     {
       name: "OverscrollCustomization",
@@ -1203,6 +1212,11 @@
     },
     {
       name: "PassPaintVisualRectToCompositor",
+    },
+    // This is to add an option to enable the Reveal button on password inputs while waiting ::reveal gets standardized.
+    {
+      name: "PasswordReveal",
+      depends_on: ["FormControlsRefresh"],
     },
     {
       name: "PaymentApp",
@@ -1333,6 +1347,10 @@
     },
     {
       name: "PushMessagingSubscriptionChange",
+      status: "experimental",
+    },
+    {
+      name: "QuicTransport",
       status: "experimental",
     },
     {

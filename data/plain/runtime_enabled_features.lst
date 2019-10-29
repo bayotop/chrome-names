@@ -47,6 +47,7 @@ CanvasHitRegion
 CanvasImageSmoothing
 ClickPointerEvent
 ClickRetargetting
+CloneableNativeFileSystemHandles
 CompositeAfterPaint
 CompositedSelectionUpdate
 CompositorTouchAction
@@ -229,6 +230,7 @@ NavigatorLanguageInInsecureContext
 NetInfoDownlinkMax
 NeverSlowMode
 NewRemotePlaybackPipeline
+NewSystemColors
 NoIdleEncodingForWebTests
 NotificationConstructor
 NotificationContentImage
@@ -254,6 +256,7 @@ PaintUnderInvalidationChecking
 PassiveDocumentEventListeners
 PassiveDocumentWheelEventListeners
 PassPaintVisualRectToCompositor
+PasswordReveal
 PaymentApp
 PaymentHandlerChangePaymentMethod
 PaymentHandlerHandlesShippingAndContact
@@ -284,6 +287,7 @@ PrintBrowser
 PriorityHints
 PushMessaging
 PushMessagingSubscriptionChange
+QuicTransport
 ReducedReferrerGranularity
 RemotePlayback
 RemotePlaybackBackend
