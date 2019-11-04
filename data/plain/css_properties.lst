@@ -130,6 +130,10 @@ height
 hyphens
 image-rendering
 image-orientation
+intrinsic-block-size
+intrinsic-height
+intrinsic-inline-size
+intrinsic-width
 isolation
 justify-content
 justify-items
@@ -434,7 +438,6 @@ border-spacing
 border-style
 border-top
 border-width
-content-size
 flex
 flex-flow
 font
@@ -454,6 +457,7 @@ grid-template
 inset
 inset-block
 inset-inline
+intrinsic-size
 list-style
 margin
 margin-block

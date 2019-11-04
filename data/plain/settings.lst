@@ -67,7 +67,6 @@ useWideViewport
 loadWithOverviewMode
 shouldReuseGlobalForUnownedMainFrame
 touchEditingEnabled
-useSolidColorScrollbars
 rubberBandingOnCompositorThread
 caretBrowsingEnabled
 accessibilityFontScaleFactor
