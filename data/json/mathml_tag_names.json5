@@ -2,17 +2,54 @@
   metadata: {
     namespace: "MathML",
     namespaceURI: "http://www.w3.org/1998/Math/MathML",
+    fallbackInterfaceName: "MathMLElement",
+    fallbackJSInterfaceName: "MathMLElement",
+    export: "CORE_EXPORT",
   },
-
   data: [
-    "math",
-    "mi",
-    "mn",
-    "mo",
-    "mtext",
-    "ms",
-    "mglyph",
-    "malignmark",
-    "annotation-xml",
-  ],
+    {
+      name: "math",
+      interfaceName: "MathMLElement",
+    },
+    {
+      name: "mi",
+      interfaceName: "MathMLElement",
+    },
+    {
+      name: "mn",
+      interfaceName: "MathMLElement",
+    },
+    {
+      name: "mo",
+      interfaceName: "MathMLElement",
+    },
+    {
+      name: "mtext",
+      interfaceName: "MathMLElement",
+    },
+    {
+      name: "ms",
+      interfaceName: "MathMLElement",
+    },
+    {
+      name: "mglyph",
+      interfaceName: "MathMLElement",
+    },
+    {
+      name: "malignmark",
+      interfaceName: "MathMLElement",
+    },
+    {
+      name: "annotation",
+      interfaceName: "MathMLElement",
+    },
+    {
+      name: "annotation-xml",
+      interfaceName: "MathMLElement",
+    },
+    {
+      name: "semantics",
+      interfaceName: "MathMLElement",
+    },
+  ]
 }

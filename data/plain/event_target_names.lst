@@ -1,6 +1,7 @@
 AccessibleNode
 Animation
 Clipboard
+EditContext
 FontFaceSet
 MediaQueryList
 BroadcastChannel

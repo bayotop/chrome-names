@@ -195,6 +195,7 @@ perspective-origin
 pointer-events
 position
 quotes
+render-subtree
 resize
 right
 r

@@ -687,3 +687,6 @@ only
 reduce
 active
 back-button
+invisible
+skip-activation
+skip-viewport-activation
