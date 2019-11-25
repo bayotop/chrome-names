@@ -142,7 +142,6 @@ onanimationstart
 onanimationiteration
 onanimationend
 onauxclick
-onbeforeactivate
 onbeforecopy
 onbeforecut
 onbeforepaste
@@ -221,6 +220,7 @@ onpopstate
 onportalactivate
 onprogress
 onratechange
+onrendersubtreeactivation
 onreset
 onresize
 onscroll

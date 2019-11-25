@@ -37,7 +37,6 @@ backgroundfetchabort
 backgroundfetchclick
 backgroundfetchfail
 backgroundfetchsuccess
-beforeactivate
 beforecopy
 beforecut
 beforeinput
@@ -226,6 +225,7 @@ release
 removesourcebuffer
 removestream
 removetrack
+rendersubtreeactivation
 repeatEvent
 reset
 resetpose
