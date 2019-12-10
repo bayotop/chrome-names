@@ -407,7 +407,6 @@ max-content
 fit-content
 clip
 ellipsis
-discard
 break-all
 keep-all
 break-word

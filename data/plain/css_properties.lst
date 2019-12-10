@@ -296,10 +296,6 @@ column-width
 -webkit-line-break
 line-break
 -webkit-line-clamp
--webkit-margin-after-collapse
--webkit-margin-before-collapse
--webkit-margin-bottom-collapse
--webkit-margin-top-collapse
 -webkit-mask-box-image-outset
 -webkit-mask-box-image-repeat
 -webkit-mask-box-image-slice
@@ -491,7 +487,6 @@ transition
 -webkit-column-break-inside
 column-rule
 columns
--webkit-margin-collapse
 -webkit-mask
 -webkit-mask-box-image
 -webkit-mask-position

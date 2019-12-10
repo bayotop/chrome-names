@@ -12,6 +12,7 @@ ClientHintUA
 ClientHintUAArch
 ClientHintUAPlatform
 ClientHintUAModel
+ClientHintUAMobile
 ClientHintViewportWidth
 ClientHintWidth
 DocumentDomain
