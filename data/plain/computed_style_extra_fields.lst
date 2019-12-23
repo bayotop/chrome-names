@@ -114,3 +114,4 @@ IsFlexOrGridOrCustomItem
 ListStyleType
 ListStyleStringValue
 IsEnsuredOutsideFlatTree
+IsInsideListElement
