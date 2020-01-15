@@ -51,6 +51,7 @@
     "beforepaste",
     "beforeprint",
     "beforeunload",
+    "beforexrselect",
     "beginEvent",
     "blocked",
     "blur",
