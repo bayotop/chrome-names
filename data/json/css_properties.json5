@@ -2632,6 +2632,17 @@
       typedom_types: ["Number"]
     },
     {
+      // This property is used for testing with origin trial intergration only.
+      // It should never be web-exposed.
+      name: "origin-trial-test-property",
+      property_methods: ["CSSValueFromComputedStyleInternal"],
+      field_template: "keyword",
+      default_value: "normal",
+      keywords: ["normal", "none"],
+      typedom_types: ["Keyword"],
+      runtime_flag: "OriginTrialsSampleAPI"
+    },
+    {
       name: "orphans",
       property_methods: ["ParseSingleValue", "CSSValueFromComputedStyleInternal"],
       interpolable: true,
