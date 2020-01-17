@@ -2461,7 +2461,7 @@
       interpolable: true,
       field_group: "box",
       field_template: "<length>",
-      default_value: "Length::MaxSizeNone()",
+      default_value: "Length::None()",
       converter: "ConvertLengthMaxSizing",
       keywords: ["none"],
       typedom_types: ["Keyword", "Length", "Percentage"]
@@ -2474,7 +2474,7 @@
       interpolable: true,
       field_group: "box",
       field_template: "<length>",
-      default_value: "Length::MaxSizeNone()",
+      default_value: "Length::None()",
       converter: "ConvertLengthMaxSizing",
       keywords: ["none"],
       typedom_types: ["Keyword", "Length", "Percentage"]
