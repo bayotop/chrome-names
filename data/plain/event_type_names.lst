@@ -224,6 +224,7 @@ reading
 readystatechange
 rejectionhandled
 release
+remove
 removesourcebuffer
 removestream
 removetrack
