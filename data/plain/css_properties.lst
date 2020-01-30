@@ -94,6 +94,10 @@ color-rendering
 color-scheme
 column-fill
 contain
+contain-intrinsic-block-size
+contain-intrinsic-height
+contain-intrinsic-inline-size
+contain-intrinsic-width
 content
 counter-increment
 counter-reset
@@ -130,10 +134,6 @@ height
 hyphens
 image-rendering
 image-orientation
-intrinsic-block-size
-intrinsic-height
-intrinsic-inline-size
-intrinsic-width
 isolation
 justify-content
 justify-items
@@ -436,6 +436,7 @@ border-spacing
 border-style
 border-top
 border-width
+contain-intrinsic-size
 flex
 flex-flow
 font
@@ -455,7 +456,6 @@ grid-template
 inset
 inset-block
 inset-inline
-intrinsic-size
 list-style
 margin
 margin-block
@@ -514,6 +514,7 @@ columns
 -internal-visited-text-fill-color
 -internal-visited-text-stroke-color
 -internal-effective-zoom
+-internal-empty-line-height
 -internal-ua-background-attachment
 -internal-ua-background-blend-mode
 -internal-ua-background-clip

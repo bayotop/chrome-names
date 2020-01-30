@@ -148,7 +148,6 @@ windowtext
 currentcolor
 grey
 -internal-quirk-inherit
--internal-root-color
 repeat
 repeat-x
 repeat-y
@@ -691,3 +690,4 @@ back-button
 invisible
 skip-activation
 skip-viewport-activation
+fabricated

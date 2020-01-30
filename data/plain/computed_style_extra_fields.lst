@@ -108,7 +108,6 @@ IsEnsuredInDisplayNone
 MayHaveMargin
 MayHavePadding
 DarkColorScheme
-IsColorInternalText
 IsInBlockifyingDisplay
 IsFlexOrGridOrCustomItem
 ListStyleType
