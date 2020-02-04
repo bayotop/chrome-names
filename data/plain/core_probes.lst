@@ -2,6 +2,7 @@ AdTracker
 DevToolsSession
 InspectorAnimationAgent
 InspectorApplicationCacheAgent
+InspectorAuditsAgent
 InspectorCSSAgent
 InspectorDOMAgent
 InspectorDOMDebuggerAgent

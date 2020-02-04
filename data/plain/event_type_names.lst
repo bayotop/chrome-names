@@ -274,6 +274,7 @@ textupdate
 textformatupdate
 timeout
 timeupdate
+timezonechange
 toggle
 tonechange
 touchcancel

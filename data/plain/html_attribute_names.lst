@@ -238,6 +238,7 @@ onstorage
 onsuspend
 onsubmit
 ontimeupdate
+ontimezonechange
 ontoggle
 ontouchstart
 ontouchmove

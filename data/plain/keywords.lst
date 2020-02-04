@@ -20,6 +20,7 @@ search
 send
 high
 low
+auto
 none
 text
 tel
@@ -27,10 +28,12 @@ url
 email
 numeric
 decimal
+search
 static
 invisible
 lazy
 eager
+auto
 no-referrer
 no-referrer-when-downgrade
 same-origin
