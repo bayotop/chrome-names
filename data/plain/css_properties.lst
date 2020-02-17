@@ -94,10 +94,7 @@ color-rendering
 color-scheme
 column-fill
 contain
-contain-intrinsic-block-size
-contain-intrinsic-height
-contain-intrinsic-inline-size
-contain-intrinsic-width
+contain-intrinsic-size
 content
 counter-increment
 counter-reset
@@ -436,7 +433,6 @@ border-spacing
 border-style
 border-top
 border-width
-contain-intrinsic-size
 flex
 flex-flow
 font
