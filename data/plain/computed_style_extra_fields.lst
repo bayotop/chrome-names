@@ -114,3 +114,4 @@ ListStyleType
 ListStyleStringValue
 IsEnsuredOutsideFlatTree
 IsInsideListElement
+ShouldIgnoreOverflowPropertyForInlineBlockBaseline
