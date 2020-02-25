@@ -244,9 +244,9 @@ seeked
 seeking
 select
 selectedcandidatepairchange
+selectend
 selectionchange
 selectstart
-selectend
 shippingaddresschange
 shippingoptionchange
 show
@@ -259,6 +259,9 @@ sourceended
 sourceopen
 speechend
 speechstart
+squeeze
+squeezeend
+squeezestart
 stalled
 start
 stop
