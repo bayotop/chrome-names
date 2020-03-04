@@ -689,5 +689,5 @@ border-inline-style
 border-inline-width
 inset-block-start
 syntax
-render-subtree
+subtree-visibility
 origin-trial-test-property

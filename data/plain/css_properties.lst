@@ -193,7 +193,7 @@ perspective-origin
 pointer-events
 position
 quotes
-render-subtree
+subtree-visibility
 resize
 right
 r
