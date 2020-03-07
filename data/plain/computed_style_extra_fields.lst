@@ -95,6 +95,8 @@ AutoRepeatNamedGridColumnLines
 AutoRepeatNamedGridRowLines
 AutoRepeatOrderedNamedGridColumnLines
 AutoRepeatOrderedNamedGridRowLines
+ImplicitNamedGridColumnLines
+ImplicitNamedGridRowLines
 NamedGridArea
 NamedGridAreaRowCount
 NamedGridAreaColumnCount
