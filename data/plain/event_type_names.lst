@@ -214,6 +214,7 @@ pointerrawupdate
 pointerup
 popstate
 portalactivate
+prioritychange
 progress
 processorerror
 push
