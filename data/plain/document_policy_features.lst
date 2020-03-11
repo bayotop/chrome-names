@@ -1,3 +1,6 @@
 FontDisplay
 UnoptimizedLosslessImages
 ForceLoadAtTop
+UnoptimizedLosslessImagesStrict
+UnoptimizedLossyImages
+OversizedImages
