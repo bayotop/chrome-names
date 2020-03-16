@@ -4,3 +4,4 @@ ForceLoadAtTop
 UnoptimizedLosslessImagesStrict
 UnoptimizedLossyImages
 OversizedImages
+UnsizedMedia

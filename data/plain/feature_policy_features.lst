@@ -13,6 +13,7 @@ ClientHintUAArch
 ClientHintUAPlatform
 ClientHintUAModel
 ClientHintUAMobile
+ClientHintUAFullVersion
 ClientHintViewportWidth
 ClientHintWidth
 DocumentDomain
@@ -48,7 +49,6 @@ Serial
 SyncScript
 SyncXHR
 TopNavigation
-UnsizedMedia
 Usb
 VerticalScroll
 WakeLock

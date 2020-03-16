@@ -118,3 +118,4 @@ IsEnsuredOutsideFlatTree
 IsInsideListElement
 ShouldIgnoreOverflowPropertyForInlineBlockBaseline
 MathBaseline
+MathFractionBarThickness

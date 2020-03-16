@@ -99,6 +99,11 @@
       depends_on: ["FeaturePolicyForClientHints"],
     },
     {
+      name: "ClientHintUAFullVersion",
+      feature_policy_name: "ch-ua-full-version",
+      depends_on: ["FeaturePolicyForClientHints"],
+    },
+    {
       name: "ClientHintViewportWidth",
       feature_policy_name: "ch-viewport-width",
       depends_on: ["FeaturePolicyForClientHints"],
@@ -263,11 +268,6 @@
       name: "TopNavigation",
       feature_policy_name: "top-navigation",
       depends_on: ["FeaturePolicyForSandbox"],
-    },
-    {
-      name: "UnsizedMedia",
-      feature_policy_name: "unsized-media",
-      depends_on: ["UnsizedMediaPolicy"],
     },
     {
       name: "Usb",
