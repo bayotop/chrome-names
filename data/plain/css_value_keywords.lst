@@ -370,6 +370,7 @@ thin
 underline
 wavy
 -webkit-nowrap
+display
 stretch
 start
 end
