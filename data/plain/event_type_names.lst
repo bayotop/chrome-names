@@ -24,6 +24,7 @@ addstream
 addtrack
 advertisementreceived
 afterprint
+animationcancel
 animationend
 animationiteration
 animationstart

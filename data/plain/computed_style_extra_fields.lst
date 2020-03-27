@@ -18,6 +18,7 @@ HasVariableReferenceFromNonInheritedProperty
 HasExplicitlyInheritedProperties
 HasViewportUnits
 HasRemUnits
+HasEmUnits
 HasGlyphRelativeUnits
 StyleType
 PseudoBits
