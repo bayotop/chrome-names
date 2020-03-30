@@ -44,6 +44,7 @@ PointerLock
 Popups
 Presentation
 PublicKeyCredentials
+ScreenWakeLock
 Script
 Serial
 SyncScript
@@ -52,5 +53,4 @@ TopNavigation
 TrustTokenRedemption
 Usb
 VerticalScroll
-WakeLock
 WebXr

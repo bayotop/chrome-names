@@ -39,6 +39,7 @@ align-content
 align-items
 alignment-baseline
 align-self
+aspect-ratio
 backdrop-filter
 backface-visibility
 background-attachment
