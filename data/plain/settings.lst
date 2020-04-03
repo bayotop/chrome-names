@@ -82,6 +82,7 @@ viewportMetaEnabled
 shrinksViewportContentToFit
 dnsPrefetchingEnabled
 scriptEnabled
+parserScriptingFlagPolicy
 forceAndroidOverlayScrollbar
 NetworkQuietTimeout
 forceMainWorldInitialization

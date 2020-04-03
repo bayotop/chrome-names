@@ -189,6 +189,7 @@ padding-bottom
 padding-left
 padding-right
 padding-top
+page
 paint-order
 perspective
 perspective-origin
@@ -270,6 +271,7 @@ vertical-align
 visibility
 x
 y
+appearance
 -webkit-appearance
 -webkit-app-region
 -webkit-border-horizontal-spacing
@@ -394,7 +396,6 @@ inset-block-end
 -webkit-max-logical-width
 -webkit-max-logical-height
 all
-page
 -webkit-font-size-delta
 -webkit-text-decorations-in-effect
 font-display
