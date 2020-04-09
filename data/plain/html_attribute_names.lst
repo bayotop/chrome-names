@@ -47,6 +47,7 @@ content
 contenteditable
 controls
 controlslist
+conversiondestination
 coords
 crossorigin
 csp
@@ -94,6 +95,8 @@ id
 imagesizes
 imagesrcset
 importance
+impressiondata
+impressionexpiry
 incremental
 inert
 inputmode
@@ -269,6 +272,7 @@ pseudo
 readonly
 referrerpolicy
 rel
+reportingorigin
 required
 rev
 reversed
