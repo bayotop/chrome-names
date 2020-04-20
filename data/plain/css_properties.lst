@@ -155,6 +155,7 @@ mask
 mask-source-type
 mask-type
 math-style
+math-superscript-shift-style
 max-height
 max-width
 min-height
