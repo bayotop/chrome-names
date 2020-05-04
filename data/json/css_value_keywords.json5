@@ -784,6 +784,7 @@
     //
     "document",
     "reset",
+    "-internal-reset-effective",
 
     //
     // user-zoom
@@ -1087,7 +1088,7 @@
     "rgba",
     "hsl",
     "hsla",
-    "-internal-light-dark-color",
+    "-internal-light-dark",
 
     // transform
     "matrix",
@@ -1221,7 +1222,7 @@
     // none
     "back-button",
 
-    // subtree-visibility
+    // content-visibility
     "hidden-matchable",
 
     // -internal-empty-line-height

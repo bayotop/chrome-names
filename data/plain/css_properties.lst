@@ -197,7 +197,7 @@ perspective-origin
 pointer-events
 position
 quotes
-subtree-visibility
+content-visibility
 resize
 right
 r
@@ -256,6 +256,7 @@ text-overflow
 text-shadow
 text-size-adjust
 text-transform
+text-underline-offset
 text-underline-position
 top
 touch-action
@@ -318,6 +319,7 @@ line-break
 -webkit-print-color-adjust
 -webkit-rtl-ordering
 -webkit-ruby-position
+ruby-position
 -webkit-tap-highlight-color
 -webkit-text-combine
 -webkit-text-emphasis-color
@@ -513,7 +515,6 @@ columns
 -internal-visited-text-emphasis-color
 -internal-visited-text-fill-color
 -internal-visited-text-stroke-color
--internal-effective-zoom
 -internal-empty-line-height
 -epub-caption-side
 -epub-text-combine

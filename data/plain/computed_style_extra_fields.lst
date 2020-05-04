@@ -10,6 +10,7 @@ OriginalDisplay
 InsideLink
 InsideNGFragmentationContext
 HasAttrContent
+HasNonInheritedLightDarkValue
 AffectedByFocusWithin
 AffectedByHover
 AffectedByActive
@@ -32,6 +33,7 @@ HasAutoZIndex
 font
 TextAutosizingMultiplier
 CursorData
+EffectiveZoom
 TextStrokeColorIsCurrentColor
 TextFillColorIsCurrentColor
 TextEmphasisColorIsCurrentColor
@@ -113,6 +115,7 @@ MayHavePadding
 DarkColorScheme
 IsInBlockifyingDisplay
 IsFlexOrGridOrCustomItem
+IsFlexOrGridItem
 ListStyleType
 ListStyleStringValue
 IsEnsuredOutsideFlatTree

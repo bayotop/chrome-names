@@ -6,6 +6,9 @@ math
 merror
 mfrac
 mglyph
+msub
+msup
+msubsup
 mi
 mn
 mo

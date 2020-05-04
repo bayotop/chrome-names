@@ -4,6 +4,7 @@ Bluetooth
 BluetoothDevice
 BluetoothRemoteGATTCharacteristic
 CookieStore
+DelegatedInkTrail
 MediaKeySession
 FileWriter
 GPUDevice
