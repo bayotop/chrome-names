@@ -314,6 +314,7 @@ rtl
 capitalize
 uppercase
 lowercase
+math-auto
 visible
 collapse
 a3

@@ -16,6 +16,8 @@ AffectedByHover
 AffectedByActive
 AffectedByDrag
 HasVariableReferenceFromNonInheritedProperty
+HasVariableReference
+HasVariableDeclaration
 HasExplicitlyInheritedProperties
 HasViewportUnits
 HasRemUnits
