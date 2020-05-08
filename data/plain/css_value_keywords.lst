@@ -538,6 +538,8 @@ optimizequality
 pixelated
 -webkit-optimize-contrast
 from-image
+rotate-left
+rotate-right
 nonzero
 evenodd
 at
