@@ -192,6 +192,7 @@ online
 open
 orientationchange
 overscroll
+overlaygeometrychange
 pagehide
 pageshow
 paste
