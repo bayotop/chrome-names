@@ -71,6 +71,8 @@
     "MIDIPort",
     "VirtualKeyboard",
     "XR",
+    "XRLayer",
+    "XRLightProbe",
     "XRSession",
     "XRSpace",
     {

@@ -61,6 +61,8 @@ MIDIInput
 MIDIPort
 VirtualKeyboard
 XR
+XRLayer
+XRLightProbe
 XRSession
 XRSpace
 WebSocket
