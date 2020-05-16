@@ -518,6 +518,7 @@ columns
 -internal-visited-text-fill-color
 -internal-visited-text-stroke-color
 -internal-empty-line-height
+-internal-forced-background-color-rgb
 -epub-caption-side
 -epub-text-combine
 -epub-text-emphasis
