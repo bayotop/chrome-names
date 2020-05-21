@@ -1185,14 +1185,14 @@
     "verso",
     "avoid-column",
 
-    // shape
-    // rect
-    // round
-
     // color-gamut
     // srgb
     "p3",
     "rec2020",
+
+    // math-script-level
+    "add",
+    "scriptlevel",
 
     // overscroll-behavior
     // auto,

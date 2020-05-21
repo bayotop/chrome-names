@@ -8,6 +8,7 @@ InspectorDOMAgent
 InspectorDOMDebuggerAgent
 InspectorDOMSnapshotAgent
 InspectorEmulationAgent
+InspectorIssueReporter
 InspectorLayerTreeAgent
 InspectorLogAgent
 InspectorMediaAgent

@@ -125,3 +125,4 @@ IsInsideListElement
 ShouldIgnoreOverflowPropertyForInlineBlockBaseline
 MathBaseline
 MathFractionBarThickness
+MathScriptLevel
