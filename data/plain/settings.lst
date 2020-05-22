@@ -170,3 +170,4 @@ prefersReducedMotion
 DontSendKeyEventsToJavascript
 navigationControls
 accessibilityAlwaysShowFocus
+ariaModalPrunesAXTree
