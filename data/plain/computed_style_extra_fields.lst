@@ -82,7 +82,7 @@ IsRunningOpacityAnimationOnCompositor
 IsRunningTransformAnimationOnCompositor
 IsRunningFilterAnimationOnCompositor
 IsRunningBackdropFilterAnimationOnCompositor
-IsStackingContext
+IsStackingContextWithoutContainment
 RequiresAcceleratedCompositingForExternalReasons
 HasAuthorBackground
 HasAuthorBorder
@@ -126,3 +126,4 @@ ShouldIgnoreOverflowPropertyForInlineBlockBaseline
 MathBaseline
 MathFractionBarThickness
 MathScriptLevel
+EffectiveZIndexZero

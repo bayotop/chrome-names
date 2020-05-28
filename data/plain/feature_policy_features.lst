@@ -48,6 +48,7 @@ PublicKeyCredentialsGet
 ScreenWakeLock
 Script
 Serial
+StorageAccessAPI
 SyncScript
 SyncXHR
 TopNavigation
