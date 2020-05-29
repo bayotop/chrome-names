@@ -184,6 +184,7 @@ justify
 -webkit-center
 -webkit-match-parent
 -internal-center
+-internal-space-around
 inter-word
 distribute
 outside

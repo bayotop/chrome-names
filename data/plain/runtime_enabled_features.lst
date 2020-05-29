@@ -348,6 +348,7 @@ SquashAfterPaint
 StableBlinkFeatures
 StorageAccessAPI
 StrictMimeTypesForWorkers
+SubresourceWebBundles
 SurfaceEmbeddingFeatures
 SystemWakeLock
 TestFeature
