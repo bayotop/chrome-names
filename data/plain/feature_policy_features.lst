@@ -32,8 +32,6 @@ Geolocation
 Gyroscope
 Hid
 IdleDetection
-LazyLoad
-LoadingFrameDefaultEager
 Magnetometer
 Microphone
 MidiFeature

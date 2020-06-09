@@ -138,7 +138,6 @@ forceDarkModeEnabled
 forceDarkModeInversionAlgorithm
 forceDarkModeGrayscale
 forceDarkModeContrast
-forceDarkModeClassifierType
 forceDarkModeImagePolicy
 forceDarkModePagePolicy
 forceDarkModeTextBrightnessThreshold

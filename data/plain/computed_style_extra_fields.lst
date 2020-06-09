@@ -18,7 +18,8 @@ AffectedByDrag
 HasVariableReferenceFromNonInheritedProperty
 HasVariableReference
 HasVariableDeclaration
-HasExplicitlyInheritedProperties
+ChildHasExplicitInheritance
+HasExplicitInheritance
 HasViewportUnits
 HasRemUnits
 HasEmUnits

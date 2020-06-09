@@ -5,6 +5,7 @@ animation-fill-mode
 animation-iteration-count
 animation-name
 animation-play-state
+animation-timeline
 animation-timing-function
 transition-delay
 transition-duration

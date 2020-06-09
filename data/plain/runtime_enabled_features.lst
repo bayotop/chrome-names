@@ -100,6 +100,7 @@ CSSPseudoWhere
 CSSReducedFontLoadingInvalidations
 CSSReducedFontLoadingLayoutInvalidations
 CSSRevert
+CSSScrollTimeline
 CSSSnapSize
 CSSSupportsSelector
 CSSVariables2AtProperty
@@ -144,6 +145,7 @@ FeaturePolicyForClientHints
 FeaturePolicyForSandbox
 FeaturePolicyReporting
 FeaturePolicyVibrateFeature
+FetchUploadStreaming
 FileHandling
 FileSystem
 FlexGaps
@@ -198,6 +200,7 @@ LazyImageLoading
 LazyImageVisibleLoadTimeMetrics
 LazyInitializeMediaControls
 LegacyWindowsDWriteFontFallback
+LinkDisabledNewSpecBehavior
 ManualSlotting
 MathMLCore
 MeasureMemory
@@ -266,6 +269,7 @@ PageFreezeOptIn
 PageFreezeOptOut
 PagePopup
 PaintUnderInvalidationChecking
+ParseUrlProtocolHandler
 PassPaintVisualRectToCompositor
 PasswordReveal
 PaymentApp
@@ -275,7 +279,6 @@ PaymentHandlerMinimalUI
 PaymentMethodChangeEvent
 PaymentRequest
 PaymentRequestMerchantValidationEvent
-PaymentRequestOptionalTotal
 PaymentRetry
 PercentBasedScrolling
 PerformanceManagerInstrumentation
@@ -363,6 +366,7 @@ TimeZoneChangeEvent
 TouchEventFeatureDetection
 TrackLayoutPassesPerBlock
 TransferableStreams
+TransformInterop
 TranslateService
 TrustedDOMTypes
 TrustTokens
@@ -379,6 +383,7 @@ VideoAutoFullscreen
 VideoFullscreenOrientationLock
 VideoPlaybackQuality
 VideoRotateToFullscreen
+VideoWakeLockOptimisationHiddenMuted
 VirtualKeyboard
 VisibilityCollapseColumn
 WakeLock
@@ -392,6 +397,7 @@ WebBluetooth
 WebBluetoothGetDevices
 WebBluetoothRemoteCharacteristicNewWriteValue
 WebBluetoothScanning
+WebBluetoothWatchAdvertisements
 WebCodecs
 WebCryptoCurve25519
 WebGL2ComputeContext
@@ -410,10 +416,11 @@ WebVTTRegions
 WebXR
 WebXRAnchors
 WebXRARModule
+WebXRCameraAccess
 WebXRHitTest
 WebXRHitTestEntityTypes
-WebXRIncubations
 WebXRLightEstimation
+WebXRPlaneDetection
 WindowPlacement
 WritableFileStream
 XSLT
