@@ -85,6 +85,7 @@ CSSLogical
 CSSLogicalOverflow
 CSSMarkerPseudoElement
 CSSMaskSourceType
+CSSMatchedPropertiesCacheDependencies
 CSSMathStyle
 CSSMathSuperscriptShiftStyle
 CSSMathVariant
@@ -234,7 +235,6 @@ ModuleSharedWorker
 MojoJS
 MojoJSTest
 MouseSubframeNoImplicitCapture
-MPCDependencies
 NamedPages
 NativeFileSystem
 NativeIO
