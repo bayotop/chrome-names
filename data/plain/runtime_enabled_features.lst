@@ -48,7 +48,6 @@ CanvasImageSmoothing
 CaptureTimeInCsrc
 ClickPointerEvent
 ClickRetargetting
-CloneableNativeFileSystemHandles
 CompositeAfterPaint
 CompositedSelectionUpdate
 ComputedAccessibilityInfo
@@ -64,27 +63,24 @@ CookieStoreWorker
 CookiesWithoutSameSiteMustBeSecure
 CooperativeScheduling
 CorsRFC1918
+CrossOriginIsolation
 CSS3Text
-CSS3TextBreakAnywhere
 CSSAspectRatioProperty
 CSSCalcAsInt
 CSSCascade
 CSSColorScheme
 CSSColorSchemeUARendering
 CSSContentVisibility
-CSSContentVisibilityActivationEvent
 CSSContentVisibilityHiddenMatchable
 CSSFocusVisible
 CSSFoldables
 CSSFontSizeAdjust
 CSSHexAlphaColor
 CSSIndependentTransformProperties
-CSSIntrinsicSize
 CSSLayoutAPI
 CSSLogical
 CSSLogicalOverflow
 CSSMarkerPseudoElement
-CSSMaskSourceType
 CSSMatchedPropertiesCacheDependencies
 CSSMathStyle
 CSSMathSuperscriptShiftStyle
@@ -114,6 +110,8 @@ Database
 DeclarativeShadowDOM
 DecodeJpeg420ImagesToYUV
 DecodeLossyWebPImagesToYUV
+DelayAsyncScriptExecutionUntilFinishedParsing
+DelayAsyncScriptExecutionUntilFirstPaintOrFinishedParsing
 DelegatedInkTrails
 DesktopCaptureDisableLocalEchoControl
 DigitalGoods
@@ -200,6 +198,7 @@ LazyFrameVisibleLoadTimeMetrics
 LazyImageLoading
 LazyImageVisibleLoadTimeMetrics
 LazyInitializeMediaControls
+LegacyNativeFileSystem
 LegacyWindowsDWriteFontFallback
 LinkDisabledNewSpecBehavior
 ManualSlotting
@@ -219,6 +218,7 @@ MediaControlsUseCutOutByDefault
 MediaDocumentDownloadButton
 MediaElementVolumeGreaterThanOne
 MediaEngagementBypassAutoplayPolicies
+MediaFeeds
 MediaLatencyHint
 MediaQueryNavigationControls
 MediaSession
@@ -336,9 +336,7 @@ SensorExtraClasses
 Serial
 ServiceWorkerClientLifecycleState
 ServiceWorkerFetchEventWorkerTiming
-SetRootScroller
 ShadowDOMV0
-ShadowPiercingDescendantCombinator
 SharedArrayBuffer
 SharedWorker
 SignatureBasedIntegrity
@@ -422,5 +420,4 @@ WebXRHitTestEntityTypes
 WebXRLightEstimation
 WebXRPlaneDetection
 WindowPlacement
-WritableFileStream
 XSLT

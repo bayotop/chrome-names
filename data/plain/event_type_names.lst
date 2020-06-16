@@ -129,6 +129,7 @@ gatheringstatechange
 gattserverdisconnected
 geofenceenter
 geofenceleave
+geometrychange
 gesturelongpress
 gesturescrollend
 gesturescrollstart
@@ -192,7 +193,6 @@ online
 open
 orientationchange
 overscroll
-overlaygeometrychange
 pagehide
 pageshow
 paste
@@ -232,7 +232,6 @@ remove
 removesourcebuffer
 removestream
 removetrack
-rendersubtreeactivation
 repeatEvent
 reset
 resetpose

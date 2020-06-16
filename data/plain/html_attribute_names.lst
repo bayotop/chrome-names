@@ -223,7 +223,6 @@ onpopstate
 onportalactivate
 onprogress
 onratechange
-onrendersubtreeactivation
 onreset
 onresize
 onscroll

@@ -315,15 +315,6 @@
       status: "experimental",
     },
     {
-      name: "CloneableNativeFileSystemHandles",
-      status: {"Android": "test", "default": "experimental"},
-      // NativeFileSystem is in Origin Trial, which doesn't support having
-      // non-origin-trial-enabled features depend on it. https://crbug.com/1000486
-      // depends_on: ["NativeFileSystem"]
-      origin_trial_feature_name: "NativeFileSystem2",
-      origin_trial_os: ["win", "macosx", "linux", "chromeos"],
-    },
-    {
       name: "CompositeAfterPaint",
     },
     {
@@ -382,12 +373,12 @@
       name: "CorsRFC1918",
     },
     {
-      name: "CSS3Text",
+      name: "CrossOriginIsolation",
       status: "experimental",
     },
     {
-      name: "CSS3TextBreakAnywhere",
-      status: "stable",
+      name: "CSS3Text",
+      status: "experimental",
     },
     {
       name: "CSSAspectRatioProperty",
@@ -417,17 +408,9 @@
     },
     {
       // The main content-visibility feature.
-      // https://wicg.github.io/display-locking/
+      // https://drafts.csswg.org/css-contain/#content-visibility 
       name: "CSSContentVisibility",
-      status: "experimental",
-      implied_by: ["CSSContentVisibilityHiddenMatchable"]
-    },
-    {
-      // The content-visibility activation event which will be replaced by
-      // the beforematch event. When beforematch is available, this feaure
-      // will be removed.
-      name: "CSSContentVisibilityActivationEvent",
-      implied_by: ["CSSContentVisibility"]
+      status: "stable",
     },
     {
       // The content-visibility: hidden-matchable feature. This is a planned
@@ -460,13 +443,6 @@
       status: "experimental",
     },
     {
-      // Support for CSS contain-intrinsic-size property.
-      // https://wicg.github.io/display-locking/contain-intrinsic-size.html
-      name: "CSSIntrinsicSize",
-      implied_by: ["CSSContentVisibility"],
-      status: "stable",
-    },
-    {
       name: "CSSLayoutAPI",
       status: "experimental",
     },
@@ -481,10 +457,6 @@
     },
     {
       name: "CSSMarkerPseudoElement",
-      status: "experimental",
-    },
-    {
-      name: "CSSMaskSourceType",
       status: "experimental",
     },
     // Enables dependency support for the MatchedPropertiesCache.
@@ -626,6 +598,12 @@
     {
       name: "DecodeLossyWebPImagesToYUV",
       status: "test",
+    },
+    {
+      name: "DelayAsyncScriptExecutionUntilFinishedParsing",
+    },
+    {
+      name: "DelayAsyncScriptExecutionUntilFirstPaintOrFinishedParsing",
     },
     {
       name: "DelegatedInkTrails",
@@ -980,7 +958,7 @@
     {
       name: "LayoutNGRuby",
       depends_on: ["LayoutNG"],
-      status: "test",
+      status: "experimental",
     },
     {
       name: "LayoutNGTable",
@@ -1008,6 +986,16 @@
     {
       name: "LazyInitializeMediaControls",
       // This is enabled by features::kLazyInitializeMediaControls.
+    },
+    {
+      // Also enabled when blink::features::kNativeFileSystemAPI is overridden
+      // on the command line (or via chrome://flags).
+      // Used for API surface that will be removed when the Native File System
+      // API is no longer guarded by an origin trial.
+      name: "LegacyNativeFileSystem",
+      status: {"Android": "test", "default": "experimental"},
+      origin_trial_feature_name: "NativeFileSystem2",
+      origin_trial_os: ["win", "macosx", "linux", "chromeos"],
     },
     {
       name: "LegacyWindowsDWriteFontFallback",
@@ -1086,6 +1074,12 @@
     // Set to reflect the kMediaEngagementBypassAutoplayPolicies feature.
     {
       name: "MediaEngagementBypassAutoplayPolicies",
+    },
+    // Media Feeds: https://wicg.github.io/media-feeds/
+    // Set to reflect the kMediaFeeds feature.
+    {
+      name: "MediaFeeds",
+      status: "experimental",
     },
     {
       name: "MediaLatencyHint",
@@ -1644,10 +1638,6 @@
       name: "ServiceWorkerFetchEventWorkerTiming",
       status: "experimental",
     },
-    {
-      name: "SetRootScroller",
-      status: "experimental",
-    },
     // TODO(937746): Web Components v0 is disabled by default, and will be
     // removed after M87.
     {
@@ -1657,11 +1647,7 @@
       origin_trial_allows_insecure: true,
       status: "test",
     },
-    {
-      name: "ShadowPiercingDescendantCombinator",
-      status: "experimental",
-    },
-    {
+      {
       name: "SharedArrayBuffer",
       status: "stable",
     },
@@ -2054,15 +2040,6 @@
     {
       name: "WindowPlacement",
       status: "experimental",
-    },
-    {
-      name: "WritableFileStream",
-      status: "experimental",
-      // NativeFileSystem is in Origin Trial, which doesn't support having
-      // non-origin-trial-enabled features depend on it. https://crbug.com/1000486
-      // depends_on: ["NativeFileSystem"]
-      origin_trial_feature_name: "NativeFileSystem2",
-      origin_trial_os: ["win", "macosx", "linux", "chromeos"],
     },
     {
       name: "XSLT",
