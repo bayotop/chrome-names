@@ -297,6 +297,7 @@ Portals
 PostAnimationFrame
 PreciseMemoryInfo
 PreferNonCompositedScrolling
+PrefersReducedData
 PrefixedVideoFullscreen
 Presentation
 PriorityHints
