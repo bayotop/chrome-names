@@ -415,6 +415,10 @@ viewport-fit
 syntax
 initial-value
 inherits
+source
+start
+end
+time-range
 animation
 background
 background-position

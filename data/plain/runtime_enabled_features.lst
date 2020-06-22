@@ -80,6 +80,7 @@ CSSIndependentTransformProperties
 CSSLayoutAPI
 CSSLogical
 CSSLogicalOverflow
+CSSMarkerNestedPseudoElement
 CSSMarkerPseudoElement
 CSSMatchedPropertiesCacheDependencies
 CSSMathStyle
@@ -421,4 +422,5 @@ WebXRHitTestEntityTypes
 WebXRLightEstimation
 WebXRPlaneDetection
 WindowPlacement
+WindowSegments
 XSLT

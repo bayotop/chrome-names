@@ -1,3 +1,4 @@
+end
 font-display
 font-family
 font-feature-settings
@@ -15,8 +16,11 @@ min-height
 min-width
 min-zoom
 orientation
+source
 src
+start
 syntax
+time-range
 unicode-range
 user-zoom
 width
