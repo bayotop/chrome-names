@@ -327,6 +327,7 @@ SameSiteByDefaultCookies
 ScreenWakeLock
 ScriptedSpeechRecognition
 ScriptedSpeechSynthesis
+ScrollbarGutter
 ScrollCustomization
 ScrollSnapAfterLayout
 ScrollTimeline
@@ -421,6 +422,7 @@ WebXRHitTest
 WebXRHitTestEntityTypes
 WebXRLightEstimation
 WebXRPlaneDetection
+WebXRReflectionEstimation
 WindowPlacement
 WindowSegments
 XSLT

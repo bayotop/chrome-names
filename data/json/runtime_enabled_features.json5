@@ -525,7 +525,7 @@
       // Perform partial style invalidation on web font loading.
       // See https://crbug.com/441925 and https://bit.ly/35JjPmq for details.
       name: "CSSReducedFontLoadingInvalidations",
-      status: "test",
+      status: "stable",
       implied_by: ["CSSReducedFontLoadingLayoutInvalidations"],
     },
     {
@@ -1163,7 +1163,7 @@
     {
       // Named pages for pagination (the "page" CSS property).
       name: "NamedPages",
-      status: "experimental",
+      status: "stable",
     },
     {
       // Also enabled when blink::features::kNativeFileSystemAPI is overridden
@@ -1600,6 +1600,10 @@
     {
       name: "ScriptedSpeechSynthesis",
       status: "stable",
+    },
+    {
+      name: "ScrollbarGutter",
+      status: "test",
     },
     {
       name: "ScrollCustomization",
@@ -2042,6 +2046,11 @@
     {
       name: "WebXRPlaneDetection",
       depends_on: ["WebXRARModule"],
+      status: "experimental",
+    },
+    {
+      name: "WebXRReflectionEstimation",
+      depends_on: ["WebXRARModule", "WebXRLightEstimation"],
       status: "experimental",
     },
     // Extends window placement functionality for multi-screen devices. Also

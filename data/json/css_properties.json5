@@ -1206,6 +1206,7 @@
         fill_type: "Image",
         fill_type_getter: "GetImage",
       },
+      affected_by_forced_colors: true,
       valid_for_first_letter: true,
       valid_for_cue: true,
       is_background: true,
@@ -3116,6 +3117,22 @@
       converter: "ConvertLengthOrAuto",
     },
     {
+      name: "scrollbar-gutter",
+      property_methods: ["ParseSingleValue", "CSSValueFromComputedStyleInternal"],
+      inherited: true,
+      field_size: 4,
+      field_template: "primitive",
+      default_value: "kScrollbarGutterAuto",
+      name_for_methods: "ScrollbarGutter",
+      type_name: "unsigned",
+      converter: "ConvertScrollbarGutter",
+      keywords: [
+        "auto", "stable", "always"
+      ],
+      typedom_types: ["Keyword"],
+      runtime_flag: "ScrollbarGutter",
+    },
+    {
       name: "scroll-behavior",
       property_methods: ["CSSValueFromComputedStyleInternal"],
       field_group: "*",
@@ -3532,7 +3549,7 @@
       field_template: "keyword",
       keywords: [
         "left", "right", "center", "justify", "-webkit-left", "-webkit-right",
-        "-webkit-center", "start", "end", "-internal-space-around"
+        "-webkit-center", "start", "end"
       ],
       typedom_types: ["Keyword"],
       default_value: "start",
@@ -3545,8 +3562,7 @@
       inherited: true,
       field_group: "*",
       field_template: "keyword",
-      keywords: ["auto", "start", "end", "left", "right", "center", "justify",
-                 "-internal-space-around"],
+      keywords: ["auto", "start", "end", "left", "right", "center", "justify"],
       default_value: "auto",
       typedom_types: ["Keyword"]
     },

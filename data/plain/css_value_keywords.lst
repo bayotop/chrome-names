@@ -184,7 +184,6 @@ justify
 -webkit-center
 -webkit-match-parent
 -internal-center
--internal-space-around
 inter-word
 distribute
 outside
@@ -702,3 +701,5 @@ fabricated
 selector
 single-fold-vertical
 single-fold-horizontal
+stable
+force

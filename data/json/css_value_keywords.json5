@@ -281,7 +281,6 @@
     "-webkit-center",
     "-webkit-match-parent",
     "-internal-center",
-    "-internal-space-around",
     //
     // text-justify
     //
@@ -1251,5 +1250,12 @@
     // none
     "single-fold-vertical",
     "single-fold-horizontal",
+
+    // scrollbar-gutter
+    // auto
+    "stable",
+    // always
+    // both
+    "force",
   ],
 }
