@@ -221,6 +221,7 @@ MediaElementVolumeGreaterThanOne
 MediaEngagementBypassAutoplayPolicies
 MediaFeeds
 MediaLatencyHint
+MediaPreservesPitch
 MediaQueryNavigationControls
 MediaSession
 MediaSessionPosition
@@ -295,7 +296,6 @@ PNaCl
 PointerLockOptions
 PointerRawUpdate
 Portals
-PostAnimationFrame
 PreciseMemoryInfo
 PreferNonCompositedScrolling
 PrefersReducedData

@@ -755,7 +755,8 @@
     },
     {
       name: "FetchUploadStreaming",
-      status: "test",
+      origin_trial_feature_name: "FetchUploadStreaming",
+      status: "experimental",
     },
     {
       // Also enabled when blink::features::kFileHandlingAPI is overridden
@@ -950,6 +951,7 @@
     {
       name: "LayoutNGFragmentItem",
       implied_by: ["LayoutNGBlockFragmentation", "LayoutNGFragmentTraversal"],
+      status: "test",
     },
     {
       // Traverse the fragment tree when painting and hit-testing, instead of
@@ -1089,6 +1091,10 @@
     {
       name: "MediaLatencyHint",
       status: "test",
+    },
+    {
+      name: "MediaPreservesPitch",
+      status: "experimental",
     },
     {
       name: "MediaQueryNavigationControls",
@@ -1444,10 +1450,6 @@
       name: "Portals",
       status: "test",
       origin_trial_feature_name: "Portals",
-    },
-    {
-      name: "PostAnimationFrame",
-      status: "experimental",
     },
     {
       name: "PreciseMemoryInfo",
@@ -1969,6 +1971,7 @@
     },
     {
       name: "WebHID",
+      origin_trial_feature_name: "WebHID",
       status: "experimental",
     },
     {
