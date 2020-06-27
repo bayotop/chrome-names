@@ -1,8 +1,4 @@
 IsLink
-BorderLeftColorIsCurrentColor
-BorderRightColorIsCurrentColor
-BorderTopColorIsCurrentColor
-BorderBottomColorIsCurrentColor
 Display
 DisplayLayoutCustomName
 DisplayLayoutCustomParentName
@@ -37,14 +33,8 @@ font
 TextAutosizingMultiplier
 CursorData
 EffectiveZoom
-TextStrokeColorIsCurrentColor
-TextFillColorIsCurrentColor
-TextEmphasisColorIsCurrentColor
 CaretColorIsCurrentColor
 CaretColorIsAuto
-InternalVisitedTextStrokeColorIsCurrentColor
-InternalVisitedTextFillColorIsCurrentColor
-InternalVisitedTextEmphasisColorIsCurrentColor
 InternalVisitedCaretColorIsCurrentColor
 InternalVisitedCaretColorIsAuto
 TextEmphasisFill
@@ -69,7 +59,6 @@ Animations
 Transitions
 MaskBoxImage
 PageSize
-OutlineColorIsCurrentColor
 OutlineStyleIsAuto
 CallbackSelectors
 PaintImages
@@ -90,7 +79,6 @@ HasAuthorBorder
 WillChangeProperties
 WillChangeContents
 WillChangeScrollPosition
-ColumnRuleColorIsCurrentColor
 HasAutoColumnWidth
 HasAutoColumnCount
 NamedGridColumnLines

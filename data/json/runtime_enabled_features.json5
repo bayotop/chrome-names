@@ -346,7 +346,8 @@
     },
     {
       name: "ConversionMeasurement",
-      status: "test",
+      origin_trial_feature_name: "ConversionMeasurement",
+      status: "experimental",
     },
     {
       name: "CookieDeprecationMessages",
@@ -408,7 +409,7 @@
     },
     {
       // The main content-visibility feature.
-      // https://drafts.csswg.org/css-contain/#content-visibility 
+      // https://drafts.csswg.org/css-contain/#content-visibility
       name: "CSSContentVisibility",
       status: "stable",
     },
@@ -1346,6 +1347,10 @@
       settable_from_internals: true,
     },
     {
+      name: "ParentNodeReplaceChildren",
+      status: "experimental",
+    },
+    {
       // This flag enables the Manifest parser to handle URL Protocols.
       name: "ParseUrlProtocolHandler",
       status: "test",
@@ -1806,6 +1811,7 @@
     {
       name: "TrustTokens",
       origin_trial_feature_name: "TrustTokens",
+      origin_trial_allows_third_party: true,
       status: "test",
     },
     {

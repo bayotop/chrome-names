@@ -3,6 +3,8 @@ annotation-xml
 maction
 malignmark
 math
+mroot
+msqrt
 merror
 mfrac
 mglyph
