@@ -192,6 +192,7 @@ LayoutNGFragmentItem
 LayoutNGFragmentTraversal
 LayoutNGGrid
 LayoutNGRuby
+LayoutNGRubyEmHeight
 LayoutNGTable
 LayoutShiftAttribution
 LazyFrameLoading
