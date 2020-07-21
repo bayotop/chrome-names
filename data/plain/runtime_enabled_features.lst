@@ -50,6 +50,7 @@ ClickPointerEvent
 ClickRetargetting
 CompositeAfterPaint
 CompositedSelectionUpdate
+CompositeSVG
 ComputedAccessibilityInfo
 ConsolidatedMovementXY
 ContactsManager
@@ -67,7 +68,6 @@ CrossOriginIsolation
 CSS3Text
 CSSAspectRatioProperty
 CSSCalcAsInt
-CSSCascade
 CSSColorScheme
 CSSColorSchemeUARendering
 CSSContentVisibility
@@ -101,6 +101,7 @@ CSSRevert
 CSSScrollTimeline
 CSSSnapSize
 CSSSupportsSelector
+CSSSystemColorComputeToSelf
 CSSVariables2AtProperty
 CSSVariables2ImageValues
 CSSVariables2TransformValues
@@ -120,9 +121,11 @@ DisableHardwareNoiseSuppression
 DisableLayerSquashing
 DisallowDocumentAccess
 DisplayCutoutAPI
+DisplayOverride
 DocumentCookie
 DocumentDomain
 DocumentPolicy
+DocumentPolicyNegotiation
 DocumentWrite
 EditContext
 EditingNG
@@ -133,7 +136,6 @@ EnterKeyHintAttribute
 EventTiming
 ExecCommandInJavaScript
 ExpensiveBackgroundTimerThrottling
-ExperimentalAutoplayDynamicDelegation
 ExperimentalContentSecurityPolicyFeatures
 ExperimentalIsInputPending
 ExperimentalJSProfiler
@@ -167,6 +169,7 @@ GroupEffect
 HrefTranslate
 HTMLImports
 IDBObserver
+IDBPutAll
 IDBRelaxedDurability
 IdleDetection
 IgnoreCrossOriginWindowWhenNamedAccessOnWindow
@@ -192,7 +195,6 @@ LayoutNGFragmentItem
 LayoutNGFragmentTraversal
 LayoutNGGrid
 LayoutNGRuby
-LayoutNGRubyEmHeight
 LayoutNGTable
 LayoutShiftAttribution
 LazyFrameLoading
@@ -240,6 +242,7 @@ MojoJSTest
 MouseSubframeNoImplicitCapture
 NamedPages
 NativeFileSystem
+NativeFileSystemDragAndDrop
 NativeIO
 NavigatorContentUtils
 NavigatorLanguageInInsecureContext
@@ -290,6 +293,7 @@ PeriodicBackgroundSync
 PerMethodCanMakePaymentQuota
 PermissionDelegation
 Permissions
+PermissionsPolicyHeader
 PermissionsRequestRevoke
 PictureInPicture
 PictureInPictureAPI
@@ -298,6 +302,7 @@ PNaCl
 PointerLockOptions
 PointerRawUpdate
 Portals
+PortalsDefaultActivation
 PreciseMemoryInfo
 PreferNonCompositedScrolling
 PrefersReducedData
@@ -307,15 +312,16 @@ PriorityHints
 PushMessaging
 PushMessagingSubscriptionChange
 QuicTransport
+QuotaChange
 RawClipboard
 ReducedReferrerGranularity
 RemotePlayback
 RemotePlaybackBackend
 RequestVideoFrameCallback
 ResizeObserverUpdates
-RestrictAppCacheToSecureContexts
 RestrictAutomaticLazyFrameLoadingToDataSaver
 RestrictAutomaticLazyImageLoadingToDataSaver
+RTCAdaptivePtime
 RtcAudioJitterBufferMaxPackets
 RtcAudioJitterBufferRtxHandling
 RTCIceTransportExtension
@@ -350,7 +356,6 @@ SignedExchangeSubresourcePrefetch
 SkipAd
 SkipTouchEventFilter
 SmsReceiver
-SquashAfterPaint
 StableBlinkFeatures
 StorageAccessAPI
 StrictMimeTypesForWorkers
@@ -372,6 +377,7 @@ TransferableStreams
 TransformInterop
 TranslateService
 TrustedDOMTypes
+TrustedTypeBeforePolicyCreationEvent
 TrustTokens
 TrustTokensAlwaysAllowIssuance
 UnclosedFormControlIsInvalid
@@ -411,7 +417,6 @@ WebHID
 WebNFC
 WebScheduler
 WebShare
-WebShareV2
 WebSocketStream
 WebUSB
 WebUSBOnDedicatedWorkers

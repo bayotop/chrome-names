@@ -39,6 +39,7 @@ backgroundfetchfail
 backgroundfetchsuccess
 beforematch
 beforecopy
+beforecreatepolicy
 beforecut
 beforeinput
 beforeinstallprompt
@@ -222,6 +223,7 @@ processorerror
 push
 pushsubscriptionchange
 quicstream
+quotachange
 ratechange
 reading
 readystatechange

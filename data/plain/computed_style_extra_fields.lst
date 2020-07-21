@@ -33,10 +33,6 @@ font
 TextAutosizingMultiplier
 CursorData
 EffectiveZoom
-CaretColorIsCurrentColor
-CaretColorIsAuto
-InternalVisitedCaretColorIsCurrentColor
-InternalVisitedCaretColorIsAuto
 TextEmphasisFill
 TextEmphasisMark
 TextIndentLine
@@ -106,6 +102,7 @@ MayHavePadding
 DarkColorScheme
 IsInBlockifyingDisplay
 IsFlexOrGridOrCustomItem
+IsFlexOrGridItem
 ListStyleType
 ListStyleStringValue
 IsEnsuredOutsideFlatTree

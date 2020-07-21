@@ -322,6 +322,9 @@
       status: {"Android": "stable"},
     },
     {
+      name: "CompositeSVG",
+    },
+    {
       name: "ComputedAccessibilityInfo",
       status: "experimental",
     },
@@ -390,10 +393,6 @@
       status: "test",
     },
     {
-      name: "CSSCascade",
-      status: "stable",
-    },
-    {
       // Support for the CSS color-scheme property from the css-color-adjust spec.
       // https://drafts.csswg.org/css-color-adjust/#color-scheme-prop
       name: "CSSColorScheme",
@@ -423,10 +422,11 @@
     },
     {
       name: "CSSFocusVisible",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "CSSFoldables",
+      status: "experimental",
     },
     {
       name: "CSSFontSizeAdjust",
@@ -462,13 +462,12 @@
     },
     {
       name: "CSSMarkerPseudoElement",
-      status: "experimental",
+      status: "stable",
       implied_by: ["CSSMarkerNestedPseudoElement"],
     },
     // Enables dependency support for the MatchedPropertiesCache.
     {
       name: "CSSMatchedPropertiesCacheDependencies",
-      depends_on: ["CSSCascade"]
     },
     {
       name: "CSSMathStyle",
@@ -538,7 +537,6 @@
     {
       name: "CSSRevert",
       status: "stable",
-      depends_on: ["CSSCascade"],
     },
     // Support for declarative parts of scroll-animations-1, i.e.
     // the animation-timeline property and the @scroll-timeline rule.
@@ -555,6 +553,11 @@
     {
       name: "CSSSupportsSelector",
       status: "stable",
+    },
+    // Make system color keywords compute to themselves.
+    // https://github.com/w3c/csswg-drafts/issues/3847
+    {
+      name: "CSSSystemColorComputeToSelf",
     },
     // Support for @property rules.
     {
@@ -642,6 +645,10 @@
       settable_from_internals: true,
     },
     {
+      name: "DisplayOverride",
+      status: "test",
+    },
+    {
       name: "DocumentCookie",
     },
     {
@@ -651,6 +658,12 @@
       name: "DocumentPolicy",
       origin_trial_feature_name: "DocumentPolicy",
       status: "experimental",
+    },
+    {
+      name: "DocumentPolicyNegotiation",
+      origin_trial_feature_name: "DocumentPolicyNegotiation",
+      status: "experimental",
+      depends_on: ['DocumentPolicy']
     },
     {
       name: "DocumentWrite",
@@ -663,6 +676,7 @@
     {
       // http://crbug.com/707656 content editable in LayoutNG.
       name: "EditingNG",
+      status: "test",
     },
     {
       name: "EncryptedMediaEncryptionSchemeQuery",
@@ -691,12 +705,6 @@
     {
       name: "ExpensiveBackgroundTimerThrottling",
       status: "stable",
-    },
-    // Experimental feature to try dynamic delegation of autoplay capability
-    // through postMessages.
-    {
-      name: "ExperimentalAutoplayDynamicDelegation",
-      origin_trial_feature_name: "ExperimentalAutoplayDynamicDelegation",
     },
     {
       name: "ExperimentalContentSecurityPolicyFeatures",
@@ -856,6 +864,10 @@
       status: "experimental",
     },
     {
+      name: "IDBPutAll",
+      status: "experimental",
+    },
+    {
       name: "IDBRelaxedDurability",
       status: "stable",
     },
@@ -931,7 +943,7 @@
       // provides a convenient way for testing legacy layout code path in blink
       // unit tests.
       name: "LayoutNG",
-      implied_by: ["LayoutNGBlockFragmentation", "LayoutNGFieldset", "LayoutNGFragmentItem", "LayoutNGGrid", "EditingNG", "BidiCaretAffinity", "LayoutNGTable", "LayoutNGFragmentTraversal"],
+      implied_by: ["LayoutNGFieldset", "LayoutNGGrid", "BidiCaretAffinity", "LayoutNGTable"],
       status: "stable",
     },
     {
@@ -951,7 +963,7 @@
     },
     {
       name: "LayoutNGFragmentItem",
-      implied_by: ["LayoutNGBlockFragmentation", "LayoutNGFragmentTraversal"],
+      implied_by: ["LayoutNGBlockFragmentation", "LayoutNGFragmentTraversal", "EditingNG"],
       status: "test",
     },
     {
@@ -966,11 +978,8 @@
     {
       name: "LayoutNGRuby",
       depends_on: ["LayoutNG"],
-      status: "experimental",
-    },
-    {
-      name: "LayoutNGRubyEmHeight",
-      depends_on: ["LayoutNGRuby"],
+      // The flag value is managed by kLayoutNGRuby in common/features.cc too.
+      status: "stable",
     },
     {
       name: "LayoutNGTable",
@@ -1005,9 +1014,6 @@
       // Used for API surface that will be removed when the Native File System
       // API is no longer guarded by an origin trial.
       name: "LegacyNativeFileSystem",
-      status: {"Android": "test", "default": "experimental"},
-      origin_trial_feature_name: "NativeFileSystem2",
-      origin_trial_os: ["win", "macosx", "linux", "chromeos"],
     },
     {
       name: "LegacyWindowsDWriteFontFallback",
@@ -1185,6 +1191,10 @@
       origin_trial_os: ["win", "macosx", "linux", "chromeos"],
     },
     {
+      name: "NativeFileSystemDragAndDrop",
+      status: "test"
+    },
+    {
       name: "NativeIO",
       status: "experimental",
     },
@@ -1352,7 +1362,7 @@
     },
     {
       name: "ParentNodeReplaceChildren",
-      status: "experimental",
+      status: "stable",
     },
     {
       // This flag enables the Manifest parser to handle URL Protocols.
@@ -1424,6 +1434,10 @@
       status: "stable",
     },
     {
+      name: "PermissionsPolicyHeader",
+      status: "experimental"
+    },
+    {
       name: "PermissionsRequestRevoke",
       status: "experimental",
     },
@@ -1459,6 +1473,10 @@
       name: "Portals",
       status: "test",
       origin_trial_feature_name: "Portals",
+    },
+    {
+      name: "PortalsDefaultActivation",
+      status: "test",
     },
     {
       name: "PreciseMemoryInfo",
@@ -1504,6 +1522,10 @@
       status: "experimental",
     },
     {
+      name: "QuotaChange",
+      status: "experimental",
+    },
+    {
       // Enabled when blink::features::kRawClipboard is enabled.
       name: "RawClipboard",
     },
@@ -1531,10 +1553,6 @@
       status: "stable",
     },
     {
-      name: "RestrictAppCacheToSecureContexts",
-      status: "stable",
-    },
-    {
       name: "RestrictAutomaticLazyFrameLoadingToDataSaver",
       depends_on: ["AutomaticLazyFrameLoading"],
       status: "stable",
@@ -1543,6 +1561,11 @@
       name: "RestrictAutomaticLazyImageLoadingToDataSaver",
       depends_on: ["AutomaticLazyImageLoading"],
       status: "stable",
+    },
+    {
+      name: "RTCAdaptivePtime",
+      origin_trial_feature_name: "RTCAdaptivePtime",
+      status: "experimental",
     },
     {
       name: "RtcAudioJitterBufferMaxPackets",
@@ -1708,9 +1731,6 @@
       name: "SmsReceiver",
       status: {"default": "experimental", "Android": "stable"},
     },
-    {
-      name: "SquashAfterPaint",
-    },
     // Used as argument in attribute of stable-release functions/interfaces
     // where a runtime-enabled feature name is required for correct IDL syntax.
     // This is a global flag; do not change its status.
@@ -1811,6 +1831,10 @@
     {
       name: "TrustedDOMTypes",
       status: "stable",
+    },
+    {
+      name: "TrustedTypeBeforePolicyCreationEvent",
+      status: "experimental",
     },
     {
       name: "TrustTokens",
@@ -1998,12 +2022,7 @@
     // WebShare is enabled by default on Android.
     {
       name: "WebShare",
-      status: "experimental",
-    },
-    {
-      name: "WebShareV2",
-      status: "experimental",
-      depends_on: ["WebShare"],
+      status: "test",
     },
     {
       name: "WebSocketStream",
@@ -2029,7 +2048,7 @@
     {
       name: "WebXRAnchors",
       depends_on: ["WebXRARModule", "WebXRHitTest"],
-      status: "experimental"
+      status: "stable"
     },
     {
       name: "WebXRARModule",
@@ -2074,7 +2093,7 @@
     },
     {
       name: "WindowSegments",
-      status: "test"
+      status: "experimental",
     },
     {
       name: "XSLT",

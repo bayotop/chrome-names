@@ -11,6 +11,8 @@ mglyph
 msub
 msup
 msubsup
+mmultiscripts
+mprescripts
 mi
 mn
 mo
@@ -24,3 +26,4 @@ mover
 munder
 munderover
 semantics
+none

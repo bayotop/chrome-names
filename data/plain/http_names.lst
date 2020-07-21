@@ -42,6 +42,8 @@ Link
 Location
 Origin
 Origin-Trial
+Permissions-Policy
+Permissions-Policy-Report-Only
 Ping-From
 Ping-To
 Pragma
