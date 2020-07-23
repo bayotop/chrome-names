@@ -217,6 +217,10 @@
       settable_from_internals: true,
     },
     {
+      name: "AzimuthAltitude",
+      status: "experimental",
+    },
+    {
       name: "BackForwardCache",
     },
     {
@@ -502,7 +506,7 @@
     },
     {
       name: "CSSOMViewScrollCoordinates",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "CSSPaintAPIArguments",
@@ -598,6 +602,7 @@
     },
     {
       name: "DeclarativeShadowDOM",
+      origin_trial_feature_name: "DeclarativeShadowDOM",
       status: "experimental",
     },
     {
