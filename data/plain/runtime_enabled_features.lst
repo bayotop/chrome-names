@@ -75,6 +75,7 @@ CSSContentVisibility
 CSSContentVisibilityHiddenMatchable
 CSSFocusVisible
 CSSFoldables
+CSSFontMetricsOverride
 CSSFontSizeAdjust
 CSSHexAlphaColor
 CSSIndependentTransformProperties
@@ -322,6 +323,7 @@ RequestVideoFrameCallback
 ResizeObserverUpdates
 RestrictAutomaticLazyFrameLoadingToDataSaver
 RestrictAutomaticLazyImageLoadingToDataSaver
+RestrictGamepadAccess
 RTCAdaptivePtime
 RtcAudioJitterBufferMaxPackets
 RtcAudioJitterBufferRtxHandling

@@ -420,6 +420,8 @@ source
 start
 end
 time-range
+ascent-override
+descent-override
 animation
 background
 background-position
