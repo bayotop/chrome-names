@@ -123,7 +123,6 @@ DisableHardwareNoiseSuppression
 DisableLayerSquashing
 DisallowDocumentAccess
 DisplayCutoutAPI
-DisplayOverride
 DocumentCookie
 DocumentDomain
 DocumentPolicy
@@ -152,7 +151,6 @@ FeaturePolicyVibrateFeature
 FetchUploadStreaming
 FileHandling
 FileSystem
-FlexGaps
 FocuslessSpatialNavigation
 FontAccess
 FontSrcLocalMatching
@@ -387,7 +385,6 @@ UnclosedFormControlIsInvalid
 UnderlineOffsetThickness
 UnoptimizedImagePolicies
 UnsizedMediaPolicy
-UserActivationPostMessageTransfer
 UserActivationSameOriginVisibility
 UserAgentClientHint
 V8IdleTasks
@@ -401,6 +398,7 @@ VisibilityCollapseColumn
 WakeLock
 WebAnimationsAPI
 WebAnimationsSVG
+WebAppManifestDisplayOverride
 WebAssemblySimd
 WebAssemblyThreads
 WebAuth

@@ -33,7 +33,7 @@
     // shipped stable can have its runtime flag removed soon after.
     status: {
       valid_values: ["stable", "experimental", "test"],
-      valid_keys: ["Android", "Win", "ChromeOS", "MacOSX"]
+      valid_keys: ["Android", "Win", "ChromeOS", "Mac"]
     },
 
     // "implied_by" or "depends_on" specifies relationship to other features:
@@ -566,6 +566,7 @@
     // https://github.com/w3c/csswg-drafts/issues/3847
     {
       name: "CSSSystemColorComputeToSelf",
+      status: "experimental",
     },
     // Support for @property rules.
     {
@@ -654,10 +655,6 @@
       settable_from_internals: true,
     },
     {
-      name: "DisplayOverride",
-      status: "test",
-    },
-    {
       name: "DocumentCookie",
     },
     {
@@ -666,7 +663,7 @@
     {
       name: "DocumentPolicy",
       origin_trial_feature_name: "DocumentPolicy",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "DocumentPolicyNegotiation",
@@ -783,14 +780,10 @@
       depends_on: ["NativeFileSystem"],
       status: {"Android": "test", "default": "experimental"},
       origin_trial_feature_name: "FileHandling",
-      origin_trial_os: ["win", "macosx", "linux", "chromeos"],
+      origin_trial_os: ["win", "mac", "linux", "chromeos"],
     },
     {
       name: "FileSystem",
-      status: "stable",
-    },
-    {
-      name: "FlexGaps",
       status: "stable",
     },
     {
@@ -1197,7 +1190,7 @@
       name: "NativeFileSystem",
       status: {"Android": "test", "default": "experimental"},
       origin_trial_feature_name: "NativeFileSystem2",
-      origin_trial_os: ["win", "macosx", "linux", "chromeos"],
+      origin_trial_os: ["win", "mac", "linux", "chromeos"],
     },
     {
       name: "NativeFileSystemDragAndDrop",
@@ -1250,7 +1243,7 @@
     // The Notification Center on Mac OS X does not support content images.
     {
       name: "NotificationContentImage",
-      status: {"MacOSX": "test", "default": "stable"},
+      status: {"Mac": "test", "default": "stable"},
     },
     {
       name: "Notifications",
@@ -1762,6 +1755,8 @@
     },
     {
       name: "SubresourceWebBundles",
+      origin_trial_feature_name: "SubresourceWebBundles",
+      origin_trial_allows_third_party: true,
       status: "experimental"
     },
     {
@@ -1884,9 +1879,6 @@
       implied_by: ["ExperimentalProductivityFeatures"]
     },
     {
-      name: "UserActivationPostMessageTransfer",
-    },
-    {
       name: "UserActivationSameOriginVisibility",
     },
     {
@@ -1938,6 +1930,10 @@
       status: "experimental",
     },
     {
+      name: "WebAppManifestDisplayOverride",
+      status: "test",
+    },
+    {
       name: "WebAssemblySimd",
       origin_trial_feature_name: "WebAssemblySimd",
       status: "experimental",
@@ -1964,7 +1960,7 @@
       status: {
         "Android": "stable",
         "ChromeOS": "stable",
-        "MacOSX": "stable",
+        "Mac": "stable",
         "default": "experimental",
       },
     },
@@ -1977,7 +1973,7 @@
       status: {
         "Android": "stable",
         "ChromeOS": "stable",
-        "MacOSX": "stable",
+        "Mac": "stable",
         "default": "experimental",
       },
     },
@@ -2019,7 +2015,7 @@
     {
       name: "WebHID",
       origin_trial_feature_name: "WebHID",
-      status: "experimental",
+      status: {"Android": "", "default": "experimental"},
     },
     {
       name: "WebNFC",
