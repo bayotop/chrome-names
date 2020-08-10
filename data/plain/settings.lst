@@ -169,3 +169,4 @@ DontSendKeyEventsToJavascript
 navigationControls
 accessibilityAlwaysShowFocus
 ariaModalPrunesAXTree
+useAXMenuList

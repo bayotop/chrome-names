@@ -28,6 +28,7 @@ BackgroundFetch
 BackgroundVideoTrackOptimization
 Badging
 BarcodeDetector
+BatterySavingsMeta
 BeforeMatchEvent
 BidiCaretAffinity
 BlinkRuntimeCallStats
@@ -151,6 +152,7 @@ FeaturePolicyVibrateFeature
 FetchUploadStreaming
 FileHandling
 FileSystem
+FlexAspectRatio
 FocuslessSpatialNavigation
 FontAccess
 FontSrcLocalMatching
