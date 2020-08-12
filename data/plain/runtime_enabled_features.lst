@@ -344,6 +344,7 @@ ScrollSnapAfterLayout
 ScrollTimeline
 ScrollTopLeftInterop
 ScrollUnification
+SecurePaymentConfirmation
 SendBeaconThrowForBlobWithNonSimpleType
 SendMouseEventsDisabledFormControls
 SensorExtraClasses

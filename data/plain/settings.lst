@@ -170,3 +170,4 @@ navigationControls
 accessibilityAlwaysShowFocus
 ariaModalPrunesAXTree
 useAXMenuList
+selectionClipboardBufferAvailable
