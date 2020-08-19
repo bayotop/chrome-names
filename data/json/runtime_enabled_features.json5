@@ -242,6 +242,8 @@
     {
       // https://github.com/chrishtr/battery-savings/blob/master/explainer.md
       name: "BatterySavingsMeta",
+      origin_trial_feature_name: "BatterySavingsMeta",
+      status: "experimental",
     },
     {
       // https://github.com/WICG/display-locking/blob/master/explainer-beforematch.md
@@ -331,6 +333,10 @@
     },
     {
       name: "CompositeSVG",
+    },
+    {
+      name: "CompositingOptimizations",
+      status: "experimental"
     },
     {
       name: "ComputedAccessibilityInfo",
@@ -699,7 +705,7 @@
     },
     {
       name: "EncryptedMediaPersistentUsageRecordSession",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "EnterKeyHintAttribute",
@@ -801,6 +807,7 @@
     },
     {
       name: "FontAccess",
+      origin_trial_feature_name: "FontAccess",
       status: "experimental",
     },
     {
@@ -963,7 +970,7 @@
     {
       name: "LayoutNGFieldset",
       depends_on: ["LayoutNG"],
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "LayoutNGFlexBox",
@@ -1040,7 +1047,7 @@
     },
     {
       name:"ManualSlotting",
-      status:"experimental",
+      status:"stable",
     },
     {
       name: "MathMLCore",
@@ -1205,7 +1212,7 @@
     },
     {
       name: "NativeFileSystemDragAndDrop",
-      status: "test"
+      status: "experimental"
     },
     {
       name: "NativeIO",
@@ -1610,6 +1617,11 @@
     {
       name: "RTCQuicTransport",
       origin_trial_feature_name: "RTCQuicTransport",
+      status: "experimental",
+    },
+    // Enables the use of |RTCRtpTransceiver::stop()|
+    {
+      name: "RTCRtpTransceiverStop",
       status: "experimental",
     },
     {
@@ -2115,6 +2127,7 @@
     // exposes requisite information about displays connected to the device.
     {
       name: "WindowPlacement",
+      origin_trial_feature_name: "WindowPlacement",
       status: "experimental",
     },
     {

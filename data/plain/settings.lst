@@ -38,7 +38,6 @@ scrollAnimatorEnabled
 threadedScrollingEnabled
 mockGestureTapHighlightsEnabled
 maxTouchPoints
-touchAdjustmentEnabled
 multiTargetTapNotificationEnabled
 barrelButtonForDragEnabled
 syncXHRInDocumentsEnabled
