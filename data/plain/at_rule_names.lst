@@ -11,7 +11,8 @@ font-weight
 height
 inherits
 initial-value
-letter-spacing-override
+advance-override
+line-gap-override
 max-height
 max-width
 max-zoom

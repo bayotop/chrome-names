@@ -1,6 +1,6 @@
 Default
 FontDisplay
-UnoptimizedLosslessImages
+LosslessImagesMaxBpp
 ForceLoadAtTop
 LosslessImagesStrictMaxBpp
 UnoptimizedLossyImages

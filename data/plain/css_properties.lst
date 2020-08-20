@@ -422,7 +422,8 @@ end
 time-range
 ascent-override
 descent-override
-letter-spacing-override
+advance-override
+line-gap-override
 animation
 background
 background-position

@@ -61,6 +61,7 @@ ContactsManagerExtraProperties
 ContentIndex
 ContextMenu
 ConversionMeasurement
+ConversionMeasurementInfraSupport
 CookieDeprecationMessages
 CookieStoreDocument
 CookieStoreWorker
