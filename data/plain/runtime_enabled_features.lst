@@ -69,6 +69,7 @@ CookiesWithoutSameSiteMustBeSecure
 CooperativeScheduling
 CorsRFC1918
 CrossOriginIsolation
+CrossOriginOpenerPolicyReporting
 CSS3Text
 CSSAspectRatioProperty
 CSSCalcAsInt
@@ -338,6 +339,7 @@ RTCSvcScalabilityMode
 RTCUnifiedPlan
 RTCUnifiedPlanByDefault
 SameSiteByDefaultCookies
+SanitizerAPI
 ScreenWakeLock
 ScriptedSpeechRecognition
 ScriptedSpeechSynthesis
