@@ -10,6 +10,9 @@ mathbackground
 mathcolor
 mathsize
 mathvariant
+maxsize
+minsize
+rspace
 scriptlevel
 voffset
 width

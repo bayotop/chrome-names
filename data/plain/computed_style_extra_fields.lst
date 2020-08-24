@@ -110,8 +110,11 @@ IsInsideListElement
 ShouldIgnoreOverflowPropertyForInlineBlockBaseline
 MathBaseline
 MathFractionBarThickness
-MathPaddedLSpace
+MathLSpace
+MathRSpace
 MathPaddedVOffset
 MathPaddedDepth
+MathMinSize
+MathMaxSize
 MathScriptLevel
 EffectiveZIndexZero

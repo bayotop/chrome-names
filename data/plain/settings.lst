@@ -137,7 +137,6 @@ forceDarkModeInversionAlgorithm
 forceDarkModeGrayscale
 forceDarkModeContrast
 forceDarkModeImagePolicy
-forceDarkModePagePolicy
 forceDarkModeTextBrightnessThreshold
 forceDarkModeBackgroundBrightnessThreshold
 forceDarkModeImageGrayscale
