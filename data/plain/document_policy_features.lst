@@ -3,7 +3,7 @@ FontDisplay
 LosslessImagesMaxBpp
 ForceLoadAtTop
 LosslessImagesStrictMaxBpp
-UnoptimizedLossyImages
+LossyImagesMaxBpp
 OversizedImages
 UnsizedMedia
 LayoutAnimations
