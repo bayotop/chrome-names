@@ -24,6 +24,7 @@ AutoPictureInPicture
 AutoplayIgnoresWebAudio
 AzimuthAltitude
 BackForwardCache
+BackForwardCacheExperimentHTTPHeader
 BackgroundFetch
 BackgroundVideoTrackOptimization
 Badging
@@ -33,7 +34,6 @@ BeforeMatchEvent
 BidiCaretAffinity
 BlinkRuntimeCallStats
 BlockCredentialedSubresources
-BlockFlowHandlesWebkitLineClamp
 BlockHTMLParserOnStyleSheets
 BlockingDownloadsInSandbox
 BlockingFocusWithoutUserActivation
@@ -50,6 +50,7 @@ CanvasImageSmoothing
 CaptureTimeInCsrc
 ClickPointerEvent
 ClickRetargetting
+ClipboardSvg
 CompositeAfterPaint
 CompositedSelectionUpdate
 CompositeSVG
@@ -123,6 +124,7 @@ DelayAsyncScriptExecutionUntilFirstPaintOrFinishedParsing
 DelegatedInkTrails
 DesktopCaptureDisableLocalEchoControl
 DigitalGoods
+DirectSockets
 DisableHardwareNoiseSuppression
 DisableLayerSquashing
 DisallowDocumentAccess
@@ -199,6 +201,7 @@ LayoutNGForControls
 LayoutNGFragmentItem
 LayoutNGFragmentTraversal
 LayoutNGGrid
+LayoutNGPrinting
 LayoutNGRuby
 LayoutNGTable
 LayoutShiftAttribution
@@ -247,7 +250,6 @@ MojoJSTest
 MouseSubframeNoImplicitCapture
 NamedPages
 NativeFileSystem
-NativeFileSystemDragAndDrop
 NativeIO
 NavigatorContentUtils
 NavigatorLanguageInInsecureContext
@@ -319,7 +321,6 @@ PushMessagingSubscriptionChange
 QuicTransport
 QuotaChange
 RawClipboard
-ReducedReferrerGranularity
 RemotePlayback
 RemotePlaybackBackend
 RequestVideoFrameCallback
@@ -350,6 +351,7 @@ ScrollTimeline
 ScrollTopLeftInterop
 ScrollUnification
 SecurePaymentConfirmation
+SecurePaymentConfirmationDebug
 SendBeaconThrowForBlobWithNonSimpleType
 SendMouseEventsDisabledFormControls
 SensorExtraClasses
@@ -403,6 +405,7 @@ VideoRotateToFullscreen
 VideoWakeLockOptimisationHiddenMuted
 VirtualKeyboard
 VisibilityCollapseColumn
+VisibilityStateEntry
 WakeLock
 WebAnimationsAPI
 WebAnimationsSVG
@@ -434,6 +437,7 @@ WebXR
 WebXRAnchors
 WebXRARModule
 WebXRCameraAccess
+WebXRDepth
 WebXRHitTest
 WebXRHitTestEntityTypes
 WebXRLightEstimation

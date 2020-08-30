@@ -22,7 +22,6 @@ ClipboardWrite
 ConversionMeasurement
 CrossOriginIsolated
 DocumentDomain
-DocumentWrite
 Downloads
 EncryptedMedia
 ExecutionWhileOutOfViewport
@@ -51,7 +50,6 @@ ScreenWakeLock
 Script
 Serial
 StorageAccessAPI
-SyncScript
 SyncXHR
 TopNavigation
 TrustTokenRedemption

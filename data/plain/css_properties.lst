@@ -403,7 +403,7 @@ inset-block-end
 -webkit-max-logical-width
 -webkit-max-logical-height
 all
--webkit-font-size-delta
+-internal-font-size-delta
 -webkit-text-decorations-in-effect
 font-display
 max-zoom

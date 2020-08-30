@@ -7,3 +7,5 @@ LossyImagesMaxBpp
 OversizedImages
 UnsizedMedia
 LayoutAnimations
+DocumentWrite
+SyncScript

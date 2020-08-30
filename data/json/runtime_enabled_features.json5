@@ -125,7 +125,6 @@
     },
     {
       name: "AccessibilityExposeHTMLElement",
-      status: "experimental",
     },
     {
       name: "AccessibilityObjectModel",
@@ -146,7 +145,6 @@
     },
     {
       name: "AllowContentInitiatedDataUrlNavigations",
-      status: "stable",
     },
     {
       name: "AllowSyncXHRInPageDismissal",
@@ -224,6 +222,11 @@
       name: "BackForwardCache",
     },
     {
+      name: "BackForwardCacheExperimentHTTPHeader",
+      origin_trial_feature_name: "BackForwardCacheExperimentHTTPHeader",
+      status: "experimental",
+    },
+    {
       name: "BackgroundFetch",
       status: "stable",
     },
@@ -259,10 +262,6 @@
     },
     {
       name: "BlockCredentialedSubresources",
-      status: "stable",
-    },
-    {
-      name: "BlockFlowHandlesWebkitLineClamp",
       status: "stable",
     },
     {
@@ -326,6 +325,10 @@
       status: "experimental",
     },
     {
+      name: "ClipboardSvg",
+      status: "experimental",
+    },
+    {
       name: "CompositeAfterPaint",
     },
     {
@@ -334,6 +337,7 @@
     },
     {
       name: "CompositeSVG",
+      status: "experimental"
     },
     {
       name: "CompositingOptimizations",
@@ -662,6 +666,10 @@
       status: "experimental",
     },
     {
+      name: "DirectSockets",
+      status: "test",
+    },
+    {
       name: "DisableHardwareNoiseSuppression",
       origin_trial_feature_name: "DisableHardwareNoiseSuppression",
       status: "experimental",
@@ -822,7 +830,9 @@
     {
       name: "FontAccess",
       origin_trial_feature_name: "FontAccess",
-      status: "experimental",
+      // No status because this blink runtime feature doesn't work by itself.
+      // It's controlled by the corresponding Chromium feature which needs to
+      // be enabled to make the whole feature work.
     },
     {
       name: "FontSrcLocalMatching",
@@ -832,7 +842,9 @@
     // For simulating Android's overlay fullscreen video in web tests on Linux.
     {
       name: "ForcedColors",
-      status: "experimental",
+      // No status because this blink runtime feature doesn't work by itself.
+      // It's controlled by the corresponding Chromium feature which needs to
+      // be enabled to make the whole feature work.
     },
     {
       name: "ForceDeferScriptIntervention",
@@ -858,7 +870,6 @@
     },
     {
       name: "FractionalScrollOffsets",
-      status: "experimental",
     },
     {
       name: "FreezeFramesOnVisibility",
@@ -918,7 +929,6 @@
     },
     {
       name: "ImplicitRootScroller",
-      status: "experimental",
       settable_from_internals: true,
     },
     {
@@ -980,6 +990,7 @@
     },
     {
       name: "LayoutNGBlockFragmentation",
+      implied_by: ["LayoutNGPrinting"],
     },
     {
       name: "LayoutNGFieldset",
@@ -1008,6 +1019,9 @@
     },
     {
       name: "LayoutNGGrid",
+    },
+    {
+      name: "LayoutNGPrinting",
     },
     {
       name: "LayoutNGRuby",
@@ -1043,8 +1057,6 @@
       // This is enabled by features::kLazyInitializeMediaControls.
     },
     {
-      // Also enabled when blink::features::kNativeFileSystemAPI is overridden
-      // on the command line (or via chrome://flags).
       // Used for API surface that will be removed when the Native File System
       // API is no longer guarded by an origin trial.
       name: "LegacyNativeFileSystem",
@@ -1220,13 +1232,10 @@
       // Also enabled when blink::features::kNativeFileSystemAPI is overridden
       // on the command line (or via chrome://flags).
       name: "NativeFileSystem",
-      status: {"Android": "test", "default": "experimental"},
+      status: {"Android": "test", "default": "stable"},
+      // TODO(mek): Remove origin trial integration.
       origin_trial_feature_name: "NativeFileSystem2",
       origin_trial_os: ["win", "mac", "linux", "chromeos"],
-    },
-    {
-      name: "NativeFileSystemDragAndDrop",
-      status: "experimental"
     },
     {
       name: "NativeIO",
@@ -1564,10 +1573,6 @@
       name: "RawClipboard",
     },
     {
-      name: "ReducedReferrerGranularity",
-      status: "experimental",
-    },
-    {
       name: "RemotePlayback",
       status: "stable",
     },
@@ -1715,6 +1720,9 @@
       status: "experimental",
     },
     {
+      name: "SecurePaymentConfirmationDebug",
+    },
+    {
       name: "SendBeaconThrowForBlobWithNonSimpleType",
       status: "stable",
     },
@@ -1805,7 +1813,7 @@
       name: "SubresourceWebBundles",
       origin_trial_feature_name: "SubresourceWebBundles",
       origin_trial_allows_third_party: true,
-      status: "experimental"
+      status: "test"
     },
     {
       name: "SurfaceEmbeddingFeatures",
@@ -1964,6 +1972,10 @@
       name: "VisibilityCollapseColumn",
     },
     {
+      name: "VisibilityStateEntry",
+      status: "experimental",
+    },
+    {
       name: "WakeLock",
       origin_trial_feature_name: "WakeLock",
       implied_by: ['ScreenWakeLock', 'SystemWakeLock'],
@@ -1979,7 +1991,6 @@
     },
     {
       name: "WebAppManifestDisplayOverride",
-      status: "test",
     },
     {
       name: "WebAssemblySimd",
@@ -2115,6 +2126,11 @@
     },
     {
       name: "WebXRCameraAccess",
+      depends_on: ["WebXRARModule"],
+      status: "experimental",
+    },
+    {
+      name: "WebXRDepth",
       depends_on: ["WebXRARModule"],
       status: "experimental",
     },
