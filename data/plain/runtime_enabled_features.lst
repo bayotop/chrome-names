@@ -184,7 +184,6 @@ ImageOrientation
 ImplicitRootScroller
 ImportMaps
 InertAttribute
-InputElementRawValue
 InputMultipleFieldsUI
 InstalledApp
 IntersectionObserverDocumentScrollingElementRoot
@@ -210,7 +209,6 @@ LazyFrameVisibleLoadTimeMetrics
 LazyImageLoading
 LazyImageVisibleLoadTimeMetrics
 LazyInitializeMediaControls
-LegacyNativeFileSystem
 LegacyWindowsDWriteFontFallback
 LinkDisabledNewSpecBehavior
 ManualSlotting
@@ -275,7 +273,7 @@ OriginTrialsSampleAPIImplied
 OriginTrialsSampleAPIInvalidOS
 OriginTrialsSampleAPINavigation
 OriginTrialsSampleAPIThirdParty
-OutOfBlinkCors
+OverflowClip
 OverflowIconsForMediaControls
 OverscrollCustomization
 PageFreezeOptIn
@@ -414,6 +412,7 @@ WebAssemblySimd
 WebAssemblyThreads
 WebAuth
 WebAuthenticationGetAssertionFeaturePolicy
+WebAuthenticationResidentKeyRequirement
 WebBluetooth
 WebBluetoothGetDevices
 WebBluetoothRemoteCharacteristicNewWriteValue

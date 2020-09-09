@@ -169,3 +169,4 @@ accessibilityAlwaysShowFocus
 ariaModalPrunesAXTree
 useAXMenuList
 selectionClipboardBufferAvailable
+accessibilityIncludeSvgGElement
