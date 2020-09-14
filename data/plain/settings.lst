@@ -48,6 +48,7 @@ allowCustomScrollbarInMainFrame
 webSecurityEnabled
 spatialNavigationEnabled
 touchDragDropEnabled
+touchDragEndContextMenu
 defaultVideoPosterURL
 smartInsertDeleteEnabled
 selectTrailingWhitespaceEnabled
