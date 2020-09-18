@@ -612,7 +612,6 @@ frames
 cubic-bezier
 document
 reset
--internal-reset-effective
 zoom
 visiblepainted
 visiblefill

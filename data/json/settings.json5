@@ -501,8 +501,8 @@
     },
     {
       name: "imageAnimationPolicy",
-      initial: "kImageAnimationPolicyAllowed",
-      type: "ImageAnimationPolicy",
+      initial: "web_pref::kImageAnimationPolicyAllowed",
+      type: "web_pref::ImageAnimationPolicy",
     },
 
     // Html preload scanning is a fast, early scan of HTML documents to find loadable
@@ -612,8 +612,8 @@
     // V8 supports different types of caching. Used by V8 bindings.
     {
       name: "v8CacheOptions",
-      initial: "kV8CacheOptionsDefault",
-      type: "V8CacheOptions",
+      initial: "mojom::blink::V8CacheOptions::kDefault",
+      type: "mojom::blink::V8CacheOptions",
     },
 
     // These values are bit fields for the properties of available pointing devices

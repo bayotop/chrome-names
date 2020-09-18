@@ -80,6 +80,7 @@ CSSContentVisibility
 CSSContentVisibilityHiddenMatchable
 CSSFocusVisible
 CSSFoldables
+CSSFontFaceAdvanceOverride
 CSSFontMetricsOverride
 CSSFontSizeAdjust
 CSSHexAlphaColor
