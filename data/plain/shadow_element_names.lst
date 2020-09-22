@@ -17,7 +17,9 @@ optgroup-label
 -webkit-details-marker
 -webkit-input-placeholder
 -internal-input-suggested
+-internal-media-controls-segmented-track
 -webkit-media-slider-container
 -webkit-meter-inner-element
 -webkit-slider-container
+-webkit-slider-runnable-track
 -webkit-textfield-decoration-container

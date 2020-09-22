@@ -9,6 +9,7 @@ AdTagging
 AllowActivationDelegationAttr
 AllowContentInitiatedDataUrlNavigations
 AllowSyncXHRInPageDismissal
+AndroidDownloadableFontsMatching
 AnimationWorklet
 AOMAriaProperties
 AOMAriaRelationshipProperties
