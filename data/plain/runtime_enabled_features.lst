@@ -1,6 +1,5 @@
 Accelerated2dCanvas
 AcceleratedSmallCanvases
-AccessibilityExposeARIAAnnotations
 AccessibilityExposeDisplayNone
 AccessibilityExposeHTMLElement
 AccessibilityObjectModel
@@ -442,6 +441,7 @@ WebXRDepth
 WebXRHitTest
 WebXRHitTestEntityTypes
 WebXRLightEstimation
+WebXRMultiGpu
 WebXRPlaneDetection
 WebXRReflectionEstimation
 WindowPlacement
