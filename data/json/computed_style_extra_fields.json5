@@ -44,7 +44,7 @@
         "table-row", "table-column-group", "table-column", "table-cell",
         "table-caption", "-webkit-box", "-webkit-inline-box", "flex",
         "inline-flex", "grid", "inline-grid", "contents", "flow-root", "none",
-        "layout-custom", "inline-layout-custom", "math", "inline-math"
+        "layout-custom", "inline-layout-custom", "math", "block math"
       ],
       default_value: "inline",
     },
@@ -74,7 +74,7 @@
         "table-row", "table-column-group", "table-column", "table-cell",
         "table-caption", "-webkit-box", "-webkit-inline-box", "flex",
         "inline-flex", "grid", "inline-grid", "contents", "flow-root", "none",
-        "layout-custom", "inline-layout-custom", "math", "inline-math"
+        "layout-custom", "inline-layout-custom", "math", "block math"
       ],
       default_value: "inline",
     },
@@ -1054,14 +1054,6 @@
       type_name: "Length",
       field_group: "*",
       getter: "GetMathMaxSize",
-    },
-    {
-      name: "MathScriptLevel",
-      inherited: true,
-      field_template: "primitive",
-      type_name: "short",
-      default_value: "0",
-      field_group: "*",
     },
     {
       name: "EffectiveZIndexZero",

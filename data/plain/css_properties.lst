@@ -30,6 +30,7 @@ font-variation-settings
 -webkit-font-smoothing
 forced-color-adjust
 -webkit-locale
+math-depth
 text-orientation
 -webkit-text-orientation
 writing-mode

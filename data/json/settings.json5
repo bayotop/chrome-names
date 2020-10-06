@@ -621,13 +621,13 @@
     // has pointerType coarse *and* fine).
     {
       name: "availablePointerTypes",
-      initial: "kPointerTypeNone",
+      initial: "ui::POINTER_TYPE_NONE",
       invalidate: "MediaQuery",
       type: "int",
     },
     {
       name: "availableHoverTypes",
-      initial: "kHoverTypeNone",
+      initial: "ui::HOVER_TYPE_NONE",
       invalidate: "MediaQuery",
       type: "int",
     },
@@ -635,15 +635,15 @@
     // These values specify properties of the user's primary pointing device only.
     {
       name: "primaryPointerType",
-      initial: "kPointerTypeNone",
+      initial: "ui::POINTER_TYPE_NONE",
       invalidate: "MediaQuery",
-      type: "PointerType",
+      type: "ui::PointerType",
     },
     {
       name: "primaryHoverType",
-      initial: "kHoverTypeNone",
+      initial: "ui::HOVER_TYPE_NONE",
       invalidate: "MediaQuery",
-      type: "HoverType",
+      type: "ui::HoverType",
     },
 
     // If true, the value in password fields is exposed to assistive technologies.
@@ -715,9 +715,9 @@
     // used by content embedders to specify custom style on certain platforms.
     {
       name: "viewportStyle",
-      initial: "web_pref::WebViewportStyle::kDefault",
+      initial: "web_pref::ViewportStyle::kDefault",
       invalidate: "ViewportRule",
-      type: "web_pref::WebViewportStyle",
+      type: "web_pref::ViewportStyle",
     },
 
     // Automatic track selection is performed based on user preference for track kind specified
@@ -887,47 +887,7 @@
       initial: false,
       invalidate: "ForceDark",
     },
-    {
-      name: "forceDarkModeInversionAlgorithm",
-      initial: "DarkModeInversionAlgorithm::kInvertLightnessLAB",
-      type: "DarkModeInversionAlgorithm",
-      invalidate: "ForceDark",
-    },
-    {
-      name: "forceDarkModeGrayscale",
-      initial: false,
-      invalidate: "ForceDark",
-    },
-    {
-      name: "forceDarkModeContrast",
-      initial: 0,
-      type: "double",
-      invalidate: "ForceDark",
-    },
-    {
-      name: "forceDarkModeImagePolicy",
-      initial: "DarkModeImagePolicy::kFilterNone",
-      type: "DarkModeImagePolicy",
-      invalidate: "ForceDark",
-    },
-    {
-      name: "forceDarkModeTextBrightnessThreshold",
-      initial: "150",
-      type: "int",
-      invalidate: "ForceDark",
-    },
-    {
-      name: "forceDarkModeBackgroundBrightnessThreshold",
-      initial: "205",
-      type: "int",
-      invalidate: "ForceDark",
-    },
-    {
-      name: "forceDarkModeImageGrayscale",
-      initial: "0.0",
-      type: "float",
-      invalidate: "ForceDark",
-    },
+
     {
       name: "navigatorPlatformOverride",
       type: "String",

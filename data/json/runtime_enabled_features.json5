@@ -383,13 +383,11 @@
     },
     {
       name: "CookieStoreDocument",
-      origin_trial_feature_name: "CookieStore",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "CookieStoreWorker",
-      origin_trial_feature_name: "CookieStore",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "CookiesWithoutSameSiteMustBeSecure",
@@ -403,7 +401,7 @@
     },
     {
       name: "CrossOriginIsolation",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "CrossOriginOpenerPolicyReporting",
@@ -466,8 +464,11 @@
       depends_on: ["CSSFontMetricsOverride"],
     },
     {
+      // @font-face descriptors ascent-override, descent-override and
+      // line-gap-override.
+      // https://drafts.csswg.org/css-fonts-4/#font-metrics-override-desc
       name: "CSSFontMetricsOverride",
-      status: "test",
+      status: "stable",
     },
     {
       name: "CSSFontSizeAdjust",
@@ -510,6 +511,11 @@
       name: "CSSMatchedPropertiesCacheDependencies",
     },
     {
+      name: "CSSMathDepth",
+      status: "experimental",
+      implied_by: ["MathMLCore"],
+    },
+    {
       name: "CSSMathShift",
       status: "experimental",
       implied_by: ["MathMLCore"],
@@ -541,10 +547,6 @@
       status: "experimental",
     },
     {
-      name: "CSSOMViewScrollCoordinates",
-      status: "stable",
-    },
-    {
       name: "CSSPaintAPIArguments",
       status: "experimental",
     },
@@ -562,17 +564,10 @@
       status: "experimental",
     },
     {
-      // Perform partial style invalidation on web font loading.
-      // See https://crbug.com/441925 and https://bit.ly/35JjPmq for details.
-      name: "CSSReducedFontLoadingInvalidations",
-      status: "stable",
-      implied_by: ["CSSReducedFontLoadingLayoutInvalidations"],
-    },
-    {
       // Perform partial layout invalidation on web font loading.
       // See https://crbug.com/441925 and https://bit.ly/35JjPmq for details.
       name: "CSSReducedFontLoadingLayoutInvalidations",
-      status: "test",
+      status: "stable",
     },
     {
       name: "CSSRevert",
@@ -666,8 +661,6 @@
     },
     {
       name: "DigitalGoods",
-      origin_trial_feature_name: "DigitalGoods",
-      origin_trial_os: ["android"],
       status: "experimental",
     },
     {
@@ -720,7 +713,7 @@
     {
       // http://crbug.com/707656 content editable in LayoutNG.
       name: "EditingNG",
-      status: "experimental",
+      status: "test",
     },
     {
       name: "EncryptedMediaEncryptionSchemeQuery",
@@ -754,14 +747,18 @@
       name: "ExperimentalContentSecurityPolicyFeatures",
       status: "experimental",
     },
-    // Enables navigator.scheduling.isInputPending and
-    // navigator.scheduling.isFramePending, allowing long-running JS to
-    // be able to yield itself when user input is queued (crbug.com/910421) or a
-    // display update is scheduled.
+    // Enables navigator.scheduling.isFramePending, allowing long-running JS to
+    // be able to yield itself when a display update is scheduled.
+    {
+      name: "ExperimentalIsFramePending",
+      status: "experimental"
+    },
+    // Enables navigator.scheduling.isInputPending, allowing long-running JS to
+    // be able to yield itself when user input is queued (crbug.com/910421).
     {
       name: "ExperimentalIsInputPending",
       origin_trial_feature_name: "ExperimentalIsInputPending",
-      status: "experimental"
+      status: "stable"
     },
     // Enables a DOM-exposed interface to profile client JS.
     // https://github.com/WICG/js-self-profiling
@@ -826,7 +823,7 @@
     },
     {
       name: "FlexAspectRatio",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "FocuslessSpatialNavigation",
@@ -954,6 +951,10 @@
       status: "stable",
     },
     {
+      name: "InterestCohortAPI",
+      origin_trial_feature_name: "InterestCohortAPI",
+    },
+    {
       name: "IntersectionObserverDocumentScrollingElementRoot",
       status: "stable",
     },
@@ -999,13 +1000,9 @@
       status: "stable",
     },
     {
-      name: "LayoutNGFlexBox",
-      status: "stable",
-    },
-    {
       name: "LayoutNGForControls",
       depends_on: ["LayoutNG"],
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "LayoutNGFragmentItem",
@@ -1022,16 +1019,23 @@
       name: "LayoutNGGrid",
     },
     {
-      name: "LayoutNGPrinting",
-    },
-    {
-      name: "LayoutNGRuby",
-      depends_on: ["LayoutNG"],
-      // The flag value is managed by kLayoutNGRuby in common/features.cc too.
+      name: "LayoutNGLayoutOverflow",
+      depends_on: ["LayoutNG", "LayoutNGFragmentItem"],
       status: "stable",
     },
     {
+      name: "LayoutNGPrinting",
+    },
+    {
       name: "LayoutNGTable",
+    },
+    {
+      name: "LayoutNGTextArea",
+      depends_on: ["EditingNG"],
+    },
+    {
+      name: "LayoutNGTextField",
+      depends_on: ["EditingNG"],
     },
     {
       // Adds the "sources" attribute to the LayoutShift interface for the
@@ -1107,7 +1111,7 @@
     },
     {
       name: "MediaCapturePanTilt",
-      status: "experimental",
+      status: "stable",
     },
     // Set to reflect the MediaCastOverlayButton feature.
     {
@@ -1370,9 +1374,7 @@
     },
     {
       name: "OverflowClip",
-    },
-    {
-      name: "OverflowIconsForMediaControls",
+      status: "test",
     },
     {
       name: "OverscrollCustomization",
@@ -1638,7 +1640,7 @@
     // Enables the use of |RTCRtpTransceiver::stop()|
     {
       name: "RTCRtpTransceiverStop",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "RTCStatsRelativePacketArrivalDelay",
@@ -1789,6 +1791,9 @@
       name: "SmsReceiver",
       status: {"default": "experimental", "Android": "stable"},
     },
+    {
+      name: "SrcsetMaxDensity",
+    },
     // Used as argument in attribute of stable-release functions/interfaces
     // where a runtime-enabled feature name is required for correct IDL syntax.
     // This is a global flag; do not change its status.
@@ -1868,14 +1873,9 @@
       origin_trial_feature_name: "ForceTouchEventFeatureDetectionForInspector",
       status: "stable",
     },
-    // When enabled, tracks the number of times each LayoutBlock
-    // goes through layout. For testing purposes only.
-    {
-      name: "TrackLayoutPassesPerBlock",
-    },
     {
       name: "TransferableStreams",
-      status: "experimental",
+      status: "stable",
       origin_trial_feature_name: "RTCInsertableStreams",
       implied_by: ["RTCInsertableStreams"],
     },
@@ -1916,7 +1916,7 @@
     },
     {
       name: "UnderlineOffsetThickness",
-      status: "test",
+      status: "stable",
     },
     {
       name: "UnoptimizedImagePolicies",
@@ -2006,6 +2006,10 @@
     },
     {
       name: "WebAuthenticationGetAssertionFeaturePolicy",
+      status: "experimental",
+    },
+    {
+      name: "WebAuthenticationLargeBlobExtension",
       status: "experimental",
     },
     {
@@ -2131,6 +2135,7 @@
     },
     {
       name: "WebXRDepth",
+      origin_trial_feature_name: "WebXRDepth",
       depends_on: ["WebXRARModule"],
       status: "experimental",
     },
@@ -2163,6 +2168,11 @@
     {
       name: "WebXRReflectionEstimation",
       depends_on: ["WebXRARModule", "WebXRLightEstimation"],
+      status: "experimental",
+    },
+    {
+      name: "WebXRViewportScale",
+      depends_on: ["WebXRARModule"],
       status: "experimental",
     },
     // Extends window placement functionality for multi-screen devices. Also

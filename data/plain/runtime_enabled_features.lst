@@ -91,6 +91,7 @@ CSSLogicalOverflow
 CSSMarkerNestedPseudoElement
 CSSMarkerPseudoElement
 CSSMatchedPropertiesCacheDependencies
+CSSMathDepth
 CSSMathShift
 CSSMathStyle
 CSSMathVariant
@@ -98,12 +99,10 @@ CSSModules
 CSSOffsetPathRay
 CSSOffsetPathRayContain
 CSSOffsetPositionAnchor
-CSSOMViewScrollCoordinates
 CSSPaintAPIArguments
 CSSPictureInPicture
 CSSPseudoIs
 CSSPseudoWhere
-CSSReducedFontLoadingInvalidations
 CSSReducedFontLoadingLayoutInvalidations
 CSSRevert
 CSSScrollTimeline
@@ -145,6 +144,7 @@ EventTiming
 ExecCommandInJavaScript
 ExpensiveBackgroundTimerThrottling
 ExperimentalContentSecurityPolicyFeatures
+ExperimentalIsFramePending
 ExperimentalIsInputPending
 ExperimentalJSProfiler
 ExperimentalProductivityFeatures
@@ -187,6 +187,7 @@ ImportMaps
 InertAttribute
 InputMultipleFieldsUI
 InstalledApp
+InterestCohortAPI
 IntersectionObserverDocumentScrollingElementRoot
 IsolatedCodeCache
 IsolatedWorldCSP
@@ -196,14 +197,15 @@ LangClientHintHeader
 LayoutNG
 LayoutNGBlockFragmentation
 LayoutNGFieldset
-LayoutNGFlexBox
 LayoutNGForControls
 LayoutNGFragmentItem
 LayoutNGFragmentTraversal
 LayoutNGGrid
+LayoutNGLayoutOverflow
 LayoutNGPrinting
-LayoutNGRuby
 LayoutNGTable
+LayoutNGTextArea
+LayoutNGTextField
 LayoutShiftAttribution
 LazyFrameLoading
 LazyFrameVisibleLoadTimeMetrics
@@ -275,7 +277,6 @@ OriginTrialsSampleAPIInvalidOS
 OriginTrialsSampleAPINavigation
 OriginTrialsSampleAPIThirdParty
 OverflowClip
-OverflowIconsForMediaControls
 OverscrollCustomization
 PageFreezeOptIn
 PageFreezeOptOut
@@ -366,6 +367,7 @@ SignedExchangeSubresourcePrefetch
 SkipAd
 SkipTouchEventFilter
 SmsReceiver
+SrcsetMaxDensity
 StableBlinkFeatures
 StorageAccessAPI
 StrictMimeTypesForWorkers
@@ -382,7 +384,6 @@ TimerThrottlingForBackgroundTabs
 TimerThrottlingForHiddenFrames
 TimeZoneChangeEvent
 TouchEventFeatureDetection
-TrackLayoutPassesPerBlock
 TransferableStreams
 TransformInterop
 TranslateService
@@ -413,6 +414,7 @@ WebAssemblySimd
 WebAssemblyThreads
 WebAuth
 WebAuthenticationGetAssertionFeaturePolicy
+WebAuthenticationLargeBlobExtension
 WebAuthenticationResidentKeyRequirement
 WebBluetooth
 WebBluetoothGetDevices
@@ -444,6 +446,7 @@ WebXRLightEstimation
 WebXRMultiGpu
 WebXRPlaneDetection
 WebXRReflectionEstimation
+WebXRViewportScale
 WindowPlacement
 WindowSegments
 XSLT
