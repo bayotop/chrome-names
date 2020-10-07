@@ -206,6 +206,7 @@ LayoutNGPrinting
 LayoutNGTable
 LayoutNGTextArea
 LayoutNGTextField
+LayoutNGWebkitBox
 LayoutShiftAttribution
 LazyFrameLoading
 LazyFrameVisibleLoadTimeMetrics
