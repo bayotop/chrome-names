@@ -422,12 +422,6 @@
       status: "test",
     },
     {
-      // Support for the CSS color-scheme property from the css-color-adjust spec.
-      // https://drafts.csswg.org/css-color-adjust/#color-scheme-prop
-      name: "CSSColorScheme",
-      status: "stable",
-    },
-    {
       // When the color-scheme is supported via the CSS color-scheme property
       // (CSSColorScheme) or the meta tag (MetaColorScheme), the only UA
       // rendering change is for the canvas background and the :root element
@@ -619,9 +613,6 @@
     // removed after M87.
     {
       name: "CustomElementsV0",
-      origin_trial_feature_name: "WebComponentsV0",
-      origin_trial_type: "deprecation",
-      origin_trial_allows_insecure: true,
       status: "test",
     },
     {
@@ -899,9 +890,6 @@
     // removed after M87.
     {
       name: "HTMLImports",
-      origin_trial_feature_name: "WebComponentsV0",
-      origin_trial_type: "deprecation",
-      origin_trial_allows_insecure: true,
       status: "test",
     },
     {
@@ -1181,13 +1169,6 @@
       // constructor where exposure of the constructor in Window vs other
       // contexts can vary in stable vs experimental.
       name: "MediaSourceStable",
-      status: "stable",
-    },
-    // Support for META tag for setting color-scheme used for opting into dark
-    // UA theming and opting out of forced dark mode.
-    // https://drafts.csswg.org/css-color-adjust/#color-scheme-meta
-    {
-      name: "MetaColorScheme",
       status: "stable",
     },
     // This is enabled by default on Windows only. The only part that's
@@ -1687,7 +1668,7 @@
     },
     {
       name: "ScrollbarGutter",
-      status: "test",
+      status: "experimental",
     },
     {
       name: "ScrollCustomization",
@@ -1748,9 +1729,6 @@
     // removed after M87.
     {
       name: "ShadowDOMV0",
-      origin_trial_feature_name: "WebComponentsV0",
-      origin_trial_type: "deprecation",
-      origin_trial_allows_insecure: true,
       status: "test",
     },
       {

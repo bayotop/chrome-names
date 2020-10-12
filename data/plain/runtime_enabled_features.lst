@@ -74,7 +74,6 @@ CrossOriginOpenerPolicyReporting
 CSS3Text
 CSSAspectRatioProperty
 CSSCalcAsInt
-CSSColorScheme
 CSSColorSchemeUARendering
 CSSContentVisibility
 CSSContentVisibilityHiddenMatchable
@@ -241,7 +240,6 @@ MediaSourceExperimental
 MediaSourceInWorkers
 MediaSourceNewAbortAndDuration
 MediaSourceStable
-MetaColorScheme
 MiddleClickAutoscroll
 MobileLayoutTheme
 ModuleServiceWorker
