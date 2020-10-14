@@ -424,6 +424,7 @@ time-range
 ascent-override
 descent-override
 advance-override
+advance-proportional-override
 line-gap-override
 animation
 background

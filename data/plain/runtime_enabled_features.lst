@@ -80,6 +80,7 @@ CSSContentVisibilityHiddenMatchable
 CSSFocusVisible
 CSSFoldables
 CSSFontFaceAdvanceOverride
+CSSFontFaceAdvanceProportionalOverride
 CSSFontMetricsOverride
 CSSFontSizeAdjust
 CSSHexAlphaColor
@@ -364,7 +365,6 @@ SignedExchangePrefetchCacheForNavigations
 SignedExchangeSubresourcePrefetch
 SkipAd
 SkipTouchEventFilter
-SmsReceiver
 SrcsetMaxDensity
 StableBlinkFeatures
 StorageAccessAPI
@@ -408,6 +408,7 @@ WakeLock
 WebAnimationsAPI
 WebAnimationsSVG
 WebAppManifestDisplayOverride
+WebAppWindowControlsOverlay
 WebAssemblySimd
 WebAssemblyThreads
 WebAuth
@@ -427,6 +428,7 @@ WebGLImageChromium
 WebGPU
 WebHID
 WebNFC
+WebOTP
 WebScheduler
 WebShare
 WebSocketStream

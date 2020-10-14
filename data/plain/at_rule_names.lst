@@ -12,6 +12,7 @@ height
 inherits
 initial-value
 advance-override
+advance-proportional-override
 line-gap-override
 max-height
 max-width

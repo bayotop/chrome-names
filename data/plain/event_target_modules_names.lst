@@ -48,7 +48,7 @@ ServiceWorker
 ServiceWorkerContainer
 ServiceWorkerGlobalScope
 ServiceWorkerRegistration
-SMSReceiver
+WebOTPService
 SpeechRecognition
 SpeechSynthesis
 SpeechSynthesisUtterance
