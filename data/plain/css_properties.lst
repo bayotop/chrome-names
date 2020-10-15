@@ -182,6 +182,7 @@ overflow-anchor
 overflow-wrap
 overflow-inline
 overflow-block
+overflow-clip-margin
 overflow-x
 overflow-y
 overscroll-behavior-inline

@@ -691,3 +691,4 @@ inset-block-start
 syntax
 content-visibility
 origin-trial-test-property
+overflow-clip-margin
