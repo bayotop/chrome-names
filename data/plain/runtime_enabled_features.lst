@@ -2,7 +2,9 @@ Accelerated2dCanvas
 AcceleratedSmallCanvases
 AccessibilityExposeDisplayNone
 AccessibilityExposeHTMLElement
+AccessibilityExposeIgnoredNodes
 AccessibilityObjectModel
+AccessibilityUseAXPositionForDocumentMarkers
 AddressSpace
 AdTagging
 AllowActivationDelegationAttr
@@ -52,6 +54,7 @@ ClickPointerEvent
 ClickRetargetting
 ClipboardSvg
 CompositeAfterPaint
+CompositeBGColorAnimation
 CompositedSelectionUpdate
 CompositeSVG
 CompositingOptimizations
