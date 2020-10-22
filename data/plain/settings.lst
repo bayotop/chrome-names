@@ -156,6 +156,7 @@ lazyImageFirstKFullyLoad2G
 lazyImageFirstKFullyLoad3G
 lazyImageFirstKFullyLoad4G
 preferredColorScheme
+preferredContrast
 prefersReducedMotion
 DontSendKeyEventsToJavascript
 navigationControls
