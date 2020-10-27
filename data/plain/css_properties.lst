@@ -208,6 +208,7 @@ r
 rx
 ry
 scrollbar-gutter
+scrollbar-width
 scroll-behavior
 scroll-margin-block-end
 scroll-customization
@@ -531,6 +532,7 @@ columns
 -internal-visited-text-fill-color
 -internal-visited-text-stroke-color
 -internal-empty-line-height
+-internal-align-self-block
 -epub-caption-side
 -epub-text-combine
 -epub-text-emphasis

@@ -109,6 +109,7 @@ CSSPseudoIs
 CSSPseudoWhere
 CSSReducedFontLoadingLayoutInvalidations
 CSSRevert
+CSSScrollbars
 CSSScrollTimeline
 CSSSnapSize
 CSSSupportsSelector
@@ -166,6 +167,7 @@ FileSystem
 FlexAspectRatio
 FocuslessSpatialNavigation
 FontAccess
+FontAccessChooser
 FontSrcLocalMatching
 ForcedColors
 ForceDeferScriptIntervention
@@ -211,7 +213,6 @@ LayoutNGTable
 LayoutNGTextArea
 LayoutNGTextField
 LayoutNGWebkitBox
-LayoutShiftAttribution
 LazyFrameLoading
 LazyFrameVisibleLoadTimeMetrics
 LazyImageLoading
@@ -350,6 +351,7 @@ ScreenWakeLock
 ScriptedSpeechRecognition
 ScriptedSpeechSynthesis
 ScrollbarGutter
+ScrollbarWidth
 ScrollCustomization
 ScrollSnapAfterLayout
 ScrollTimeline
@@ -378,6 +380,7 @@ StrictMimeTypesForWorkers
 SubresourceWebBundles
 SurfaceEmbeddingFeatures
 SystemWakeLock
+TableCellNewPercents
 TestFeature
 TestFeatureDependent
 TestFeatureImplied
