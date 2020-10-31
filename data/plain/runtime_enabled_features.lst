@@ -108,11 +108,9 @@ CSSPictureInPicture
 CSSPseudoIs
 CSSPseudoWhere
 CSSReducedFontLoadingLayoutInvalidations
-CSSRevert
 CSSScrollbars
 CSSScrollTimeline
 CSSSnapSize
-CSSSupportsSelector
 CSSSystemColorComputeToSelf
 CSSTargetTextPseudoElement
 CSSVariables2AtProperty
@@ -314,7 +312,6 @@ PNaCl
 PointerLockOptions
 PointerRawUpdate
 Portals
-PortalsDefaultActivation
 PreciseMemoryInfo
 PreferNonCompositedScrolling
 PrefersContrast
@@ -451,6 +448,7 @@ WebXRCameraAccess
 WebXRDepth
 WebXRHitTest
 WebXRHitTestEntityTypes
+WebXRImageTracking
 WebXRLightEstimation
 WebXRMultiGpu
 WebXRPlaneDetection
