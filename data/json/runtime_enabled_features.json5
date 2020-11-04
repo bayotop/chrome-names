@@ -503,6 +503,14 @@
       status: "experimental",
     },
     {
+      // Change ScopedStyleResolve and StyleEngine to use the already stored
+      // StyleSheetCollection to find @keyframes rules instead of creating their
+      // own hashmaps, so that we can save memory when there are web components
+      // with @keyframes rules in their stylesheets.
+      name: "CSSKeyframesMemoryReduction",
+      status: "test",
+    },
+    {
       name: "CSSLayoutAPI",
       status: "experimental",
     },
@@ -703,7 +711,7 @@
     },
     {
       name: "DisallowDocumentAccess",
-      status: "stable",
+      status: "experimental",
     },
     {
       name: "DisplayCutoutAPI",
@@ -910,6 +918,11 @@
     {
       name: "GamepadButtonAxisEvents",
       status: "experimental",
+    },
+    {
+      name: "GetCurrentBrowsingContextMedia",
+      depends_on: ["GetDisplayMedia"],
+      status: {"Android": "", "default": "test"},
     },
     {
       name: "GetDisplayMedia",
@@ -1526,6 +1539,7 @@
     {
       name: "PointerLockOptions",
       origin_trial_feature_name: "PointerLockOptions",
+      status: 'experimental',
     },
     {
       name: "PointerRawUpdate",
@@ -1590,6 +1604,9 @@
     {
       // Enabled when blink::features::kRawClipboard is enabled.
       name: "RawClipboard",
+    },
+    {
+      name: "ReadableByteStream",
     },
     {
       name: "RemotePlayback",

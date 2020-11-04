@@ -89,6 +89,7 @@ CSSFontMetricsOverride
 CSSFontSizeAdjust
 CSSHexAlphaColor
 CSSIndependentTransformProperties
+CSSKeyframesMemoryReduction
 CSSLayoutAPI
 CSSLogical
 CSSLogicalOverflow
@@ -177,6 +178,7 @@ ForceTallerSelectPopup
 FractionalScrollOffsets
 FreezeFramesOnVisibility
 GamepadButtonAxisEvents
+GetCurrentBrowsingContextMedia
 GetDisplayMedia
 GroupEffect
 HrefTranslate
@@ -324,6 +326,7 @@ PushMessagingSubscriptionChange
 QuicTransport
 QuotaChange
 RawClipboard
+ReadableByteStream
 RemotePlayback
 RemotePlaybackBackend
 RequestVideoFrameCallback
