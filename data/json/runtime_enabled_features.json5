@@ -1078,7 +1078,7 @@
     {
       name: "LayoutNGTextField",
       depends_on: ["EditingNG"],
-      status: "test",
+      status: "experimental",
     },
     {
       name: "LayoutNGWebkitBox",
@@ -2104,10 +2104,6 @@
       status: "experimental",
     },
     {
-      name: "WebGL2ComputeContext",
-      status: "experimental",
-    },
-    {
       name: "WebGLDraftExtensions",
       status: "experimental",
     },
@@ -2213,7 +2209,7 @@
       name: "WebXRMultiGpu",
       depends_on: ["WebXR"],
       // Enabled when blink::features::kWebXrMultiGpu is enabled.
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "WebXRPlaneDetection",
