@@ -428,6 +428,16 @@ descent-override
 advance-override
 advance-proportional-override
 line-gap-override
+system
+negative
+prefix
+suffix
+range
+pad
+fallback
+symbols
+additive-symbols
+speak-as
 animation
 background
 background-position

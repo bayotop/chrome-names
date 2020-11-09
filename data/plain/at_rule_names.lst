@@ -1,3 +1,4 @@
+additive-symbols
 ascent-override
 descent-override
 end
@@ -13,6 +14,7 @@ inherits
 initial-value
 advance-override
 advance-proportional-override
+fallback
 line-gap-override
 max-height
 max-width
@@ -20,11 +22,19 @@ max-zoom
 min-height
 min-width
 min-zoom
+negative
 orientation
+pad
+prefix
+range
 source
+speak-as
 src
 start
+suffix
+symbols
 syntax
+system
 time-range
 unicode-range
 user-zoom

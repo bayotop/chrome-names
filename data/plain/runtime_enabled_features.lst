@@ -77,6 +77,7 @@ CrossOriginIsolation
 CrossOriginOpenerPolicyReporting
 CSS3Text
 CSSAspectRatioProperty
+CSSAtRuleCounterStyle
 CSSCalcAsInt
 CSSColorSchemeUARendering
 CSSContentVisibility
@@ -381,6 +382,7 @@ SubresourceWebBundles
 SurfaceEmbeddingFeatures
 SystemWakeLock
 TableCellNewPercents
+TargetBlankImpliesNoOpener
 TestFeature
 TestFeatureDependent
 TestFeatureImplied
@@ -396,6 +398,7 @@ TransformInterop
 TranslateService
 TrustedDOMTypes
 TrustedTypeBeforePolicyCreationEvent
+TrustedTypesUseCodeLike
 TrustTokens
 TrustTokensAlwaysAllowIssuance
 UnclosedFormControlIsInvalid
@@ -435,6 +438,7 @@ WebGLDraftExtensions
 WebGLImageChromium
 WebGPU
 WebHID
+WebID
 WebNFC
 WebOTP
 WebScheduler
@@ -454,7 +458,6 @@ WebXRImageTracking
 WebXRLightEstimation
 WebXRMultiGpu
 WebXRPlaneDetection
-WebXRReflectionEstimation
 WebXRViewportScale
 WindowPlacement
 WindowSegments
