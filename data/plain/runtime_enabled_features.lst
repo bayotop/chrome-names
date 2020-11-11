@@ -211,8 +211,7 @@ LayoutNGGrid
 LayoutNGLayoutOverflow
 LayoutNGPrinting
 LayoutNGTable
-LayoutNGTextArea
-LayoutNGTextField
+LayoutNGTextControl
 LayoutNGWebkitBox
 LazyFrameLoading
 LazyFrameVisibleLoadTimeMetrics
@@ -248,6 +247,7 @@ MediaSourceExperimental
 MediaSourceInWorkers
 MediaSourceNewAbortAndDuration
 MediaSourceStable
+MediaStreamInsertableStreams
 MiddleClickAutoscroll
 MobileLayoutTheme
 ModuleServiceWorker
