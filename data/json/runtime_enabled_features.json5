@@ -134,6 +134,10 @@
       status: "test",
     },
     {
+      name: "AddEventListenerAbortSignal",
+      status: "experimental",
+    },
+    {
       name: "AddressSpace",
       status: "experimental",
       implied_by: ["CorsRFC1918"],
@@ -1359,7 +1363,7 @@
     {
       name: "OriginIsolationHeader",
       origin_trial_feature_name: "OriginIsolationHeader",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "OriginPolicy",
@@ -1520,7 +1524,7 @@
     },
     {
       name: "PermissionsPolicyHeader",
-      status: "experimental"
+      status: "stable"
     },
     {
       name: "PermissionsRequestRevoke",
@@ -1562,7 +1566,7 @@
       // feature specifically within blink has no effect. An experimental/test
       // status can only be set here if the default of blink::features::kPortals
       // allows for it.
-      status: {"Android": "test"},
+      status: {"Android": "experimental"},
       origin_trial_feature_name: "Portals",
       origin_trial_os: ["android"],
     },

@@ -5,6 +5,7 @@ AccessibilityExposeHTMLElement
 AccessibilityExposeIgnoredNodes
 AccessibilityObjectModel
 AccessibilityUseAXPositionForDocumentMarkers
+AddEventListenerAbortSignal
 AddressSpace
 AdTagging
 AllowActivationDelegationAttr
