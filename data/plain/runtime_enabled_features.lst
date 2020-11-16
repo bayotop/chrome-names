@@ -460,6 +460,7 @@ WebXRLightEstimation
 WebXRMultiGpu
 WebXRPlaneDetection
 WebXRViewportScale
+WheelEventRegions
 WindowPlacement
 WindowSegments
 XSLT
