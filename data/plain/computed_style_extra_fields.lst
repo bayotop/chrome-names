@@ -103,8 +103,6 @@ DarkColorScheme
 IsInBlockifyingDisplay
 IsFlexOrGridOrCustomItem
 IsFlexOrGridItem
-ListStyleType
-ListStyleStringValue
 IsEnsuredOutsideFlatTree
 IsInsideListElement
 ShouldIgnoreOverflowPropertyForInlineBlockBaseline

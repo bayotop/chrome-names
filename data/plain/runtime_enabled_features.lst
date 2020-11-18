@@ -52,6 +52,7 @@ CanvasHitRegion
 CanvasImageSmoothing
 CaptureTimeInCsrc
 ClickPointerEvent
+ClickPointerEventIntegerCoordinates
 ClickRetargetting
 ClipboardSvg
 CompositeAfterPaint
@@ -378,6 +379,7 @@ SkipTouchEventFilter
 SrcsetMaxDensity
 StableBlinkFeatures
 StorageAccessAPI
+StorageBuckets
 StrictMimeTypesForWorkers
 SubresourceWebBundles
 SurfaceEmbeddingFeatures
