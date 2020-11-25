@@ -543,7 +543,9 @@ columns
 -internal-visited-text-stroke-color
 -internal-forced-background-color
 -internal-forced-border-color
+-internal-forced-color
 -internal-forced-outline-color
+-internal-forced-visited-color
 -internal-empty-line-height
 -internal-align-self-block
 -epub-caption-side

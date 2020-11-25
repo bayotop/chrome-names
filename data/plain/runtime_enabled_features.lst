@@ -209,6 +209,7 @@ LayoutNGFieldset
 LayoutNGForControls
 LayoutNGFragmentItem
 LayoutNGFragmentTraversal
+LayoutNGFullPositionForPoint
 LayoutNGGrid
 LayoutNGLayoutOverflow
 LayoutNGPrinting
@@ -246,6 +247,7 @@ MediaQueryNavigationControls
 MediaSession
 MediaSessionPosition
 MediaSourceExperimental
+MediaSourceExtensionsForWebCodecs
 MediaSourceInWorkers
 MediaSourceNewAbortAndDuration
 MediaSourceStable
