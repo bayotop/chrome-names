@@ -706,9 +706,13 @@
       status: "experimental",
     },
     {
+      name: "DeviceInterface",
+      status: "experimental",
+    },
+    {
       name: "DigitalGoods",
       origin_trial_feature_name: "DigitalGoods",
-      origin_trial_os: ["android"],
+      origin_trial_os: ["android", "chromeos"],
       status: {
         "Android": "experimental",
         "ChromeOS": "experimental",
@@ -2176,13 +2180,16 @@
     },
     {
       name: "WebNFC",
-      origin_trial_feature_name: "WebNFC",
-      origin_trial_os: ["android"],
       status: "experimental",
     },
     {
       name: "WebOTP",
       status: {"default": "experimental", "Android": "stable"},
+    },
+    {
+      name: "WebOTPAssertionFeaturePolicy",
+      status: "experimental",
+      depends_on: ["WebOTP"],
     },
     {
       name: "WebScheduler",

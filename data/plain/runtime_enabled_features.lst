@@ -131,6 +131,7 @@ DelayAsyncScriptExecutionUntilFinishedParsing
 DelayAsyncScriptExecutionUntilFirstPaintOrFinishedParsing
 DelegatedInkTrails
 DesktopCaptureDisableLocalEchoControl
+DeviceInterface
 DigitalGoods
 DirectSockets
 DisableHardwareNoiseSuppression
@@ -446,6 +447,7 @@ WebHID
 WebID
 WebNFC
 WebOTP
+WebOTPAssertionFeaturePolicy
 WebScheduler
 WebShare
 WebSocketStream

@@ -39,6 +39,7 @@ Magnetometer
 Microphone
 MidiFeature
 Modals
+OTPCredentials
 OrientationLock
 Payment
 PictureInPicture
