@@ -607,12 +607,6 @@
       name: "CSSPseudoWhere",
       status: "stable",
     },
-    {
-      // Perform partial layout invalidation on web font loading.
-      // See https://crbug.com/441925 and https://bit.ly/35JjPmq for details.
-      name: "CSSReducedFontLoadingLayoutInvalidations",
-      status: "stable",
-    },
     // Scrollbar styling.
     // https://drafts.csswg.org/css-scrollbars/
     {
@@ -759,6 +753,11 @@
       origin_trial_feature_name: "DocumentPolicyNegotiation",
       status: "experimental",
       depends_on: ['DocumentPolicy']
+    },
+    {
+      // Document transitions, including shared element transitions.
+      // See https://github.com/WICG/proposals/issues/12.
+      name: "DocumentTransition"
     },
     {
       name: "DocumentWrite",
@@ -2024,6 +2023,10 @@
       status: "experimental",
       origin_trial_feature_name: "UnsizedMediaPolicy",
       implied_by: ["ExperimentalProductivityFeatures"]
+    },
+    {
+      name: "URLPattern",
+      status: "experimental",
     },
     {
       name: "UserActivationSameOriginVisibility",

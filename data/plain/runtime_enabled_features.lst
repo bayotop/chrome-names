@@ -111,7 +111,6 @@ CSSPaintAPIArguments
 CSSPictureInPicture
 CSSPseudoIs
 CSSPseudoWhere
-CSSReducedFontLoadingLayoutInvalidations
 CSSScrollbars
 CSSScrollTimeline
 CSSSnapSize
@@ -142,6 +141,7 @@ DocumentCookie
 DocumentDomain
 DocumentPolicy
 DocumentPolicyNegotiation
+DocumentTransition
 DocumentWrite
 EditContext
 EditingNG
@@ -411,6 +411,7 @@ UnclosedFormControlIsInvalid
 UnderlineOffsetThickness
 UnoptimizedImagePolicies
 UnsizedMediaPolicy
+URLPattern
 UserActivationSameOriginVisibility
 UserAgentClientHint
 V8IdleTasks
