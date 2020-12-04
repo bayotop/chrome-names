@@ -321,6 +321,8 @@ inside
 disc
 circle
 square
+disclosure-open
+disclosure-closed
 decimal
 decimal-leading-zero
 arabic-indic
@@ -849,6 +851,11 @@ fabricated
 selector
 single-fold-vertical
 single-fold-horizontal
+no-fold
+laptop
+tent
+tablet
+book
 stable
 force
 more

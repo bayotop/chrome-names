@@ -353,6 +353,7 @@ RTCUnifiedPlan
 RTCUnifiedPlanByDefault
 SameSiteByDefaultCookies
 SanitizerAPI
+ScreenFold
 ScreenWakeLock
 ScriptedSpeechRecognition
 ScriptedSpeechSynthesis

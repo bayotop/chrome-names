@@ -331,10 +331,6 @@ webkitEditableContentChanged
 webkitTransitionEnd
 webkitfullscreenchange
 webkitfullscreenerror
-webkitprerenderdomcontentloaded
-webkitprerenderload
-webkitprerenderstart
-webkitprerenderstop
 webkitspeechchange
 webkitvisibilitychange
 wheel
