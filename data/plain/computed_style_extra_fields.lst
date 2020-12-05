@@ -116,3 +116,4 @@ MathPaddedDepth
 MathMinSize
 MathMaxSize
 EffectiveZIndexZero
+DependsOnContainerQueries

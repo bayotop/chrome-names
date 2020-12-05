@@ -109,6 +109,7 @@ CSSOffsetPathRayContain
 CSSOffsetPositionAnchor
 CSSPaintAPIArguments
 CSSPictureInPicture
+CSSPseudoDir
 CSSPseudoIs
 CSSPseudoWhere
 CSSScrollbars
@@ -304,6 +305,7 @@ PaymentHandlerMinimalUI
 PaymentMethodChangeEvent
 PaymentRequest
 PaymentRequestMerchantValidationEvent
+PaymentRequestShowConsumesUserActivation
 PaymentRetry
 PercentBasedScrolling
 PerformanceManagerInstrumentation
