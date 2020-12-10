@@ -451,6 +451,11 @@
       status: "test",
     },
     {
+      // Whether <image> values are allowed as counter style <symbol>
+      name: "CSSAtRuleCounterStyleImageSymbols",
+      depends_on: ["CSSAtRuleCounterStyle"]
+    },
+    {
       name: "CSSCalcAsInt",
       status: "test",
     },
@@ -461,6 +466,9 @@
       // color property. Enabling this runtime flag will enable dark UA
       // rendering for form controls, scrollbars, etc.
       name: "CSSColorSchemeUARendering",
+    },
+    {
+      name: "CSSContainerQueries",
     },
     {
       // The main content-visibility feature.
@@ -640,7 +648,7 @@
       // Support for ::target-text pseudo element as specified in
       // https://drafts.csswg.org/css-pseudo/#selectordef-target-text
       name: "CSSTargetTextPseudoElement",
-      status: "test",
+      status: "stable",
     },
     // Support for @property rules.
     {
@@ -850,10 +858,6 @@
     {
       name: "FeaturePolicyForClientHints",
       status: "stable",
-    },
-    {
-      name: "FeaturePolicyForSandbox",
-      status: "experimental",
     },
     {
       name: "FeaturePolicyReporting",
@@ -1180,10 +1184,6 @@
     {
       name: "MediaCaptureDepthVideoKind",
       status: "experimental",
-    },
-    {
-      name: "MediaCapturePanTilt",
-      status: "stable",
     },
     // Set to reflect the MediaCastOverlayButton feature.
     {
@@ -1908,6 +1908,10 @@
       origin_trial_feature_name: "SubresourceWebBundles",
       origin_trial_allows_third_party: true,
       status: "test"
+    },
+    {
+      name: "SummaryListItem",
+      status: "test",
     },
     {
       name: "SurfaceEmbeddingFeatures",

@@ -80,8 +80,10 @@ CrossOriginOpenerPolicyReporting
 CSS3Text
 CSSAspectRatioProperty
 CSSAtRuleCounterStyle
+CSSAtRuleCounterStyleImageSymbols
 CSSCalcAsInt
 CSSColorSchemeUARendering
+CSSContainerQueries
 CSSContentVisibility
 CSSContentVisibilityHiddenMatchable
 CSSFocusVisible
@@ -162,7 +164,6 @@ ExtendedTextMetrics
 ExtraWebGLVideoTextureMetadata
 FaceDetector
 FeaturePolicyForClientHints
-FeaturePolicyForSandbox
 FeaturePolicyReporting
 FeaturePolicyVibrateFeature
 FetchUploadStreaming
@@ -234,7 +235,6 @@ MediaCapabilitiesEncryptedMedia
 MediaCapabilitiesSpatialAudio
 MediaCapture
 MediaCaptureDepthVideoKind
-MediaCapturePanTilt
 MediaCastOverlayButton
 MediaControlsExpandGesture
 MediaControlsOverlayPlayButton
@@ -388,6 +388,7 @@ StorageAccessAPI
 StorageBuckets
 StrictMimeTypesForWorkers
 SubresourceWebBundles
+SummaryListItem
 SurfaceEmbeddingFeatures
 SystemWakeLock
 TableCellNewPercents
