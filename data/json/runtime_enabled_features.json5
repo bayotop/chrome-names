@@ -746,6 +746,13 @@
       status: "experimental",
     },
     {
+      name: "DisplayCapturePermissionPolicy",
+      implied_by: ["GetCurrentBrowsingContextMedia"],
+      // TODO(crbug.com/1150788): Implement for Android when this is applied
+      // to getDisplayMedia.
+      status: {"Android": "", "default": "test"},
+    },
+    {
       name: "DisplayCutoutAPI",
       settable_from_internals: true,
     },
@@ -885,6 +892,11 @@
     {
       name: "FileSystem",
       status: "stable",
+    },
+    {
+      // In-development features for the File System Access API.
+      name: "FileSystemAccessAPIExperimental",
+      status: "experimental",
     },
     {
       name: "FlexAspectRatio",
@@ -1092,7 +1104,6 @@
       // enabled, we'll typically fall back to legacy code for block children.
       name: "LayoutNGFullPositionForPoint",
       implied_by: ["LayoutNGBlockFragmentation", "LayoutNGFragmentTraversal"],
-      status: "stable",
     },
     {
       name: "LayoutNGGrid",
@@ -1388,7 +1399,7 @@
     {
       name: "OriginIsolationHeader",
       origin_trial_feature_name: "OriginIsolationHeader",
-      status: "stable",
+      status: "experimental",
     },
     {
       name: "OriginPolicy",
@@ -1911,7 +1922,7 @@
     },
     {
       name: "SummaryListItem",
-      status: "test",
+      status: "stable",
     },
     {
       name: "SurfaceEmbeddingFeatures",
@@ -2109,12 +2120,12 @@
     {
       name: "WebAssemblySimd",
       origin_trial_feature_name: "WebAssemblySimd",
-      status: "experimental",
+      status: "test",
     },
     {
       name: "WebAssemblyThreads",
       origin_trial_feature_name: "WebAssemblyThreads",
-      status: "experimental",
+      status: "test",
     },
     // WebAuth is disabled on Android versions prior to N (7.0) due to lack of
     // supporting APIs, see runtime_features.cc.

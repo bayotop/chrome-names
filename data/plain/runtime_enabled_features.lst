@@ -139,6 +139,7 @@ DirectSockets
 DisableHardwareNoiseSuppression
 DisableLayerSquashing
 DisallowDocumentAccess
+DisplayCapturePermissionPolicy
 DisplayCutoutAPI
 DocumentCookie
 DocumentDomain
@@ -169,6 +170,7 @@ FeaturePolicyVibrateFeature
 FetchUploadStreaming
 FileHandling
 FileSystem
+FileSystemAccessAPIExperimental
 FlexAspectRatio
 FocuslessSpatialNavigation
 FontAccess
