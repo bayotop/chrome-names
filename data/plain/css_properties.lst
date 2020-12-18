@@ -379,6 +379,10 @@ inset-inline-start
 inset-inline-end
 inset-block-start
 inset-block-end
+border-start-start-radius
+border-start-end-radius
+border-end-start-radius
+border-end-end-radius
 -webkit-border-end-color
 -webkit-border-end-style
 -webkit-border-end-width

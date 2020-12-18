@@ -225,10 +225,6 @@
       settable_from_internals: true,
     },
     {
-      name: "AzimuthAltitude",
-      status: "stable",
-    },
-    {
       name: "BackForwardCache",
     },
     {
@@ -466,6 +462,7 @@
       // color property. Enabling this runtime flag will enable dark UA
       // rendering for form controls, scrollbars, etc.
       name: "CSSColorSchemeUARendering",
+      status: "stable",
     },
     {
       name: "CSSContainerQueries",
@@ -552,11 +549,6 @@
     {
       name: "CSSMarkerNestedPseudoElement",
       status: "experimental",
-    },
-    {
-      name: "CSSMarkerPseudoElement",
-      status: "stable",
-      implied_by: ["CSSMarkerNestedPseudoElement"],
     },
     // Enables dependency support for the MatchedPropertiesCache.
     {
@@ -1024,7 +1016,7 @@
     },
     {
       name: "ImportMaps",
-      implied_by: ["ExperimentalProductivityFeatures"],
+      status: "stable"
     },
     {
       name: "InertAttribute",
@@ -1115,6 +1107,10 @@
     },
     {
       name: "LayoutNGPrinting",
+    },
+    {
+      name: "LayoutNGReplaced",
+      depends_on: ["LayoutNG"]
     },
     {
       name: "LayoutNGTable",
@@ -1667,7 +1663,7 @@
     },
     {
       name: "ReadableByteStream",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "RemotePlayback",

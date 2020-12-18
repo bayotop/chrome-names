@@ -25,7 +25,6 @@ AutomaticLazyImageLoading
 AutomationControlled
 AutoPictureInPicture
 AutoplayIgnoresWebAudio
-AzimuthAltitude
 BackForwardCache
 BackForwardCacheExperimentHTTPHeader
 BackgroundFetch
@@ -99,7 +98,6 @@ CSSLayoutAPI
 CSSLogical
 CSSLogicalOverflow
 CSSMarkerNestedPseudoElement
-CSSMarkerPseudoElement
 CSSMatchedPropertiesCacheDependencies
 CSSMathDepth
 CSSMathShift
@@ -218,6 +216,7 @@ LayoutNGFullPositionForPoint
 LayoutNGGrid
 LayoutNGLayoutOverflow
 LayoutNGPrinting
+LayoutNGReplaced
 LayoutNGTable
 LayoutNGTextControl
 LayoutNGWebkitBox
