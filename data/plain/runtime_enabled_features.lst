@@ -143,6 +143,7 @@ DocumentCookie
 DocumentDomain
 DocumentPolicy
 DocumentPolicyNegotiation
+DocumentPolicySyncXHR
 DocumentTransition
 DocumentWrite
 EditContext
