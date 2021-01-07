@@ -15,5 +15,6 @@ InspectorMediaAgent
 InspectorNetworkAgent
 InspectorPageAgent
 InspectorPerformanceAgent
+InspectorPerformanceTimelineAgent
 InspectorTraceEvents
 PerformanceMonitor

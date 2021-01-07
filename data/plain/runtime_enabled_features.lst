@@ -159,7 +159,7 @@ ExperimentalContentSecurityPolicyFeatures
 ExperimentalIsFramePending
 ExperimentalIsInputPending
 ExperimentalJSProfiler
-ExperimentalProductivityFeatures
+ExperimentalPolicies
 ExtendedTextMetrics
 ExtraWebGLVideoTextureMetadata
 FaceDetector
@@ -415,8 +415,6 @@ TrustTokens
 TrustTokensAlwaysAllowIssuance
 UnclosedFormControlIsInvalid
 UnderlineOffsetThickness
-UnoptimizedImagePolicies
-UnsizedMediaPolicy
 URLPattern
 UserActivationSameOriginVisibility
 UserAgentClientHint
