@@ -69,8 +69,6 @@ ContextMenu
 ConversionMeasurement
 ConversionMeasurementInfraSupport
 CookieDeprecationMessages
-CookieStoreDocument
-CookieStoreWorker
 CookiesWithoutSameSiteMustBeSecure
 CooperativeScheduling
 CorsRFC1918
@@ -93,7 +91,6 @@ CSSFontMetricsOverride
 CSSFontSizeAdjust
 CSSHexAlphaColor
 CSSIndependentTransformProperties
-CSSKeyframesMemoryReduction
 CSSLayoutAPI
 CSSLogical
 CSSLogicalOverflow

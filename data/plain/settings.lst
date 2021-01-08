@@ -41,6 +41,7 @@ maxTouchPoints
 multiTargetTapNotificationEnabled
 barrelButtonForDragEnabled
 syncXHRInDocumentsEnabled
+targetBlankImpliesNoOpenerEnabledWillBeRemoved
 cookieEnabled
 navigateOnDragDrop
 DOMPasteAllowed
@@ -165,3 +166,6 @@ ariaModalPrunesAXTree
 useAXMenuList
 selectionClipboardBufferAvailable
 accessibilityIncludeSvgGElement
+bypassCSP
+textAutosizingEnabled
+textAutosizingWindowSizeOverride

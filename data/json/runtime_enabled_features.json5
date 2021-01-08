@@ -406,14 +406,6 @@
       status: "experimental",
     },
     {
-      name: "CookieStoreDocument",
-      status: "stable",
-    },
-    {
-      name: "CookieStoreWorker",
-      status: "stable",
-    },
-    {
       name: "CookiesWithoutSameSiteMustBeSecure",
       status: "test",
     },
@@ -525,14 +517,6 @@
     {
       name: "CSSIndependentTransformProperties",
       status: "experimental",
-    },
-    {
-      // Change ScopedStyleResolve and StyleEngine to use the already stored
-      // StyleSheetCollection to find @keyframes rules instead of creating their
-      // own hashmaps, so that we can save memory when there are web components
-      // with @keyframes rules in their stylesheets.
-      name: "CSSKeyframesMemoryReduction",
-      status: "test",
     },
     {
       name: "CSSLayoutAPI",
@@ -2188,8 +2172,7 @@
     },
     {
       name: "WebHID",
-      origin_trial_feature_name: "WebHID",
-      status: {"Android": "", "default": "experimental"},
+      status: {"Android": "", "default": "stable"},
     },
     {
       name: "WebID",
