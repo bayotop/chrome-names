@@ -112,6 +112,7 @@ CSSPseudoWhere
 CSSScrollbars
 CSSScrollTimeline
 CSSSnapSize
+CSSSpellingGrammarErrors
 CSSSystemColorComputeToSelf
 CSSTargetTextPseudoElement
 CSSVariables2AtProperty
@@ -166,6 +167,7 @@ FeaturePolicyVibrateFeature
 FetchUploadStreaming
 FileHandling
 FileSystem
+FileSystemAccess
 FileSystemAccessAPIExperimental
 FlexAspectRatio
 FocuslessSpatialNavigation
@@ -261,7 +263,6 @@ MojoJS
 MojoJSTest
 MouseSubframeNoImplicitCapture
 NamedPages
-NativeFileSystem
 NativeIO
 NavigatorContentUtils
 NavigatorLanguageInInsecureContext

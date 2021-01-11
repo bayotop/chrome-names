@@ -614,6 +614,17 @@
       name: "CSSSnapSize",
       status: "experimental",
     },
+    {
+      // Support for CSS ::spelling-error, ::grammar-error, and the
+      // spelling-error and grammar-error values in text-decoration-line.
+      //
+      // https://drafts.csswg.org/css-pseudo-4/#selectordef-spelling-error
+      // https://drafts.csswg.org/css-pseudo-4/#selectordef-grammar-error
+      // https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-line-spelling-error
+      // https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-line-grammar-error
+      name: "CSSSpellingGrammarErrors",
+      status: "test",
+    },
     // Make system color keywords compute to themselves.
     // https://github.com/w3c/csswg-drafts/issues/3847
     {
@@ -861,7 +872,7 @@
       // Also enabled when blink::features::kFileHandlingAPI is overridden
       // on the command line (or via chrome://flags).
       name: "FileHandling",
-      depends_on: ["NativeFileSystem"],
+      depends_on: ["FileSystemAccess"],
       status: {"Android": "test", "default": "experimental"},
       origin_trial_feature_name: "FileHandling",
       origin_trial_os: ["win", "mac", "linux", "chromeos"],
@@ -869,6 +880,10 @@
     {
       name: "FileSystem",
       status: "stable",
+    },
+    {
+      name: "FileSystemAccess",
+      status: {"Android": "test", "default": "stable"},
     },
     {
       // In-development features for the File System Access API.
@@ -1295,15 +1310,6 @@
       status: "stable",
     },
     {
-      // Also enabled when blink::features::kNativeFileSystemAPI is overridden
-      // on the command line (or via chrome://flags).
-      name: "NativeFileSystem",
-      status: {"Android": "test", "default": "stable"},
-      // TODO(mek): Remove origin trial integration.
-      origin_trial_feature_name: "NativeFileSystem2",
-      origin_trial_os: ["win", "mac", "linux", "chromeos"],
-    },
-    {
       name: "NativeIO",
       status: "experimental",
     },
@@ -1380,7 +1386,6 @@
     },
     {
       name: "OriginIsolationHeader",
-      origin_trial_feature_name: "OriginIsolationHeader",
       status: "experimental",
     },
     {
@@ -2172,7 +2177,8 @@
     },
     {
       name: "WebHID",
-      status: {"Android": "", "default": "stable"},
+      origin_trial_feature_name: "WebHID",
+      status: {"Android": "", "default": "experimental"},
     },
     {
       name: "WebID",
