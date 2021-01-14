@@ -118,6 +118,7 @@ CSSTargetTextPseudoElement
 CSSVariables2AtProperty
 CSSVariables2ImageValues
 CSSVariables2TransformValues
+CullRectUpdate
 CustomElementDefaultStyle
 CustomElementsV0
 CustomStatePseudoClass
@@ -177,7 +178,6 @@ FontSrcLocalMatching
 ForcedColors
 ForceDeferScriptIntervention
 ForceEagerMeasureMemory
-ForceLoadAtTop
 ForceOverlayFullscreenVideo
 ForceSynchronousHTMLParsing
 ForceTallerSelectPopup
@@ -201,6 +201,7 @@ InertAttribute
 InputMultipleFieldsUI
 InstalledApp
 InterestCohortAPI
+InterestCohortFeaturePolicy
 IntersectionObserverDocumentScrollingElementRoot
 IsolatedCodeCache
 KeyboardFocusableScrollers

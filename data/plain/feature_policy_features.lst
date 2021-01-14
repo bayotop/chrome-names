@@ -34,6 +34,7 @@ Geolocation
 Gyroscope
 Hid
 IdleDetection
+InterestCohort
 Magnetometer
 Microphone
 MidiFeature
