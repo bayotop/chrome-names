@@ -922,9 +922,7 @@
     // For simulating Android's overlay fullscreen video in web tests on Linux.
     {
       name: "ForcedColors",
-      // No status because this blink runtime feature doesn't work by itself.
-      // It's controlled by the corresponding Chromium feature which needs to
-      // be enabled to make the whole feature work.
+      status: "stable",
     },
     {
       name: "ForceDeferScriptIntervention",
@@ -1068,7 +1066,7 @@
       // provides a convenient way for testing legacy layout code path in blink
       // unit tests.
       name: "LayoutNG",
-      implied_by: ["LayoutNGGrid", "BidiCaretAffinity"],
+      implied_by: ["LayoutNGGrid", "BidiCaretAffinity", "CSSContainerQueries"],
       status: "stable",
     },
     {
@@ -1083,11 +1081,6 @@
     {
       name: "LayoutNGForControls",
       depends_on: ["LayoutNG"],
-      status: "stable",
-    },
-    {
-      name: "LayoutNGFragmentItem",
-      implied_by: ["LayoutNGBlockFragmentation", "LayoutNGFragmentTraversal", "EditingNG"],
       status: "stable",
     },
     {
@@ -1107,7 +1100,7 @@
     },
     {
       name: "LayoutNGLayoutOverflow",
-      depends_on: ["LayoutNG", "LayoutNGFragmentItem"],
+      depends_on: ["LayoutNG"],
       status: "stable",
     },
     {
@@ -1726,6 +1719,13 @@
       origin_trial_feature_name: "RTCQuicTransport",
       status: "experimental",
     },
+    // Enables the use of |RTCRtpTransceiver::setOfferedRtpHeaderExtensions|,
+    // |RTCRtpTransceiver::headerExtensionsToOffer|, and
+    // |RTCRtpTransceiver::headerExtensionsNegotiated|.
+    {
+      name: "RTCRtpHeaderExtensionControl",
+      status: "experimental",
+    },
     // Enables the use of |RTCRtpTransceiver::stop()|
     {
       name: "RTCRtpTransceiverStop",
@@ -2249,6 +2249,11 @@
       origin_trial_feature_name: "WebXRDepth",
       depends_on: ["WebXRARModule"],
       status: "experimental",
+    },
+    {
+      name: "WebXRHandInput",
+      depends_on: ["WebXRARModule"],
+      status: "experimental"
     },
     {
       name: "WebXRHitTest",

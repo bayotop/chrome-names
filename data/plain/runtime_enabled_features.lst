@@ -211,7 +211,6 @@ LayoutNG
 LayoutNGBlockFragmentation
 LayoutNGFieldset
 LayoutNGForControls
-LayoutNGFragmentItem
 LayoutNGFragmentTraversal
 LayoutNGFullPositionForPoint
 LayoutNGGrid
@@ -349,6 +348,7 @@ RtcAudioJitterBufferRtxHandling
 RTCIceTransportExtension
 RTCInsertableStreams
 RTCQuicTransport
+RTCRtpHeaderExtensionControl
 RTCRtpTransceiverStop
 RTCStatsRelativePacketArrivalDelay
 RTCSvcScalabilityMode
@@ -463,6 +463,7 @@ WebXRAnchors
 WebXRARModule
 WebXRCameraAccess
 WebXRDepth
+WebXRHandInput
 WebXRHitTest
 WebXRHitTestEntityTypes
 WebXRImageTracking
