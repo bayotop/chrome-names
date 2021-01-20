@@ -819,6 +819,9 @@ calc
 min
 max
 clamp
+infinity
+-infinity
+nan
 mandatory
 proximity
 style

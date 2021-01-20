@@ -49,6 +49,8 @@ Canvas2dScrollPathIntoView
 CanvasColorManagement
 CanvasHitRegion
 CanvasImageSmoothing
+CapabilityDelegation
+CapabilityDelegationPaymentRequest
 CaptureTimeInCsrc
 ClickPointerEvent
 ClickPointerEventIntegerCoordinates
@@ -79,6 +81,7 @@ CSSAspectRatioProperty
 CSSAtRuleCounterStyle
 CSSAtRuleCounterStyleImageSymbols
 CSSCalcAsInt
+CSSCalcInfinityAndNaN
 CSSColorSchemeUARendering
 CSSContainerQueries
 CSSContentVisibility
@@ -294,7 +297,6 @@ PageFreezeOptIn
 PageFreezeOptOut
 PagePopup
 PaintUnderInvalidationChecking
-ParentNodeReplaceChildren
 ParseUrlProtocolHandler
 PassPaintVisualRectToCompositor
 PasswordReveal
@@ -398,6 +400,7 @@ TestFeature
 TestFeatureDependent
 TestFeatureImplied
 TextDetector
+TextFragmentColorChange
 TextFragmentIdentifiers
 ThirdPartyOriginTrials
 TimerThrottlingForBackgroundTabs
