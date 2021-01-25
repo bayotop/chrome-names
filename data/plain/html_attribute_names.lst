@@ -9,6 +9,7 @@ allow
 allowfullscreen
 allowpaymentrequest
 alt
+anchor
 archive
 as
 async

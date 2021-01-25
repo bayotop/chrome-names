@@ -47,6 +47,7 @@ Canvas2dContextLostRestored
 Canvas2dImageChromium
 Canvas2dScrollPathIntoView
 CanvasColorManagement
+CanvasFormattedText
 CanvasHitRegion
 CanvasImageSmoothing
 CapabilityDelegation
@@ -77,6 +78,7 @@ CorsRFC1918
 CrossOriginIsolation
 CrossOriginOpenerPolicyReporting
 CSS3Text
+CSSAspectRatioInterpolation
 CSSAspectRatioProperty
 CSSAtRuleCounterStyle
 CSSAtRuleCounterStyleImageSymbols
@@ -192,6 +194,7 @@ GetDisplayMedia
 GroupEffect
 HrefTranslate
 HTMLImports
+HTMLPopupElement
 IDBObserver
 IDBPutAll
 IDBRelaxedDurability
@@ -336,7 +339,6 @@ PushMessagingSubscriptionChange
 QuicTransport
 QuotaChange
 RawClipboard
-ReadableByteStream
 RemotePlayback
 RemotePlaybackBackend
 RequestVideoFrameCallback
