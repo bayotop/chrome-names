@@ -146,6 +146,7 @@ DisplayCutoutAPI
 DocumentCookie
 DocumentDomain
 DocumentPolicy
+DocumentPolicyDocumentDomain
 DocumentPolicyNegotiation
 DocumentPolicySyncXHR
 DocumentTransition
@@ -195,12 +196,10 @@ GroupEffect
 HrefTranslate
 HTMLImports
 HTMLPopupElement
-IDBObserver
 IDBPutAll
 IDBRelaxedDurability
 IdleDetection
 IgnoreCrossOriginWindowWhenNamedAccessOnWindow
-ImageOrientation
 ImplicitRootScroller
 ImportMaps
 InertAttribute
@@ -396,7 +395,6 @@ SubresourceWebBundles
 SummaryListItem
 SurfaceEmbeddingFeatures
 SystemWakeLock
-TableCellNewPercents
 TargetBlankImpliesNoOpener
 TestFeature
 TestFeatureDependent

@@ -39,7 +39,6 @@ TextEmphasisMark
 TextIndentLine
 TextIndentType
 SubtreeWillChangeContents
-SelfOrAncestorHasDirAutoAttribute
 SubtreeIsSticky
 HyphenationLimitBefore
 HyphenationLimitAfter

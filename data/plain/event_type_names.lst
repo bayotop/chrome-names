@@ -142,6 +142,7 @@ gesturetapunconfirmed
 gestureflingstart
 gotpointercapture
 hashchange
+hide
 icecandidate
 icecandidateerror
 iceconnectionstatechange

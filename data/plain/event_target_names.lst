@@ -26,6 +26,7 @@ PortalHost
 VisualViewport
 Window
 DedicatedWorkerGlobalScope
+Screen
 SharedWorker
 SharedWorkerGlobalScope
 Worker
