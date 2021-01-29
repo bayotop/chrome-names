@@ -44,6 +44,7 @@ aria-rowspan
 aria-selected
 aria-setsize
 aria-sort
+aria-touchpassthrough
 aria-valuemax
 aria-valuemin
 aria-valuenow

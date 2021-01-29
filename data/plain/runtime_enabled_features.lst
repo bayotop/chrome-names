@@ -1,5 +1,6 @@
 Accelerated2dCanvas
 AcceleratedSmallCanvases
+AccessibilityAriaVirtualContent
 AccessibilityExposeDisplayNone
 AccessibilityExposeHTMLElement
 AccessibilityExposeIgnoredNodes
@@ -16,6 +17,7 @@ AnimationWorklet
 AOMAriaProperties
 AOMAriaRelationshipProperties
 AppCache
+AriaTouchPassthrough
 AudioOutputDevices
 AudioVideoTracks
 AudioWorkletRealtimeThread
