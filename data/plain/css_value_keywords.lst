@@ -826,6 +826,8 @@ mandatory
 proximity
 style
 size
+block-size
+inline-size
 auto-fill
 auto-fit
 var

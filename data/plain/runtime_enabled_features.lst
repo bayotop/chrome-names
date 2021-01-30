@@ -88,6 +88,7 @@ CSSCalcAsInt
 CSSCalcInfinityAndNaN
 CSSColorSchemeUARendering
 CSSContainerQueries
+CSSContainSize1D
 CSSContentVisibility
 CSSContentVisibilityHiddenMatchable
 CSSFocusVisible
@@ -264,6 +265,7 @@ MediaSourceStable
 MediaStreamInsertableStreams
 MiddleClickAutoscroll
 MobileLayoutTheme
+ModalCloseWatcher
 ModuleServiceWorker
 ModuleSharedWorker
 MojoJS
@@ -343,7 +345,6 @@ RawClipboard
 RemotePlayback
 RemotePlaybackBackend
 RequestVideoFrameCallback
-ResizeObserverUpdates
 RestrictAutomaticLazyFrameLoadingToDataSaver
 RestrictAutomaticLazyImageLoadingToDataSaver
 RestrictGamepadAccess

@@ -37,12 +37,13 @@ backgroundfetchabort
 backgroundfetchclick
 backgroundfetchfail
 backgroundfetchsuccess
-beforematch
+beforeclose
 beforecopy
 beforecreatepolicy
 beforecut
 beforeinput
 beforeinstallprompt
+beforematch
 beforepaste
 beforeprint
 beforeunload
