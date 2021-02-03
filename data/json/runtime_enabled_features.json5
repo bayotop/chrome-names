@@ -566,10 +566,6 @@
       name: "CSSMarkerNestedPseudoElement",
       status: "experimental",
     },
-    // Enables dependency support for the MatchedPropertiesCache.
-    {
-      name: "CSSMatchedPropertiesCacheDependencies",
-    },
     {
       name: "CSSMathDepth",
       status: "experimental",
@@ -700,7 +696,7 @@
     },
     {
       name: "CustomStatePseudoClass",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "Database",
@@ -948,10 +944,12 @@
       // be enabled to make the whole feature work.
     },
     {
-      name: "FontAccessChooser",
+      name: "FontAccessPersistent",
       // TODO(crbug.com/1000486): Add when the Origin Trial dependency bug is fixed.
       // depends_on: ["FontAccess"],
-      status: "experimental",
+      // No status because this blink runtime feature doesn't work by itself.
+      // It's controlled by the corresponding Chromium feature which needs to
+      // be enabled to make the whole feature work.
     },
     {
       name: "FontSrcLocalMatching",
@@ -1006,8 +1004,16 @@
         },
     },
     {
+      name: "GravitySensor",
+      status: "experimental",
+    },
+    {
       name: "GroupEffect",
       status: "test",
+    },
+    {
+      name: "HandwritingRecognition",
+      status: "experimental",
     },
     {
       name: "HrefTranslate",

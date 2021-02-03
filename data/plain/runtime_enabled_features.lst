@@ -103,7 +103,6 @@ CSSLayoutAPI
 CSSLogical
 CSSLogicalOverflow
 CSSMarkerNestedPseudoElement
-CSSMatchedPropertiesCacheDependencies
 CSSMathDepth
 CSSMathShift
 CSSMathStyle
@@ -182,7 +181,7 @@ FileSystemAccessAPIExperimental
 FlexAspectRatio
 FocuslessSpatialNavigation
 FontAccess
-FontAccessChooser
+FontAccessPersistent
 FontSrcLocalMatching
 ForcedColors
 ForceDeferScriptIntervention
@@ -195,7 +194,9 @@ FreezeFramesOnVisibility
 GamepadButtonAxisEvents
 GetCurrentBrowsingContextMedia
 GetDisplayMedia
+GravitySensor
 GroupEffect
+HandwritingRecognition
 HrefTranslate
 HTMLImports
 HTMLPopupElement

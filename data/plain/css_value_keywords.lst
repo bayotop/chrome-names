@@ -871,6 +871,10 @@ symbolic
 numeric
 additive
 extends
+-internal-simp-chinese-informal
+-internal-simp-chinese-formal
+-internal-trad-chinese-informal
+-internal-trad-chinese-formal
 bullets
 numbers
 words
