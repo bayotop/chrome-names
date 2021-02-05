@@ -441,6 +441,7 @@ WebAppWindowControlsOverlay
 WebAssemblySimd
 WebAssemblyThreads
 WebAuth
+WebAuthenticationConditionalUI
 WebAuthenticationGetAssertionFeaturePolicy
 WebAuthenticationLargeBlobExtension
 WebAuthenticationResidentKeyRequirement

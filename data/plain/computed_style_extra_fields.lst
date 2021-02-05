@@ -28,6 +28,7 @@ VerticalAlign
 VerticalAlignLength
 border-image
 Background
+HasClipPath
 HasAutoClip
 HasAutoZIndex
 font
