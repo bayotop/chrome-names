@@ -455,6 +455,7 @@ WebCryptoCurve25519
 WebGLDraftExtensions
 WebGLImageChromium
 WebGPU
+WebGPUImportTexture
 WebHID
 WebID
 WebNFC
