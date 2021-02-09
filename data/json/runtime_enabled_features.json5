@@ -1309,6 +1309,7 @@
     {
       name: "MediaStreamInsertableStreams",
       status: "experimental",
+      origin_trial_feature_name: "WebCodecs"
     },
     // This is enabled by default on Windows only. The only part that's
     // "experimental" is the support on other platforms.
@@ -1487,7 +1488,7 @@
     },
     {
       name: "OverflowClip",
-      status: "test",
+      status: "stable",
     },
     {
       name: "OverscrollCustomization",
@@ -1941,7 +1942,7 @@
       name: "SubresourceWebBundles",
       origin_trial_feature_name: "SubresourceWebBundles",
       origin_trial_allows_third_party: true,
-      status: "test"
+      status: "experimental"
     },
     {
       name: "SummaryListItem",
@@ -2333,7 +2334,7 @@
     {
       name: "WebXRViewportScale",
       depends_on: ["WebXRARModule"],
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "WheelEventRegions",
