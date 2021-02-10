@@ -314,7 +314,6 @@ PaymentHandlerMinimalUI
 PaymentMethodChangeEvent
 PaymentRequest
 PaymentRequestMerchantValidationEvent
-PaymentRequestShowConsumesUserActivation
 PaymentRetry
 PercentBasedScrolling
 PerformanceManagerInstrumentation
