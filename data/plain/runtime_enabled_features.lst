@@ -59,6 +59,7 @@ ClickPointerEvent
 ClickPointerEventIntegerCoordinates
 ClickRetargetting
 ClipboardSvg
+COLRV1Fonts
 CompositeAfterPaint
 CompositeBGColorAnimation
 CompositedSelectionUpdate
@@ -435,6 +436,7 @@ VisibilityStateEntry
 WakeLock
 WebAnimationsAPI
 WebAnimationsSVG
+WebAppLinkCapturing
 WebAppManifestDisplayOverride
 WebAppWindowControlsOverlay
 WebAssemblySimd
