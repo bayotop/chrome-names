@@ -5,6 +5,7 @@ BluetoothDevice
 BluetoothRemoteGATTCharacteristic
 CookieStore
 DelegatedInkTrail
+EyeDropper
 DeviceService
 MediaKeySession
 FileWriter

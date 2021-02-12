@@ -170,6 +170,7 @@ ExperimentalJSProfiler
 ExperimentalPolicies
 ExtendedTextMetrics
 ExtraWebGLVideoTextureMetadata
+EyeDropperAPI
 FaceDetector
 FeaturePolicyForClientHints
 FeaturePolicyReporting
@@ -439,6 +440,7 @@ WebAnimationsSVG
 WebAppLinkCapturing
 WebAppManifestDisplayOverride
 WebAppWindowControlsOverlay
+WebAssemblyExceptions
 WebAssemblySimd
 WebAssemblyThreads
 WebAuth

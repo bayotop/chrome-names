@@ -891,6 +891,10 @@
       name: "ExtraWebGLVideoTextureMetadata",
     },
     {
+      name: "EyeDropperAPI",
+      status: "test",
+    },
+    {
       name: "FaceDetector",
       status: "experimental",
     },
@@ -2072,7 +2076,7 @@
     },
     {
       name: "UserAgentClientHint",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "V8IdleTasks",
@@ -2130,6 +2134,11 @@
     },
     {
       name: "WebAppWindowControlsOverlay",
+    },
+    {
+      name: "WebAssemblyExceptions",
+      origin_trial_feature_name: "WebAssemblyExceptions",
+      status: "test",
     },
     {
       name: "WebAssemblySimd",
