@@ -49,6 +49,7 @@ aria-valuemax
 aria-valuemin
 aria-valuenow
 aria-valuetext
+aria-virtualcontent
 alert
 alertdialog
 application

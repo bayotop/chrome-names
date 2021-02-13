@@ -67,6 +67,7 @@ CompositeRelativeKeyframes
 CompositeSVG
 CompositingOptimizations
 ComputedAccessibilityInfo
+ComputePressure
 ConsolidatedMovementXY
 ContactsManager
 ContactsManagerExtraProperties
@@ -442,7 +443,6 @@ WebAppManifestDisplayOverride
 WebAppWindowControlsOverlay
 WebAssemblyExceptions
 WebAssemblySimd
-WebAssemblyThreads
 WebAuth
 WebAuthenticationConditionalUI
 WebAuthenticationGetAssertionFeaturePolicy
