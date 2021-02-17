@@ -486,6 +486,12 @@
       status: "test",
     },
     {
+      // Support case-sensitive attribute selector modifier
+      // https://drafts.csswg.org/selectors-4/#attribute-case
+      name: "CSSCaseSensitiveSelector",
+      status: "test",
+    },
+    {
       // When the color-scheme is supported via the CSS color-scheme property
       // (CSSColorScheme) or the meta tag (MetaColorScheme), the only UA
       // rendering change is for the canvas background and the :root element
@@ -500,6 +506,7 @@
     {
       // Support for contain:inline-size and contain:block-size
       name: "CSSContainSize1D",
+      implied_by: ["CSSContainerQueries"]
     },
     {
       // The main content-visibility feature.
@@ -1104,6 +1111,10 @@
       status: "stable",
     },
     {
+      name: "KeyboardAccessibleTooltip",
+      status: "experimental",
+    },
+    {
       name: "KeyboardFocusableScrollers",
       status: "experimental",
     },
@@ -1130,11 +1141,6 @@
     },
     {
       name: "LayoutNGFieldset",
-      depends_on: ["LayoutNG"],
-      status: "stable",
-    },
-    {
-      name: "LayoutNGForControls",
       depends_on: ["LayoutNG"],
       status: "stable",
     },
