@@ -311,10 +311,6 @@
       status: "experimental",
     },
     {
-      name: "Canvas2dContextLostRestored",
-      status: "experimental",
-    },
-    {
       name: "Canvas2dImageChromium",
     },
     {
@@ -469,7 +465,7 @@
     {
       // https://drafts.csswg.org/css-counter-styles-3
       name: "CSSAtRuleCounterStyle",
-      status: "test",
+      status: "stable",
     },
     {
       // Whether <image> values are allowed as counter style <symbol>
@@ -630,7 +626,7 @@
     },
     {
       name: "CSSPseudoDir",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "CSSPseudoIs",
@@ -700,16 +696,11 @@
     },
     {
       name: "CullRectUpdate",
+      implied_by: ["CompositeAfterPaint"],
     },
     {
       name: "CustomElementDefaultStyle",
       status: "experimental",
-    },
-    // TODO(937746): Web Components v0 is disabled by default, and will be
-    // removed after M87.
-    {
-      name: "CustomElementsV0",
-      status: "test",
     },
     {
       name: "CustomStatePseudoClass",
@@ -721,8 +712,7 @@
     },
     {
       name: "DeclarativeShadowDOM",
-      origin_trial_feature_name: "DeclarativeShadowDOM",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "DecodeJpeg420ImagesToYUV",
@@ -1036,12 +1026,6 @@
       origin_trial_feature_name: "HrefTranslate",
       status: "stable",
     },
-    // TODO(937746): Web Components v0 is disabled by default, and will be
-    // removed after M87.
-    {
-      name: "HTMLImports",
-      status: "test",
-    },
     {
       name: "HTMLPopupElement",
       status: "experimental",
@@ -1338,10 +1322,6 @@
     {
       name: "ModuleServiceWorker",
       status: "test",
-    },
-    {
-      name: "ModuleSharedWorker",
-      status: "stable",
     },
     {
       name: "MojoJS",
@@ -1664,6 +1644,9 @@
       status: "stable",
     },
     {
+      name: "Prerender2",
+    },
+    {
       name: "Presentation",
       status: "stable",
     },
@@ -1858,7 +1841,7 @@
     },
     {
       name: "SecurePaymentConfirmation",
-      origin_trial_feature_name: "SecurePaymentConfirmation",
+      origin_trial_feature_name: "SecurePaymentConfirmationV2",
       origin_trial_os: ["mac", "win"],
       status: "experimental",
     },
@@ -1888,12 +1871,6 @@
     {
       name: "ServiceWorkerFetchEventWorkerTiming",
       status: "experimental",
-    },
-    // TODO(937746): Web Components v0 is disabled by default, and will be
-    // removed after M87.
-    {
-      name: "ShadowDOMV0",
-      status: "test",
     },
     {
       name: "SharedArrayBuffer",
@@ -2154,9 +2131,6 @@
       name: "WebAppLinkCapturing",
     },
     {
-      name: "WebAppManifestDisplayOverride",
-    },
-    {
       name: "WebAppWindowControlsOverlay",
     },
     {
@@ -2260,7 +2234,6 @@
     },
     {
       name: "WebID",
-      status: "experimental"
     },
     {
       name: "WebNFC",
@@ -2325,7 +2298,7 @@
       name: "WebXRDepth",
       origin_trial_feature_name: "WebXRDepth",
       depends_on: ["WebXRARModule"],
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "WebXRHandInput",

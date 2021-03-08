@@ -33,6 +33,7 @@ media_capabilities_names.json5:
 media_feature_names.json5: 
 media_type_names.json5: 
 performance_entry_names.json5: 
+permissions_policy_features.json5: 
 platform_probes.json5: 
 runtime_enabled_features.json5: 
 settings.json5: 
