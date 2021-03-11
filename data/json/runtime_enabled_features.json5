@@ -915,6 +915,7 @@
     {
       name: "FetchUploadStreaming",
       origin_trial_feature_name: "FetchUploadStreaming",
+      origin_trial_allows_third_party: true,
       status: "experimental",
     },
     {
@@ -1050,7 +1051,7 @@
     },
     {
       name: "IgnoreCrossOriginWindowWhenNamedAccessOnWindow",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "ImplicitRootScroller",
@@ -1103,6 +1104,7 @@
     },
     {
       name: "LangAttributeAwareFormControlUI",
+      settable_from_internals: true,
     },
     {
       name: "LangClientHintHeader",
