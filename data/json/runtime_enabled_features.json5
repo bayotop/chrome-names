@@ -386,10 +386,6 @@
       status: "stable"
     },
     {
-      name: "CompositingOptimizations",
-      status: "stable"
-    },
-    {
       name: "ComputedAccessibilityInfo",
       status: "experimental",
     },
@@ -429,10 +425,6 @@
       // Feature to explicitly disable/enable the Conversion
       // Measurement API when there is not browser process side infra.
       name: "ConversionMeasurementInfraSupport",
-    },
-    {
-      name: "CookieDeprecationMessages",
-      status: "experimental",
     },
     {
       name: "CookiesWithoutSameSiteMustBeSecure",
@@ -949,6 +941,9 @@
       status: "experimental",
     },
     {
+      name: "FledgeInterestGroups",
+    },
+    {
       name: "FocuslessSpatialNavigation",
       settable_from_internals: true,
     },
@@ -1150,6 +1145,7 @@
     },
     {
       name: "LayoutNGGrid",
+      implied_by: ["CSSContainerQueries"],
     },
     {
       name: "LayoutNGLayoutOverflow",
@@ -1171,8 +1167,7 @@
     {
       name: "LayoutNGTextControl",
       depends_on: ["EditingNG"],
-      // In Chrome, the flag is managed by Finch.
-      status: "test",
+      status: "stable",
     },
     {
       name: "LazyFrameLoading",
@@ -1338,7 +1333,7 @@
     },
     {
       name: "ModuleServiceWorker",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "MojoJS",
