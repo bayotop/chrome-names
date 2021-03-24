@@ -541,6 +541,12 @@
       depends_on: ["CSSFontMetricsOverride"],
     },
     {
+      // @font-face descriptor size-adjust.
+      // https://drafts.csswg.org/css-fonts-5/#descdef-font-face-size-adjust
+      name: "CSSFontFaceSizeAdjust",
+      status: "test",
+    },
+    {
       // @font-face descriptors ascent-override, descent-override and
       // line-gap-override.
       // https://drafts.csswg.org/css-fonts-4/#font-metrics-override-desc
@@ -549,7 +555,7 @@
     },
     {
       name: "CSSFontSizeAdjust",
-      status: "experimental",
+      status: "test",
     },
     {
       // This needs to be kept as a runtime flag as long as we need to forcibly
@@ -841,10 +847,6 @@
       status: "stable",
     },
     {
-      name: "EncryptedMediaPersistentUsageRecordSession",
-      status: "stable",
-    },
-    {
       name: "EnterKeyHintAttribute",
       status: "stable",
     },
@@ -1014,7 +1016,7 @@
     },
     {
       name: "GravitySensor",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "GroupEffect",
@@ -1804,10 +1806,6 @@
       name: "SanitizerAPI",
       status: "test",
     },
-    {
-      name: "ScreenWakeLock",
-      status: "stable",
-    },
     // WebSpeech API with both speech recognition and synthesis functionality
     // is not fully enabled on all platforms.
     {
@@ -1913,8 +1911,20 @@
       name: "SkipTouchEventFilter",
       settable_from_internals: true,
     },
+    // An origin trial feature name is required for this, even though it's
+    // actually enabled by the more specific trial. Having these as separate
+    // features will allow Blink to distinguish for which thing the trial
+    // was enabled.
     {
       name: "SpeculationRules",
+      implied_by: ["SpeculationRulesPrefetchProxy"],
+      origin_trial_feature_name: "SpeculationRules__DONOTUSE",
+    },
+    // Origin trial to enable Speculation Rules for access to the prefetch proxy.
+    // https://crbug.com/1190167
+    {
+      name: "SpeculationRulesPrefetchProxy",
+      origin_trial_feature_name: "SpeculationRulesPrefetchProxy",
     },
     {
       name: "SrcsetMaxDensity",
@@ -1949,10 +1959,6 @@
       origin_trial_feature_name: "SubresourceWebBundles",
       origin_trial_allows_third_party: true,
       status: "experimental"
-    },
-    {
-      name: "SummaryListItem",
-      status: "stable",
     },
     {
       name: "SurfaceEmbeddingFeatures",
@@ -2125,9 +2131,13 @@
       status: "experimental",
     },
     {
+      // The "WakeLock" feature was originally implied_by "ScreenWakeLock" and
+      // "SystemWakeLock". The former was removed after being promoted to
+      // stable, but we need to keep this feature around for code and IDLs that
+      // should work with both screen and system wake locks.
       name: "WakeLock",
-      origin_trial_feature_name: "WakeLock",
-      implied_by: ['ScreenWakeLock', 'SystemWakeLock'],
+      status: "stable",
+      implied_by: ['SystemWakeLock'],
     },
     {
       name: "WebAnimationsAPI",
@@ -2140,6 +2150,7 @@
     },
     {
       name: "WebAppLinkCapturing",
+      origin_trial_feature_name: "WebAppLinkCapturing",
     },
     {
       name: "WebAppWindowControlsOverlay",
