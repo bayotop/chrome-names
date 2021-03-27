@@ -1,0 +1,14 @@
+Default
+FontDisplay
+LosslessImagesMaxBpp
+ForceLoadAtTop
+LosslessImagesStrictMaxBpp
+LossyImagesMaxBpp
+OversizedImages
+UnsizedMedia
+LayoutAnimations
+DocumentWrite
+SyncScript
+JSProfiling
+SyncXHR
+DocumentDomain
