@@ -438,12 +438,13 @@ WakeLock
 WebAnimationsAPI
 WebAnimationsSVG
 WebAppLinkCapturing
+WebAppsLockScreen
 WebAppWindowControlsOverlay
+WebAssemblyCSP
 WebAssemblyExceptions
 WebAssemblySimd
 WebAuth
 WebAuthenticationConditionalUI
-WebAuthenticationGetAssertionFeaturePolicy
 WebAuthenticationLargeBlobExtension
 WebAuthenticationResidentKeyRequirement
 WebBluetooth

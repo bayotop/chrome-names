@@ -2150,7 +2150,14 @@
       origin_trial_feature_name: "WebAppLinkCapturing",
     },
     {
+      name:"WebAppsLockScreen",
+      status:"experimental",
+    },
+    {
       name: "WebAppWindowControlsOverlay",
+    },
+    {
+      name: "WebAssemblyCSP",
     },
     {
       name: "WebAssemblyExceptions",
@@ -2173,10 +2180,6 @@
     // be enabled to make the whole feature work.
     {
       name: "WebAuthenticationConditionalUI",
-    },
-    {
-      name: "WebAuthenticationGetAssertionFeaturePolicy",
-      status: "experimental",
     },
     {
       name: "WebAuthenticationLargeBlobExtension",
