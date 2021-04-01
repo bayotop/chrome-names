@@ -172,6 +172,7 @@ ExtendedTextMetrics
 ExtraWebGLVideoTextureMetadata
 EyeDropperAPI
 FaceDetector
+FakeNoAllocDirectCallForTesting
 FeaturePolicyForClientHints
 FeaturePolicyReporting
 FetchUploadStreaming
@@ -234,7 +235,6 @@ LazyImageLoading
 LazyImageVisibleLoadTimeMetrics
 LazyInitializeMediaControls
 LegacyWindowsDWriteFontFallback
-LinkDisabledNewSpecBehavior
 ManualSlotting
 MathMLCore
 MeasureMemory
