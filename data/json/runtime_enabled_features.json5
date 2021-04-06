@@ -1799,7 +1799,7 @@
     },
     {
       name: "SanitizerAPI",
-      status: "test",
+      status: "experimental",
     },
     // WebSpeech API with both speech recognition and synthesis functionality
     // is not fully enabled on all platforms.
@@ -1876,6 +1876,9 @@
     {
       name: "SharedArrayBuffer",
       status: "stable",
+    },
+    {
+      name: "SharedArrayBufferOnDesktop",
     },
     {
       name: "SharedWorker",
@@ -2337,6 +2340,7 @@
     },
     {
       name: "WebXRImageTracking",
+      origin_trial_feature_name: "WebXRImageTracking",
       depends_on: ["WebXRARModule"],
       status: "experimental",
     },
@@ -2347,6 +2351,7 @@
     },
     {
       name: "WebXRPlaneDetection",
+      origin_trial_feature_name: "WebXRPlaneDetection",
       depends_on: ["WebXRARModule"],
       status: "experimental",
     },

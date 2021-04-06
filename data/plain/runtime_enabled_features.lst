@@ -381,6 +381,7 @@ Serial
 ServiceWorkerClientLifecycleState
 ServiceWorkerFetchEventWorkerTiming
 SharedArrayBuffer
+SharedArrayBufferOnDesktop
 SharedWorker
 SignatureBasedIntegrity
 SignedExchangePrefetchCacheForNavigations
