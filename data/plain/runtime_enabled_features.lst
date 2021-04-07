@@ -138,7 +138,7 @@ DelayAsyncScriptExecutionUntilFinishedParsing
 DelayAsyncScriptExecutionUntilFirstPaintOrFinishedParsing
 DelegatedInkTrails
 DesktopCaptureDisableLocalEchoControl
-DeviceInterface
+DeviceAttributes
 DevicePosture
 DigitalGoods
 DirectSockets
@@ -235,6 +235,8 @@ LazyImageLoading
 LazyImageVisibleLoadTimeMetrics
 LazyInitializeMediaControls
 LegacyWindowsDWriteFontFallback
+ManagedConfiguration
+ManagedInterface
 ManualSlotting
 MathMLCore
 MeasureMemory
@@ -251,7 +253,6 @@ MediaControlsUseCutOutByDefault
 MediaDocumentDownloadButton
 MediaElementVolumeGreaterThanOne
 MediaEngagementBypassAutoplayPolicies
-MediaFeeds
 MediaLatencyHint
 MediaPreservesPitch
 MediaQueryNavigationControls
