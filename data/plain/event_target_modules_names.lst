@@ -6,7 +6,7 @@ BluetoothRemoteGATTCharacteristic
 CookieStore
 DelegatedInkTrail
 EyeDropper
-DeviceService
+NavigatorManagedData
 MediaKeySession
 FileWriter
 GPUDevice

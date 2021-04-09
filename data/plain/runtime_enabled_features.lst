@@ -224,7 +224,6 @@ LayoutNGBlockFragmentation
 LayoutNGFragmentTraversal
 LayoutNGFullPositionForPoint
 LayoutNGGrid
-LayoutNGLayoutOverflow
 LayoutNGPrinting
 LayoutNGReplaced
 LayoutNGTable
@@ -349,7 +348,6 @@ RequestVideoFrameCallback
 RestrictAutomaticLazyFrameLoadingToDataSaver
 RestrictAutomaticLazyImageLoadingToDataSaver
 RestrictGamepadAccess
-RTCAdaptivePtime
 RtcAudioJitterBufferMaxPackets
 RtcAudioJitterBufferRtxHandling
 RTCExtendDeadlineForPlanBRemoval
@@ -468,6 +466,7 @@ WebOTPAssertionFeaturePolicy
 WebScheduler
 WebShare
 WebSocketStream
+WebTransport
 WebUSB
 WebUSBOnDedicatedWorkers
 WebVTTRegions

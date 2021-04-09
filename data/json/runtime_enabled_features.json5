@@ -1,5 +1,5 @@
 {
-  // http://dev.chromium.org/blink/runtime-enabled-features
+  // See third_party/blink/renderer/platform/RuntimeEnabledFeatures.md
   //
   // This list is used to generate runtime_enabled_features.h/cc which contains
   // a class that stores static enablers for all experimental features.
@@ -1152,11 +1152,6 @@
       implied_by: ["CSSContainerQueries"],
     },
     {
-      name: "LayoutNGLayoutOverflow",
-      depends_on: ["LayoutNG"],
-      status: "stable",
-    },
-    {
       name: "LayoutNGPrinting",
     },
     {
@@ -1166,7 +1161,7 @@
     {
       name: "LayoutNGTable",
       depends_on: ["LayoutNG"],
-      status: "stable"
+      status: "test"
     },
     {
       name: "LayoutNGTextControl",
@@ -1197,7 +1192,7 @@
     },
     {
       name: "ManagedConfiguration",
-      status:"experimental",
+      status: "stable",
     },
     {
       name: "ManagedInterface",
@@ -1677,7 +1672,6 @@
     },
     {
       name: "QuicTransport",
-      origin_trial_feature_name: "QuicTransport",
       status: "experimental",
     },
     {
@@ -1719,11 +1713,6 @@
     },
     {
       name: "RestrictGamepadAccess",
-      status: "experimental",
-    },
-    {
-      name: "RTCAdaptivePtime",
-      origin_trial_feature_name: "RTCAdaptivePtime",
       status: "experimental",
     },
     {
@@ -2271,8 +2260,8 @@
     },
     {
       name: "WebOTPAssertionFeaturePolicy",
-      status: "experimental",
       depends_on: ["WebOTP"],
+      status: {"default": "experimental", "Android": "stable"},
     },
     {
       name: "WebScheduler",
@@ -2286,6 +2275,11 @@
     },
     {
       name: "WebSocketStream",
+      status: "experimental",
+    },
+    {
+      name: "WebTransport",
+      origin_trial_feature_name: "WebTransport",
       status: "experimental",
     },
     {
