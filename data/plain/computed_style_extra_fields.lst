@@ -24,6 +24,7 @@ HasGlyphRelativeUnits
 CustomStyleCallbackDependsOnFont
 StyleType
 PseudoBits
+PseudoArgument
 HasSimpleUnderline
 VerticalAlign
 VerticalAlignLength
