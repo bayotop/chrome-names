@@ -89,6 +89,7 @@ CSSCalcAsInt
 CSSCalcInfinityAndNaN
 CSSCaseSensitiveSelector
 CSSColorSchemeUARendering
+CSSColorTypedOM
 CSSContainerQueries
 CSSContainSize1D
 CSSContentVisibility
@@ -117,6 +118,7 @@ CSSPaintAPIArguments
 CSSPictureInPicture
 CSSPseudoDir
 CSSPseudoIs
+CSSPseudoPlayingPaused
 CSSPseudoWhere
 CSSScrollbars
 CSSScrollTimeline
@@ -285,6 +287,7 @@ Notifications
 NotificationTriggers
 OffMainThreadCSSPaint
 OffscreenCanvasCommit
+OffsetParentNewSpecBehavior
 OnDeviceChange
 OrientationEvent
 OriginIsolationHeader
@@ -381,6 +384,7 @@ ServiceWorkerClientLifecycleState
 ServiceWorkerFetchEventWorkerTiming
 SharedArrayBuffer
 SharedArrayBufferOnDesktop
+SharedArrayBufferUnrestrictedAccessAllowed
 SharedWorker
 SignatureBasedIntegrity
 SignedExchangePrefetchCacheForNavigations
@@ -407,6 +411,7 @@ TextDetector
 TextFragmentColorChange
 TextFragmentIdentifiers
 ThirdPartyOriginTrials
+ThrottleDisplayNoneAndVisibilityHiddenCrossOriginIframes
 TimerThrottlingForBackgroundTabs
 TimerThrottlingForHiddenFrames
 TimeZoneChangeEvent
@@ -425,6 +430,7 @@ UnrestrictedSharedArrayBuffer
 URLPattern
 UserActivationSameOriginVisibility
 UserAgentClientHint
+UUID
 V8IdleTasks
 VideoAutoFullscreen
 VideoFullscreenOrientationLock

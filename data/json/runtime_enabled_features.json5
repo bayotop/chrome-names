@@ -500,6 +500,10 @@
       status: "stable",
     },
     {
+      name: "CSSColorTypedOM",
+      status:  "experimental",
+    },
+    {
       name: "CSSContainerQueries",
     },
     {
@@ -633,6 +637,13 @@
     {
       name: "CSSPseudoIs",
       status: "stable",
+    },
+    {
+      // When an audio, video, or similar resource is "playing"
+      // or "paused".
+      // https://www.w3.org/TR/selectors-4/#video-state
+      name: "CSSPseudoPlayingPaused",
+      status: "test",
     },
     {
       name: "CSSPseudoWhere",
@@ -1412,6 +1423,12 @@
       status: "experimental",
     },
     {
+      // TODO(crbug.com/920069): Remove OffsetParentNewSpecBehavior after the
+      // feature is in stable with no issues.
+      name: "OffsetParentNewSpecBehavior",
+      status: "stable"
+    },
+    {
       name: "OnDeviceChange",
       // Android does not yet support SystemMonitor.
       status: {"Android": "", "default": "stable"},
@@ -1873,6 +1890,9 @@
       name: "SharedArrayBufferOnDesktop",
     },
     {
+      name: "SharedArrayBufferUnrestrictedAccessAllowed",
+    },
+    {
       name: "SharedWorker",
       // Android does not yet support SharedWorker. crbug.com/154571
       status: {"Android": "", "default": "stable"},
@@ -1998,6 +2018,10 @@
       status: "stable",
     },
     {
+      name: "ThrottleDisplayNoneAndVisibilityHiddenCrossOriginIframes",
+      status: "experimental",
+    },
+    {
       name: "TimerThrottlingForBackgroundTabs",
       status: "stable",
     },
@@ -2085,6 +2109,10 @@
     {
       name: "UserAgentClientHint",
       status: "stable",
+    },
+    {
+      name: "UUID",
+      status: "experimental"
     },
     {
       name: "V8IdleTasks",
