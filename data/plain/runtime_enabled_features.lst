@@ -55,7 +55,6 @@ CapabilityDelegation
 CapabilityDelegationPaymentRequest
 CaptureTimeInCsrc
 ClickPointerEvent
-ClickPointerEventIntegerCoordinates
 ClickRetargetting
 ClipboardSvg
 COLRV1Fonts
@@ -341,7 +340,6 @@ Presentation
 PriorityHints
 PushMessaging
 PushMessagingSubscriptionChange
-QuicTransport
 QuotaChange
 RawClipboard
 RemotePlayback
