@@ -225,6 +225,7 @@ LayoutNGBlockFragmentation
 LayoutNGFragmentTraversal
 LayoutNGFullPositionForPoint
 LayoutNGGrid
+LayoutNGLayoutOverflowRecalc
 LayoutNGPrinting
 LayoutNGReplaced
 LayoutNGTable
