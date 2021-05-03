@@ -44,6 +44,7 @@ PictureInPicture
 PublicKeyCredentialsGet
 ScreenWakeLock
 Serial
+SharedAutofill
 StorageAccessAPI
 SyncXHR
 TrustTokenRedemption

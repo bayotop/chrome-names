@@ -952,8 +952,8 @@
       status: "experimental",
     },
     {
-      name: "FledgeInterestGroups",
-      origin_trial_feature_name: "FledgeInterestGroups",
+      name: "FledgeInterestGroupAPI",
+      origin_trial_feature_name: "FledgeInterestGroupAPI",
     },
     {
       name: "FocuslessSpatialNavigation",
@@ -1157,6 +1157,7 @@
       // enabled, we'll typically fall back to legacy code for block children.
       name: "LayoutNGFullPositionForPoint",
       implied_by: ["LayoutNGBlockFragmentation", "LayoutNGFragmentTraversal"],
+      status: "stable",
     },
     {
       name: "LayoutNGGrid",
@@ -1533,7 +1534,7 @@
     {
       // This flag enables the Manifest parser to handle URL Protocols.
       // Also enabled when blink::features::kWebAppEnableProtocolHandlers is
-      // overridden on the command line (or via edge://flags).
+      // overridden on the command line (or via chrome://flags).
       name: "ParseUrlProtocolHandler",
       status: "experimental",
       origin_trial_feature_name: "ParseUrlProtocolHandler",
@@ -1898,6 +1899,10 @@
       name: "SharedArrayBufferUnrestrictedAccessAllowed",
     },
     {
+      name: "SharedAutofill",
+      status: "experimental",
+    },
+    {
       name: "SharedWorker",
       // Android does not yet support SharedWorker. crbug.com/154571
       status: {"Android": "", "default": "stable"},
@@ -1976,10 +1981,6 @@
       status: "experimental"
     },
     {
-      name: "SurfaceEmbeddingFeatures",
-      status: "stable",
-    },
-    {
       name: "SVGTextNG",
     },
     {
@@ -2017,6 +2018,10 @@
       name: "TextFragmentIdentifiers",
       origin_trial_feature_name: "TextFragmentIdentifiers",
       status: "stable",
+    },
+    {
+      name: "TextFragmentTapOpensContextMenu",
+      status: {"Android": "stable"},
     },
     {
       name: "ThirdPartyOriginTrials",
@@ -2174,10 +2179,20 @@
     {
       name: "WebAppLinkCapturing",
       origin_trial_feature_name: "WebAppLinkCapturing",
+      origin_trial_os: ["chromeos"],
     },
     {
       name:"WebAppsLockScreen",
       status:"experimental",
+    },
+    {
+      // This flag enables the Manifest parser to handle URL Handlers.
+      // Also enabled when blink::features::kWebAppEnableUrlHandlers is
+      // overridden on the command line (or via chrome://flags).
+      name: "WebAppUrlHandling",
+      status: "experimental",
+      origin_trial_feature_name: "WebAppUrlHandling",
+      origin_trial_os: ["win", "mac", "linux"],
     },
     {
       name: "WebAppWindowControlsOverlay",
@@ -2270,6 +2285,7 @@
     // --enable-experimental-web-platform-features flag.
     {
       name: "WebGPU",
+      origin_trial_feature_name: "WebGPU",
     },
     {
       // Requires both WebGPU and --enable-experimental-web-platform-features
@@ -2314,6 +2330,12 @@
       name: "WebTransport",
       origin_trial_feature_name: "WebTransport",
       status: "experimental",
+    },
+    {
+      name: "WebTransportCustomCertificates",
+      origin_trial_feature_name: "WebTransport",
+      status: "experimental",
+      depends_on: ["WebTransport"],
     },
     {
       name: "WebUSB",

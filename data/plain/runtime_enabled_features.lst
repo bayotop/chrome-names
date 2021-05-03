@@ -181,7 +181,7 @@ FileHandling
 FileSystem
 FileSystemAccess
 FileSystemAccessAPIExperimental
-FledgeInterestGroups
+FledgeInterestGroupAPI
 FocuslessSpatialNavigation
 FontAccess
 FontAccessPersistent
@@ -384,6 +384,7 @@ ServiceWorkerFetchEventWorkerTiming
 SharedArrayBuffer
 SharedArrayBufferOnDesktop
 SharedArrayBufferUnrestrictedAccessAllowed
+SharedAutofill
 SharedWorker
 SignatureBasedIntegrity
 SignedExchangePrefetchCacheForNavigations
@@ -399,7 +400,6 @@ StorageBuckets
 StorageFoundationAPI
 StrictMimeTypesForWorkers
 SubresourceWebBundles
-SurfaceEmbeddingFeatures
 SVGTextNG
 SystemWakeLock
 TargetBlankImpliesNoOpener
@@ -409,6 +409,7 @@ TestFeatureImplied
 TextDetector
 TextFragmentColorChange
 TextFragmentIdentifiers
+TextFragmentTapOpensContextMenu
 ThirdPartyOriginTrials
 ThrottleDisplayNoneAndVisibilityHiddenCrossOriginIframes
 TimerThrottlingForBackgroundTabs
@@ -444,6 +445,7 @@ WebAnimationsAPI
 WebAnimationsSVG
 WebAppLinkCapturing
 WebAppsLockScreen
+WebAppUrlHandling
 WebAppWindowControlsOverlay
 WebAssemblyCSP
 WebAssemblyExceptions
@@ -472,6 +474,7 @@ WebScheduler
 WebShare
 WebSocketStream
 WebTransport
+WebTransportCustomCertificates
 WebUSB
 WebUSBOnDedicatedWorkers
 WebVTTRegions
