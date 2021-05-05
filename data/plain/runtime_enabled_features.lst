@@ -115,6 +115,7 @@ CSSOffsetPathRayContain
 CSSOffsetPositionAnchor
 CSSPaintAPIArguments
 CSSPictureInPicture
+CSSPositionStickyStaticScrollPosition
 CSSPseudoDir
 CSSPseudoIs
 CSSPseudoPlayingPaused
@@ -176,6 +177,7 @@ FaceDetector
 FakeNoAllocDirectCallForTesting
 FeaturePolicyForClientHints
 FeaturePolicyReporting
+FencedFrames
 FetchUploadStreaming
 FileHandling
 FileSystem

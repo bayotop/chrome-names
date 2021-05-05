@@ -542,7 +542,7 @@
       // @font-face descriptor size-adjust.
       // https://drafts.csswg.org/css-fonts-5/#descdef-font-face-size-adjust
       name: "CSSFontFaceSizeAdjust",
-      status: "test",
+      status: "experimental",
     },
     {
       // @font-face descriptors ascent-override, descent-override and
@@ -626,6 +626,10 @@
       name: "CSSPictureInPicture",
       status: "experimental",
       depends_on: ["PictureInPictureAPI"],
+    },
+    {
+      name: "CSSPositionStickyStaticScrollPosition",
+      status: "experimental",
     },
     {
       name: "CSSPseudoDir",
@@ -924,6 +928,16 @@
       status: "experimental"
     },
     {
+      name: "FencedFrames",
+      // This helps enable and expose the <fencedframe> element, but note that
+      // blink::features::kFencedFrames must be enabled as well, similar to
+      // Portals, as we require the support of the browser process to fully
+      // enable the feature. Enabling this runtime enabled feature alone has no
+      // effect.
+      status: "experimental",
+      origin_trial_feature_name: "FencedFrames",
+    },
+    {
       name: "FetchUploadStreaming",
       origin_trial_feature_name: "FetchUploadStreaming",
       origin_trial_allows_third_party: true,
@@ -1173,7 +1187,8 @@
     },
     {
       name: "LayoutNGReplaced",
-      depends_on: ["LayoutNG"]
+      depends_on: ["LayoutNG"],
+      status: "stable",
     },
     {
       name: "LayoutNGTable",
@@ -1432,7 +1447,7 @@
       // TODO(crbug.com/920069): Remove OffsetParentNewSpecBehavior after the
       // feature is in stable with no issues.
       name: "OffsetParentNewSpecBehavior",
-      status: "stable"
+      status: "experimental"
     },
     {
       name: "OnDeviceChange",
