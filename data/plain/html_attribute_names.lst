@@ -58,6 +58,7 @@ declare
 decoding
 default
 defer
+delegatesfocus
 dir
 direction
 dirname

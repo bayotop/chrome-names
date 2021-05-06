@@ -117,16 +117,13 @@ CSSPaintAPIArguments
 CSSPictureInPicture
 CSSPositionStickyStaticScrollPosition
 CSSPseudoDir
-CSSPseudoIs
 CSSPseudoPlayingPaused
-CSSPseudoWhere
 CSSScrollbars
 CSSScrollTimeline
 CSSSnapSize
 CSSSpellingGrammarErrors
 CSSSystemColorComputeToSelf
 CSSTargetTextPseudoElement
-CSSVariables2AtProperty
 CSSVariables2ImageValues
 CSSVariables2TransformValues
 CullRectUpdate
@@ -240,7 +237,6 @@ LazyInitializeMediaControls
 LegacyWindowsDWriteFontFallback
 ManagedConfiguration
 ManagedInterface
-ManualSlotting
 MathMLCore
 MeasureMemory
 MediaCapabilitiesDynamicRange
@@ -458,6 +454,7 @@ WebAuthenticationLargeBlobExtension
 WebAuthenticationResidentKeyRequirement
 WebBluetooth
 WebBluetoothGetDevices
+WebBluetoothManufacturerDataFilter
 WebBluetoothRemoteCharacteristicNewWriteValue
 WebBluetoothScanning
 WebBluetoothWatchAdvertisements
