@@ -21,6 +21,7 @@ ClipboardRead
 ClipboardWrite
 ConversionMeasurement
 CrossOriginIsolated
+DirectSockets
 DisplayCapture
 DocumentDomain
 EncryptedMedia
