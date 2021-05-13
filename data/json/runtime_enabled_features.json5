@@ -347,7 +347,7 @@
     },
     {
       name: "ClickPointerEvent",
-      status: "experimental",
+      status: "stable",
     },
     {
       name: "ClickRetargetting",
@@ -366,6 +366,9 @@
     },
     {
       name: "CompositeBGColorAnimation",
+    },
+    {
+      name: "CompositeClipPathAnimation",
     },
     {
       name: "CompositedSelectionUpdate",
@@ -818,8 +821,9 @@
     },
     {
       // Document transitions, including shared element transitions.
-      // See https://github.com/WICG/proposals/issues/12.
-      name: "DocumentTransition"
+      // See https://github.com/WICG/shared-element-transitions
+      name: "DocumentTransition",
+      origin_trial_feature_name: "DocumentTransition"
     },
     {
       name: "DocumentWrite",
@@ -1174,7 +1178,8 @@
     },
     {
       name: "LayoutNGReplaced",
-      depends_on: ["LayoutNG"]
+      depends_on: ["LayoutNG"],
+      status: "stable",
     },
     {
       name: "LayoutNGTable",
@@ -2119,7 +2124,7 @@
     },
     {
       name: "UUID",
-      status: "experimental"
+      status: "stable"
     },
     {
       name: "V8IdleTasks",
@@ -2193,6 +2198,8 @@
     },
     {
       name: "WebAppWindowControlsOverlay",
+      origin_trial_feature_name: "WebAppWindowControlsOverlay",
+      origin_trial_os: ["win", "mac", "linux"],
     },
     {
       name: "WebAssemblyCSP",
@@ -2242,9 +2249,17 @@
       name: "WebBluetoothGetDevices",
       status: "experimental",
     },
+    // WebBluetoothManufacturerDataFilter is enabled by default on Android,
+    // ChromeOS and Mac. It is also supported in Windows 10 which is handled in
+    // runtime_features.cc
     {
       name: "WebBluetoothManufacturerDataFilter",
-      status: "experimental",
+      status: {
+        "Android": "stable",
+        "ChromeOS": "stable",
+        "Mac": "stable",
+        "default": "experimental",
+      },
     },
     {
       name: "WebBluetoothRemoteCharacteristicNewWriteValue",

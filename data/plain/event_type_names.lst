@@ -83,6 +83,7 @@ cookiechange
 copy
 contentdelete
 crossoriginmessage
+currentscreenchange
 cuechange
 cut
 datachannel

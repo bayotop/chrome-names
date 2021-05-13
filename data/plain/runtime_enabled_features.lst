@@ -60,6 +60,7 @@ ClipboardSvg
 COLRV1Fonts
 CompositeAfterPaint
 CompositeBGColorAnimation
+CompositeClipPathAnimation
 CompositedSelectionUpdate
 CompositeRelativeKeyframes
 CompositeSVG
