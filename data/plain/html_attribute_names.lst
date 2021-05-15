@@ -13,6 +13,10 @@ anchor
 archive
 as
 async
+attributiondestination
+attributionexpiry
+attributionreportto
+attributionsourceeventid
 attributionsourcepriority
 autocapitalize
 autocomplete
@@ -49,7 +53,6 @@ content
 contenteditable
 controls
 controlslist
-conversiondestination
 coords
 crossorigin
 csp
@@ -98,8 +101,6 @@ id
 imagesizes
 imagesrcset
 importance
-impressiondata
-impressionexpiry
 incremental
 inert
 initiallyopen
@@ -276,7 +277,6 @@ readonly
 referrerpolicy
 registerattributionsource
 rel
-reportingorigin
 required
 resources
 rev

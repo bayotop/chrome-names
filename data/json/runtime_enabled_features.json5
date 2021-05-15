@@ -204,10 +204,6 @@
       status: "experimental",
     },
     {
-      name: "AudioWorkletRealtimeThread",
-      status: "experimental",
-    },
-    {
       name: "AutoLazyLoadOnReloads",
       depends_on: ["LazyFrameLoading"],
     },
@@ -1892,7 +1888,6 @@
     },
     {
       name: "SharedArrayBuffer",
-      status: "stable",
     },
     {
       name: "SharedArrayBufferOnDesktop",

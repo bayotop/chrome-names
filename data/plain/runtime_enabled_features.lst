@@ -21,7 +21,6 @@ AppHistory
 AriaTouchPassthrough
 AudioOutputDevices
 AudioVideoTracks
-AudioWorkletRealtimeThread
 AutoLazyLoadOnReloads
 AutomaticLazyFrameLoading
 AutomaticLazyImageLoading
