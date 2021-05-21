@@ -51,13 +51,14 @@ beforexrselect
 beginEvent
 blocked
 blur
-bufferedamountlow
 boundary
+bufferedamountlow
 cached
 cancel
 canmakepayment
 canplay
 canplaythrough
+capturehandlechange
 change
 characteristicvaluechanged
 chargingchange

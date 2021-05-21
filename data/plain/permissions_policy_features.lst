@@ -7,6 +7,7 @@ ClientHintDeviceMemory
 ClientHintDownlink
 ClientHintECT
 ClientHintLang
+ClientHintPrefersColorScheme
 ClientHintRTT
 ClientHintUA
 ClientHintUAArch
@@ -53,3 +54,4 @@ Usb
 VerticalScroll
 WebShare
 WebXr
+WindowPlacement

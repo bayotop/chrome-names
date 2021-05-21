@@ -1,5 +1,6 @@
 Accelerated2dCanvas
 AcceleratedSmallCanvases
+AccessibilityAriaTouchPassthrough
 AccessibilityAriaVirtualContent
 AccessibilityExposeDisplayNone
 AccessibilityExposeHTMLElement
@@ -21,6 +22,7 @@ AppHistory
 AriaTouchPassthrough
 AudioOutputDevices
 AudioVideoTracks
+AutofillShadowDOM
 AutoLazyLoadOnReloads
 AutomaticLazyFrameLoading
 AutomaticLazyImageLoading
@@ -52,6 +54,7 @@ CanvasHitRegion
 CanvasImageSmoothing
 CapabilityDelegation
 CapabilityDelegationPaymentRequest
+CaptureHandle
 CaptureTimeInCsrc
 ClickPointerEvent
 ClickRetargetting
@@ -228,6 +231,7 @@ LayoutNGLayoutOverflowRecalc
 LayoutNGPrinting
 LayoutNGReplaced
 LayoutNGTable
+LayoutNGTextCombine
 LayoutNGTextControl
 LazyFrameLoading
 LazyFrameVisibleLoadTimeMetrics
@@ -243,6 +247,7 @@ MediaCapabilitiesDynamicRange
 MediaCapabilitiesEncodingInfo
 MediaCapabilitiesEncryptedMedia
 MediaCapabilitiesSpatialAudio
+MediaCapabilitiesWebRtc
 MediaCapture
 MediaCaptureDepthVideoKind
 MediaCastOverlayButton
@@ -331,6 +336,7 @@ PointerRawUpdate
 Portals
 PreciseMemoryInfo
 PreferNonCompositedScrolling
+PrefersColorSchemeClientHintHeader
 PrefersContrast
 PrefersReducedData
 PrefixedVideoFullscreen

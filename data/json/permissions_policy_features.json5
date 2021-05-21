@@ -75,6 +75,11 @@
       depends_on: ["FeaturePolicyForClientHints"],
     },
     {
+      name: "ClientHintPrefersColorScheme",
+      permissions_policy_name: "ch-prefers-color-scheme",
+      depends_on: ["FeaturePolicyForClientHints"],
+    },
+    {
       name: "ClientHintRTT",
       permissions_policy_name: "ch-rtt",
       depends_on: ["FeaturePolicyForClientHints"],
@@ -302,6 +307,11 @@
       name: "WebXr",
       permissions_policy_name: "xr-spatial-tracking",
       depends_on: ["WebXR"],
+    },
+    {
+      name: "WindowPlacement",
+      permissions_policy_name: "window-placement",
+      depends_on: ["WindowPlacement"],
     },
   ],
 }

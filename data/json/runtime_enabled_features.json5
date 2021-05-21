@@ -116,6 +116,11 @@
       status: "stable",
     },
     {
+      name: "AccessibilityAriaTouchPassthrough",
+      status: "experimental",
+      origin_trial_feature_name: "AccessibilityAriaTouchPassthrough",
+    },
+    {
       name: "AccessibilityAriaVirtualContent",
       status: "experimental",
     },
@@ -201,6 +206,10 @@
     },
     {
       name: "AudioVideoTracks",
+      status: "experimental",
+    },
+    {
+      name: "AutofillShadowDOM",
       status: "experimental",
     },
     {
@@ -338,6 +347,12 @@
       name: "CapabilityDelegationPaymentRequest",
     },
     {
+      name: "CaptureHandle",
+      origin_trial_feature_name: "CaptureHandle",
+      depends_on: ["GetDisplayMedia"],
+      status: {"Android": "", "default": "experimental"},
+    },
+    {
       name: "CaptureTimeInCsrc",
       status: "stable",
     },
@@ -383,10 +398,11 @@
       status: "experimental",
     },
     {
+      // blink::features::kComputePressure is a kill switch for the API. If the
+      // feature is disabled, origin trial tokens are ignored.
       name: "ComputePressure",
-      // No status because this blink runtime feature doesn't work by itself.
-      // It's controlled by the corresponding Chromium feature which needs to
-      // be enabled to make the whole feature work.
+      origin_trial_feature_name: "ComputePressure",
+      status: "experimental",
     },
     {
       name: "ConsolidatedMovementXY",
@@ -541,7 +557,7 @@
       // @font-face descriptor size-adjust.
       // https://drafts.csswg.org/css-fonts-5/#descdef-font-face-size-adjust
       name: "CSSFontFaceSizeAdjust",
-      status: "experimental",
+      status: "stable",
     },
     {
       // @font-face descriptors ascent-override, descent-override and
@@ -1183,6 +1199,10 @@
       status: "stable"
     },
     {
+      name: "LayoutNGTextCombine",
+      depends_on: ["LayoutNG"],
+    },
+    {
       name: "LayoutNGTextControl",
       depends_on: ["EditingNG"],
       status: "stable",
@@ -1241,6 +1261,10 @@
     {
       name: "MediaCapabilitiesSpatialAudio",
       status: "test",
+    },
+    {
+      name: "MediaCapabilitiesWebRtc",
+      status: "experimental",
     },
     {
       name: "MediaCapture",
@@ -1662,6 +1686,10 @@
       settable_from_internals: true,
     },
     {
+      name: "PrefersColorSchemeClientHintHeader",
+      status: "experimental",
+    },
+    {
       name: "PrefersContrast",
       depends_on: ["ForcedColors"],
     },
@@ -1941,7 +1969,7 @@
     // https://crbug.com/1190167
     {
       name: "SpeculationRulesPrefetchProxy",
-      origin_trial_feature_name: "SpeculationRulesPrefetchProxy",
+      origin_trial_feature_name: "SpeculationRulesPrefetch",
     },
     {
       name: "SrcsetMaxDensity",
