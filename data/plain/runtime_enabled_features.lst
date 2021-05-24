@@ -22,7 +22,6 @@ AppHistory
 AriaTouchPassthrough
 AudioOutputDevices
 AudioVideoTracks
-AutofillShadowDOM
 AutoLazyLoadOnReloads
 AutomaticLazyFrameLoading
 AutomaticLazyImageLoading
@@ -90,7 +89,6 @@ CSSAtRuleCounterStyleInShadowDOM
 CSSCalcAsInt
 CSSCalcInfinityAndNaN
 CSSCaseSensitiveSelector
-CSSColorSchemeUARendering
 CSSColorTypedOM
 CSSContainerQueries
 CSSContainSize1D
