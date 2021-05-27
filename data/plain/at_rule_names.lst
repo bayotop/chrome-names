@@ -12,7 +12,6 @@ font-weight
 height
 inherits
 initial-value
-advance-override
 fallback
 line-gap-override
 max-height

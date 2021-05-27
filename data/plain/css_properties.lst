@@ -430,7 +430,6 @@ end
 time-range
 ascent-override
 descent-override
-advance-override
 line-gap-override
 system
 negative

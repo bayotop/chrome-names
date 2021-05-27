@@ -81,9 +81,6 @@ CrossOriginIsolation
 CrossOriginOpenerPolicyReporting
 CSS3Text
 CSSAccentColor
-CSSAspectRatioInterpolation
-CSSAspectRatioProperty
-CSSAtRuleCounterStyle
 CSSAtRuleCounterStyleImageSymbols
 CSSAtRuleCounterStyleInShadowDOM
 CSSCalcAsInt
@@ -96,9 +93,7 @@ CSSContentVisibility
 CSSContentVisibilityHiddenMatchable
 CSSFocusVisible
 CSSFoldables
-CSSFontFaceAdvanceOverride
 CSSFontFaceSizeAdjust
-CSSFontMetricsOverride
 CSSFontSizeAdjust
 CSSHexAlphaColor
 CSSIndependentTransformProperties
@@ -140,8 +135,10 @@ DelegatedInkTrails
 DesktopCaptureDisableLocalEchoControl
 DeviceAttributes
 DevicePosture
+DialogFocusNewSpecBehavior
 DigitalGoods
 DirectSockets
+DisableDifferentOriginSubframeDialogSuppression
 DisableHardwareNoiseSuppression
 DisableLayerSquashing
 DisallowDocumentAccess
@@ -208,7 +205,6 @@ IDBRelaxedDurability
 IdleDetection
 IgnoreCrossOriginWindowWhenNamedAccessOnWindow
 ImplicitRootScroller
-ImportMaps
 InertAttribute
 InputMultipleFieldsUI
 InstalledApp
