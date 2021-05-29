@@ -73,7 +73,6 @@ ContactsManagerExtraProperties
 ContentIndex
 ContextMenu
 ConversionMeasurement
-ConversionMeasurementInfraSupport
 CookiesWithoutSameSiteMustBeSecure
 CooperativeScheduling
 CorsRFC1918
@@ -91,6 +90,7 @@ CSSContainerQueries
 CSSContainSize1D
 CSSContentVisibility
 CSSContentVisibilityHiddenMatchable
+CSSEnumeratedCustomProperties
 CSSFocusVisible
 CSSFoldables
 CSSFontFaceSizeAdjust
