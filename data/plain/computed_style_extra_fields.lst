@@ -121,4 +121,5 @@ MathMinSize
 MathMaxSize
 EffectiveZIndexZero
 BaselineShiftType
+CssDominantBaseline
 DependsOnContainerQueries

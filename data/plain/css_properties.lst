@@ -99,6 +99,8 @@ color-scheme
 column-fill
 contain
 contain-intrinsic-size
+container-name
+container-type
 content
 counter-increment
 counter-reset
