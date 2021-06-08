@@ -28,6 +28,7 @@ AutomaticLazyImageLoading
 AutomationControlled
 AutoPictureInPicture
 AutoplayIgnoresWebAudio
+BackfaceVisibilityInterop
 BackForwardCache
 BackForwardCacheExperimentHTTPHeader
 BackgroundFetch
@@ -113,6 +114,7 @@ CSSPaintAPIArguments
 CSSPictureInPicture
 CSSPositionStickyStaticScrollPosition
 CSSPseudoDir
+CSSPseudoHas
 CSSPseudoPlayingPaused
 CSSScrollbars
 CSSScrollTimeline
@@ -372,6 +374,7 @@ ScrollTimeline
 ScrollTopLeftInterop
 ScrollUnification
 SecurePaymentConfirmation
+SecurePaymentConfirmationAPIV2
 SecurePaymentConfirmationDebug
 SendBeaconThrowForBlobWithNonSimpleType
 SendMouseEventsDisabledFormControls
