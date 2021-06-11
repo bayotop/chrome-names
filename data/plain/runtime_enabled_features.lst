@@ -22,6 +22,7 @@ AppHistory
 AriaTouchPassthrough
 AudioOutputDevices
 AudioVideoTracks
+AutofillShadowDOM
 AutoLazyLoadOnReloads
 AutomaticLazyFrameLoading
 AutomaticLazyImageLoading
@@ -49,6 +50,7 @@ CacheStorageCodeCacheHint
 Canvas2dImageChromium
 Canvas2dScrollPathIntoView
 CanvasColorManagement
+CanvasColorManagementV2
 CanvasFormattedText
 CanvasHitRegion
 CanvasImageSmoothing
@@ -59,6 +61,7 @@ CaptureTimeInCsrc
 ClickPointerEvent
 ClickRetargetting
 ClipboardSvg
+CLSScrollAnchoring
 COLRV1Fonts
 CompositeAfterPaint
 CompositeBGColorAnimation
@@ -87,6 +90,7 @@ CSSCalcAsInt
 CSSCalcInfinityAndNaN
 CSSCaseSensitiveSelector
 CSSColorTypedOM
+CSSContainedBodyPropagation
 CSSContainerQueries
 CSSContainSize1D
 CSSContentVisibility
@@ -143,7 +147,6 @@ DirectSockets
 DisableDifferentOriginSubframeDialogSuppression
 DisableHardwareNoiseSuppression
 DisableLayerSquashing
-DisallowDocumentAccess
 DisplayCapturePermissionPolicy
 DisplayCutoutAPI
 DocumentCookie
@@ -446,6 +449,7 @@ WebAnimationsAPI
 WebAnimationsSVG
 WebAppLinkCapturing
 WebAppsLockScreen
+WebAppTabStrip
 WebAppUrlHandling
 WebAppWindowControlsOverlay
 WebAssemblyCSP
