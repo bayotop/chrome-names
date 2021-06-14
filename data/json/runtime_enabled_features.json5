@@ -844,12 +844,8 @@
       status: "stable",
     },
     {
-      name: "EncryptedMediaEncryptionSchemeQuery",
-      status: "stable",
-    },
-    {
-      name: "EncryptedMediaHdcpPolicyCheck",
-      status: "stable",
+      name: "EncryptedMediaSessionClosedReason",
+      status: "test",
     },
     {
       name: "EnterKeyHintAttribute",
@@ -1222,10 +1218,6 @@
     {
       name: "ManagedConfiguration",
       status: "stable",
-    },
-    {
-      name: "ManagedInterface",
-      "implied_by": ["DeviceAttributes", "ManagedConfiguration"],
     },
     {
       name: "MathMLCore",

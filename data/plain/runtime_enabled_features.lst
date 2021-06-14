@@ -159,8 +159,7 @@ DocumentTransition
 DocumentWrite
 EditContext
 EditingNG
-EncryptedMediaEncryptionSchemeQuery
-EncryptedMediaHdcpPolicyCheck
+EncryptedMediaSessionClosedReason
 EnterKeyHintAttribute
 EventTiming
 ExecCommandInJavaScript
@@ -239,7 +238,6 @@ LazyImageVisibleLoadTimeMetrics
 LazyInitializeMediaControls
 LegacyWindowsDWriteFontFallback
 ManagedConfiguration
-ManagedInterface
 MathMLCore
 MeasureMemory
 MediaCapabilitiesDynamicRange
