@@ -60,6 +60,7 @@ CaptureHandle
 CaptureTimeInCsrc
 ClickPointerEvent
 ClickRetargetting
+ClipboardCustomFormats
 ClipboardSvg
 CLSScrollAnchoring
 COLRV1Fonts
