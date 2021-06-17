@@ -209,6 +209,10 @@
       status: "experimental",
     },
     {
+      name: "AutoExpandDetailsElement",
+      status: "experimental",
+    },
+    {
       name: "AutofillShadowDOM",
       status: "experimental",
     },
@@ -323,6 +327,9 @@
     },
     {
       name: "Canvas2dImageChromium",
+    },
+    {
+      name: "Canvas2dLayers",
     },
     {
       name: "Canvas2dScrollPathIntoView",
@@ -858,6 +865,10 @@
     {
       name: "EventTiming",
       status: "stable",
+    },
+    {
+      name: "ExceptionMetaDataForDevTools",
+      status: "test",
     },
     {
       name: "ExecCommandInJavaScript",

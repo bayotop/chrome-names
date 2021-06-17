@@ -22,6 +22,7 @@ AppHistory
 AriaTouchPassthrough
 AudioOutputDevices
 AudioVideoTracks
+AutoExpandDetailsElement
 AutofillShadowDOM
 AutoLazyLoadOnReloads
 AutomaticLazyFrameLoading
@@ -48,6 +49,7 @@ BrowserVerifiedUserActivationMouse
 CacheInlineScriptCode
 CacheStorageCodeCacheHint
 Canvas2dImageChromium
+Canvas2dLayers
 Canvas2dScrollPathIntoView
 CanvasColorManagement
 CanvasColorManagementV2
@@ -163,6 +165,7 @@ EditingNG
 EncryptedMediaSessionClosedReason
 EnterKeyHintAttribute
 EventTiming
+ExceptionMetaDataForDevTools
 ExecCommandInJavaScript
 ExpensiveBackgroundTimerThrottling
 ExperimentalContentSecurityPolicyFeatures
