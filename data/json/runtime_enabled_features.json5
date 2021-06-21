@@ -415,10 +415,6 @@
       status: "stable"
     },
     {
-      name: "CompositeSVG",
-      status: "stable"
-    },
-    {
       name: "ComputedAccessibilityInfo",
       status: "experimental",
     },
@@ -752,6 +748,9 @@
     },
     {
       name: "DeviceAttributes",
+      origin_trial_feature_name: "DeviceAttributes",
+      origin_trial_os: ["chromeos"],
+      origin_trial_allows_third_party: true,
       status: "experimental",
     },
     {
@@ -867,10 +866,6 @@
       status: "stable",
     },
     {
-      name: "ExceptionMetaDataForDevTools",
-      status: "test",
-    },
-    {
       name: "ExecCommandInJavaScript",
       status: "test",
     },
@@ -958,6 +953,11 @@
       status: {"Android": "test", "default": "experimental"},
       origin_trial_feature_name: "FileHandling",
       origin_trial_os: ["win", "mac", "linux", "chromeos"],
+    },
+    {
+      name: "FileHandlingIcons",
+      depends_on: ["FileHandling"],
+      status: {"Android": "test", "default": "experimental"},
     },
     {
       name: "FileSystem",
@@ -1202,6 +1202,7 @@
     {
       name: "LayoutNGTextCombine",
       depends_on: ["LayoutNG"],
+      status: "stable"
     },
     {
       name: "LayoutNGTextControl",
@@ -1300,6 +1301,11 @@
     {
       name: "MediaLatencyHint",
       status: "test",
+    },
+    {
+      // https://github.com/whatwg/html/pull/6569
+      name: "MediaMetaThemeColor",
+      status: "experimental",
     },
     {
       name: "MediaPreservesPitch",

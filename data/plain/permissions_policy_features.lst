@@ -11,6 +11,7 @@ ClientHintPrefersColorScheme
 ClientHintRTT
 ClientHintUA
 ClientHintUAArch
+ClientHintUABitness
 ClientHintUAPlatform
 ClientHintUAModel
 ClientHintUAMobile

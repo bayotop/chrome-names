@@ -71,7 +71,6 @@ CompositeBGColorAnimation
 CompositeClipPathAnimation
 CompositedSelectionUpdate
 CompositeRelativeKeyframes
-CompositeSVG
 ComputedAccessibilityInfo
 ComputePressure
 ConsolidatedMovementXY
@@ -165,7 +164,6 @@ EditingNG
 EncryptedMediaSessionClosedReason
 EnterKeyHintAttribute
 EventTiming
-ExceptionMetaDataForDevTools
 ExecCommandInJavaScript
 ExpensiveBackgroundTimerThrottling
 ExperimentalContentSecurityPolicyFeatures
@@ -183,6 +181,7 @@ FeaturePolicyReporting
 FencedFrames
 FetchUploadStreaming
 FileHandling
+FileHandlingIcons
 FileSystem
 FileSystemAccess
 FileSystemAccessAPIExperimental
@@ -259,6 +258,7 @@ MediaDocumentDownloadButton
 MediaElementVolumeGreaterThanOne
 MediaEngagementBypassAutoplayPolicies
 MediaLatencyHint
+MediaMetaThemeColor
 MediaPreservesPitch
 MediaQueryNavigationControls
 MediaSession
