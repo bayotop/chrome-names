@@ -6,7 +6,6 @@ ClientHintDPR
 ClientHintDeviceMemory
 ClientHintDownlink
 ClientHintECT
-ClientHintLang
 ClientHintPrefersColorScheme
 ClientHintRTT
 ClientHintUA
@@ -17,6 +16,8 @@ ClientHintUAModel
 ClientHintUAMobile
 ClientHintUAFullVersion
 ClientHintUAPlatformVersion
+ClientHintUAReduced
+ClientHintViewportHeight
 ClientHintViewportWidth
 ClientHintWidth
 ClipboardRead

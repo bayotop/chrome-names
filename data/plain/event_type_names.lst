@@ -37,7 +37,6 @@ backgroundfetchabort
 backgroundfetchclick
 backgroundfetchfail
 backgroundfetchsuccess
-beforeclose
 beforecopy
 beforecreatepolicy
 beforecut
@@ -67,7 +66,6 @@ checking
 click
 close
 closing
-colorselect
 complete
 compositionend
 compositionstart
@@ -86,6 +84,7 @@ contentdelete
 crossoriginmessage
 currentscreenchange
 cuechange
+currentchange
 cut
 datachannel
 dblclick
@@ -97,6 +96,7 @@ deviceorientationabsolute
 dischargingtimechange
 disconnect
 display
+dispose
 downloading
 dataavailable
 drag

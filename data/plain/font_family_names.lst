@@ -1,8 +1,3 @@
--webkit-cursive
--webkit-fantasy
--webkit-monospace
--webkit-sans-serif
--webkit-serif
 -webkit-pictograph
 -webkit-standard
 system-ui
@@ -25,4 +20,5 @@ fantasy
 monospace
 sans-serif
 serif
+math
 BlinkMacSystemFont

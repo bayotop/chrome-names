@@ -28,6 +28,27 @@
     feature_default: {
       default: "EnableForSelf",
       valid_values: ["EnableForAll", "EnableForSelf"]
+    },
+
+    // "default_value_behind_flag" specifies default_value override values
+    // based on different runtime flags set.
+    //
+    // When multiple flags are set, default_value correspond to the first
+    // flag in the list will be used, e.g.
+    //   default_value_behind_flag: [
+    //    ["A", "EnableForSelf"],
+    //    ["B", "EnableForAll"],
+    //   ]
+    // "EnableForSelf" will be used as default value when both flag A and B are set.
+    //
+    // Note: the runtime flags here refer to features defined in
+    // "third_party/blink/public/common/features.h", instead of those defined in
+    // "runtime_enabled_features.json5" because the latter is only available
+    // on renderer side, while default_value is needed from browser side as
+    // well.
+    default_value_behind_flag: {
+      default: [],
+      valid_type: "list",
     }
   },
 
@@ -70,11 +91,6 @@
       depends_on: ["FeaturePolicyForClientHints"],
     },
     {
-      name: "ClientHintLang",
-      permissions_policy_name: "ch-lang",
-      depends_on: ["FeaturePolicyForClientHints"],
-    },
-    {
       name: "ClientHintPrefersColorScheme",
       permissions_policy_name: "ch-prefers-color-scheme",
       depends_on: ["FeaturePolicyForClientHints"],
@@ -104,6 +120,9 @@
       name: "ClientHintUAPlatform",
       permissions_policy_name: "ch-ua-platform",
       depends_on: ["FeaturePolicyForClientHints"],
+      default_value_behind_flag: [
+        ["UACHPlatformEnabledByDefault", "EnableForAll"],
+      ],
     },
     {
       name: "ClientHintUAModel",
@@ -125,6 +144,16 @@
       name: "ClientHintUAPlatformVersion",
       permissions_policy_name: "ch-ua-platform-version",
       depends_on: ["FeaturePolicyForClientHints"],
+    },
+    {
+      name: "ClientHintUAReduced",
+      permissions_policy_name: "ch-ua-reduced",
+      depends_on: ["FeaturePolicyForClientHints", "UserAgentReduction"],
+    },
+    {
+      name: "ClientHintViewportHeight",
+      permissions_policy_name: "ch-viewport-height",
+      depends_on: ["ViewportHeightClientHintHeader"],
     },
     {
       name: "ClientHintViewportWidth",
@@ -162,7 +191,6 @@
     {
       name: "DisplayCapture",
       permissions_policy_name: "display-capture",
-      depends_on: ["GetCurrentBrowsingContextMedia"],
     },
     {
       name: "DocumentDomain",

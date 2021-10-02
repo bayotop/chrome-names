@@ -170,3 +170,4 @@ bypassCSP
 textAutosizingEnabled
 textAutosizingWindowSizeOverride
 WebXRImmersiveArAllowed
+LitePageSubresourceRedirectOrigin

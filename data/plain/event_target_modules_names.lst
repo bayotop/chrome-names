@@ -3,6 +3,7 @@ BatteryManager
 Bluetooth
 BluetoothDevice
 BluetoothRemoteGATTCharacteristic
+CloseWatcher
 CookieStore
 DelegatedInkTrail
 EyeDropper
@@ -26,7 +27,6 @@ SourceBufferList
 MediaDevices
 MediaStream
 MediaStreamTrack
-ModalCloseWatcher
 RTCDTMFSender
 RTCDataChannel
 RTCDtlsTransport

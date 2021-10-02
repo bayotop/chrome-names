@@ -25,6 +25,9 @@ font-variant-caps
 font-variant-east-asian
 font-variant-numeric
 font-weight
+font-synthesis-weight
+font-synthesis-style
+font-synthesis-small-caps
 font-feature-settings
 font-variation-settings
 -webkit-font-smoothing
@@ -98,7 +101,8 @@ color-rendering
 color-scheme
 column-fill
 contain
-contain-intrinsic-size
+contain-intrinsic-width
+contain-intrinsic-height
 container-name
 container-type
 content
@@ -285,6 +289,7 @@ x
 y
 appearance
 -webkit-appearance
+app-region
 -webkit-app-region
 -webkit-border-horizontal-spacing
 -webkit-border-image
@@ -429,7 +434,6 @@ inherits
 source
 start
 end
-time-range
 ascent-override
 descent-override
 line-gap-override
@@ -471,10 +475,15 @@ border-spacing
 border-style
 border-top
 border-width
+contain-intrinsic-inline-size
+contain-intrinsic-block-size
+contain-intrinsic-size
+container
 flex
 flex-flow
 font
 font-variant
+font-synthesis
 grid
 place-content
 place-items

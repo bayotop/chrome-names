@@ -22,6 +22,12 @@ vw
 vh
 vmin
 vmax
+qw
+qh
+qi
+qb
+qmin
+qmax
 rem
 fr
 turn
